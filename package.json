@@ -33,7 +33,6 @@
     "url": "https://github.com/Ekki/blueprint3d.git"
   },
   "scripts": {
-    "start": "node example/js/blueprint3d.js",
     "build": "browserify src/blueprint3d.js > example/js/blueprint3d.js --verbose"
   },
   "author": ""
