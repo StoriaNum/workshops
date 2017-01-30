@@ -66,7 +66,14 @@ module.exports = function (grunt) {
   }
   configuration.uglify[globalConfig.moduleName].files["dist/" + globalConfig.moduleName + ".min.js"] = globalConfig.outDir + "/" + globalConfig.moduleName +".js";
 
-  grunt.initConfig(configuration);
+  grunt.initConfig({
+  jscpd: {
+    javascript: {
+      path: 'lib/js/',
+      exclude: ['globalize/**', 'plugins/**']
+    }
+  }
+});
 
   grunt.registerTask("debug", [
     "typescript:" + globalConfig.moduleName
