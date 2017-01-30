@@ -74,6 +74,8 @@ module.exports = function (grunt) {
     }
   }
 });
+  
+  grunt.loadNpmTasks('grunt-jscpd');
 
   grunt.registerTask("debug", [
     "typescript:" + globalConfig.moduleName
