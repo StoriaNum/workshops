@@ -88,12 +88,4 @@ The example directory contains an application built using the core blueprint3d j
 
 This project is open-source! See LICENSE.txt for more information.
 
-NB: heroku in command prompt:
-
- heroku create myapp --buildpack heroku/php 
- 
- heroku buildpacks:add --index 1 heroku/nodejs
- 
- NB: ho tolto da scripts di package.json quanto di seguito
- 
- "start": "node example/js/example.js",
+NB: adapting new exigence
