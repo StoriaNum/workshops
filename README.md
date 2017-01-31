@@ -88,4 +88,4 @@ The example directory contains an application built using the core blueprint3d j
 
 This project is open-source! See LICENSE.txt for more information.
 
-NB: adapting new exigence
+NB: adapting new exigences
