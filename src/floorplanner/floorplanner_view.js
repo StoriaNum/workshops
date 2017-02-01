@@ -102,11 +102,11 @@ var FloorplannerView = function(floorplan, viewmodel, canvas) {
     }
   }
 
-  function cmToFeet(cm) {
-    var realFeet = ((cm*0.393700) / 12);
+   function cmToFeet(cm) {
+    var realFeet = Math.round(cm*100)/100;
     var feet = Math.floor(realFeet);
-    var inches = Math.round((realFeet - feet) * 12);
-    return feet + "'" + inches + '"';
+    var inches = Math.round((realFeet - feet) * 1);
+    return realFeet + "cm";
   }
 
   function drawEdgeLabel(edge) {
