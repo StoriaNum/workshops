@@ -47,9 +47,9 @@ var Floorplanner = function(canvas, floorplan) {
 
   var view = new FloorplannerView(floorplan, this, canvas);
 
-  var cmPerFoot = 30.48;
+  var cmPerFoot = 1.00;
   var pixelsPerFoot = 15.0;
-  var cmPerPixel = cmPerFoot * (1.0 / pixelsPerFoot);
+  var cmPerPixel = cmPerFoot * (30.48 / pixelsPerFoot);
   var pixelsPerCm = 1.0 / cmPerPixel;
   this.wallWidth = 10.0 * pixelsPerCm;
 
