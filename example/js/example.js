@@ -108,11 +108,11 @@ var ContextMenu = function(blueprint3d) {
   }
 
   function cmToIn(cm) {
-    return cm / 2.54;
+    return cm;
   }
 
   function inToCm(inches) {
-    return inches * 2.54;
+    return inches;
   }
 
   function itemSelected(item) {
@@ -487,7 +487,7 @@ var mainControls = function(blueprint3d) {
     var a = window.document.createElement('a');
     var blob = new Blob([data], {type : 'text'});
     a.href = window.URL.createObjectURL(blob);
-    a.download = 'design.blueprint3d';
+    a.download = 'design.storiablue';
     document.body.appendChild(a)
     a.click();
     document.body.removeChild(a)
