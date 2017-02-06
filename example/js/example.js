@@ -205,7 +205,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   var tabs = {
     "FLOORPLAN" : $("#floorplan_tab"),
     "SHOP" : $("#items_tab"),
-    "SHOP1__" : $("#items_tab1"),
+    "SHOP1__" : $("#items_tab"),
     "DESIGN" : $("#design_tab")
   }
 
