@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 
 
-  var itemsDiv = $("#items-wrapper")
+  var itemsDiv = $("#items-wrapper_1")
   for (var i = 0; i < items.length; i++) {
     var item = items[i];
     var html = '<div class="col-sm-4">' +
