@@ -1,8 +1,7 @@
 // add items to the "Add Items" tab
 
 $(document).ready(function() {
-  var items = [
-  
+  var items_1 = [
     {
       "name" : "Tappeto",
       "image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
@@ -27,9 +26,9 @@ $(document).ready(function() {
 
 
 
-  var itemsDiv = $("#items-wrapper_1")
-  for (var i = 0; i < items.length; i++) {
-    var item = items[i];
+  var itemsDiv_1 = $("#items-wrapper_1")
+  for (var i = 0; i < items_1.length; i++) {
+    var item = items_1[i];
     var html = '<div class="col-sm-4">' +
                 '<a class="thumbnail add-item" model-name="' + 
                 item.name + 
@@ -42,6 +41,6 @@ $(document).ready(function() {
                 '" alt="Add Item"> '+
                 item.name +
                 '</a></div>';
-    itemsDiv.append(html);
+    itemsDiv_1.append(html);
   }
 });
