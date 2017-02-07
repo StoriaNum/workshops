@@ -205,7 +205,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   var tabs = {
     "FLOORPLAN" : $("#floorplan_tab"),
     "SHOP" : $("#items_tab"),
-    "SHOP_1" : $("#items_tab_1"),
+    "SHOP_1" : $("#items_tab"),
     "DESIGN" : $("#design_tab")
   }
 
@@ -223,7 +223,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     },
     
     "SHOP_1" : {
-      "div" : $("#add-items_1"),
+      "div" : $("#add-items"),
       "tab" : tabs.SHOP_1
     },
     
