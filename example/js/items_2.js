@@ -3,16 +3,16 @@
 $(document).ready(function() {
   var items_2 = [
     {
-      "name" : "Tappeto",
-      "image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
-      "model" : "models/js/cb-blue-block-60x96.js",
-      "type" : "8"
-    },
+      "name" : "Comodino in Legno",
+      "image" : "models/thumbnails/thumbnail_Blu-Dot-Shale-Bedside-Table.jpg",
+      "model" : "models/js/bd-shalebedside-smoke_baked.js",
+      "type" : "1"
+    }, 
     {
-      "name" : "Poster-Quadro-Foto",
-      "image" : "models/thumbnails/thumbnail_nyc2.jpg",
-      "model" : "models/js/nyc-poster2.js",
-      "type" : "2"
+      "name" : "Comodino Colore Bianco",
+      "image" : "models/thumbnails/thumbnail_arch-white-oval-nightstand.jpg",
+      "model" : "models/js/cb-archnight-white_baked.js",
+      "type" : "1"
     }
    /*     
    {
