@@ -251,10 +251,6 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     handleWindowResize();
 
     initItems();
-    
-    /// parte aggiunta per add-items_1
-//   initItems_1();
-    /// fine parte aggiunta per add-items_1
 
     setCurrentState(scope.states.DEFAULT);
   }
@@ -331,11 +327,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   function handleWindowResize() {
     $(".sidebar").height(window.innerHeight);
     $("#add-items").height(window.innerHeight);
-    
-    /// inizio parte aggiunta per add-items_1
-//    $("#add-items_1").height(window.innerHeight);
-    /// fine parte aggiunta per add-items_1
-
+   
   };
 
   // TODO: this doesn't really belong here
@@ -354,30 +346,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
       setCurrentState(scope.states.DEFAULT);
     });
   }
-  
-  ////////////////////parte aggiunta per add-item_1
-/*  
-function initItems_1() {
-    $("#add-items_1").find(".add-item_1").mousedown(function(e_1) {
-      var modelUrl_1 = $(this).attr("model-url");
-      var itemType_1 = parseInt($(this).attr("model-type"));
-      var metadata_1 = {
-        itemName_1: $(this).attr("model-name"),
-        resizable_1: true,
-        modelUrl_1: modelUrl_1,
-        itemType_1: itemType_1
-      }
-
-      blueprint3d.model.scene.addItem(itemType_1, modelUrl_1, metadata_1);
-      setCurrentState(scope.states.DEFAULT);
-    });
-  }   
-  
-  */
-  
-  
- /////fine parte aggiunta per add-items_1 
-
+ 
   init();
 
 }
