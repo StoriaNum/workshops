@@ -206,6 +206,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     "FLOORPLAN" : $("#floorplan_tab"),
     "SHOP" : $("#items_tab"),
     "SHOP_1" : $("#items_tab_1"),
+    "SHOP_2" : $("#items_tab_2"),
     "DESIGN" : $("#design_tab")
   }
 
@@ -227,6 +228,10 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
       "tab" : tabs.SHOP_1
     },
     
+    "SHOP_2" : {
+      "div" : $("#add-items_2"),
+      "tab" : tabs.SHOP_2
+    },
     
     "SHOP" : {
       "div" : $("#add-items"),
@@ -332,7 +337,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
 
   // TODO: this doesn't really belong here
   function initItems() {
-    $("#add-items,#add-items_1").find(".add-item").mousedown(function(e) {
+    $("#add-items,#add-items_1,#add-items_2").find(".add-item").mousedown(function(e) {
       var modelUrl = $(this).attr("model-url");
       var itemType = parseInt($(this).attr("model-type"));
       var metadata = {
