@@ -223,7 +223,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     },
     
     "SHOP_1" : {
-      "div" : $("#add-items_1"),
+      "div" : $("#add-items"),
       "tab" : tabs.SHOP_1
     },
     
@@ -253,7 +253,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     initItems();
     
     /// parte aggiunta per add-items_1
-   initItems_1();
+//   initItems_1();
     /// fine parte aggiunta per add-items_1
 
     setCurrentState(scope.states.DEFAULT);
@@ -333,7 +333,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     $("#add-items").height(window.innerHeight);
     
     /// inizio parte aggiunta per add-items_1
-    $("#add-items_1").height(window.innerHeight);
+//    $("#add-items_1").height(window.innerHeight);
     /// fine parte aggiunta per add-items_1
 
   };
@@ -356,7 +356,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   }
   
   ////////////////////parte aggiunta per add-item_1
-  
+/*  
 function initItems_1() {
     $("#add-items_1").find(".add-item_1").mousedown(function(e_1) {
       var modelUrl_1 = $(this).attr("model-url");
@@ -373,7 +373,7 @@ function initItems_1() {
     });
   }   
   
-  
+  */
   
   
  /////fine parte aggiunta per add-items_1 
