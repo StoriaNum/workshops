@@ -382,6 +382,188 @@ function initItems_1() {
 
 }
 
+
+
+
+
+
+/*
+ * Side menu 1
+ */
+
+var SideMenu_1 = function(blueprint3d, floorplanControls, modalEffects) {
+  var blueprint3d_1 = blueprint3d;
+  var floorplanControls_1 = floorplanControls;
+  var modalEffects_1 = modalEffects;
+
+  var ACTIVE_CLASS_1 = "active";
+
+  var tabs_1 = {
+    "FLOORPLAN" : $("#floorplan_tab"),
+    "SHOP_1" : $("#items_tab_1"),
+    "DESIGN" : $("#design_tab")
+  }
+
+  var scope_1 = this;
+  this.stateChangeCallbacks = $.Callbacks();
+
+  this.states = {
+    "DEFAULT" : {
+      "div" : $("#viewer"),
+      "tab" : tabs_1.DESIGN
+    },
+    "FLOORPLAN" : {
+      "div" : $("#floorplanner"),
+      "tab" : tabs_1.FLOORPLAN
+    },
+    
+    "SHOP_1" : {
+      "div" : $("#add-items_1"),
+      "tab" : tabs_1.SHOP_1
+    }
+  }
+
+  // sidebar state
+  var currentState_1 = scope_1.states.FLOORPLAN;
+
+  function init_1() {
+    for (var tab in tabs_1) {
+      var elem = tabs_1[tab];
+      elem.click(tabClicked_1(elem));
+    }
+
+    $("#update-floorplan").click(floorplanUpdate_1);
+
+    initLeftMenu_1();
+
+    blueprint3d_1.three.updateWindowSize();
+    handleWindowResize_1();
+
+    
+    /// parte aggiunta per add-items_1
+    initItems_1();
+    /// fine parte aggiunta per add-items_1
+
+    setCurrentState_1(scope_1.states.DEFAULT);
+  }
+
+  function floorplanUpdate_1() {
+    setCurrentState_1(scope_1.states.DEFAULT);
+  }
+
+  function tabClicked_1(tab) {
+    return function() {
+      // Stop three from spinning
+      blueprint3d_1.three.stopSpin();
+
+      // Selected a new tab
+      for (var key in scope_1.states) {
+        var state = scope_1.states[key];
+        if (state.tab == tab) {
+          setCurrentState_1(state);
+          break;
+        }
+      }
+    }
+  }
+  
+  function setCurrentState_1(newState) {
+
+    if (currentState_1 == newState) {
+      return;
+    }
+
+    // show the right tab as active
+    if (currentState_1.tab !== newState.tab) {
+      if (currentState_1.tab != null) {
+        currentState_1.tab.removeClass(ACTIVE_CLASS_1);          
+      }
+      if (newState.tab != null) {
+        newState.tab.addClass(ACTIVE_CLASS_1);
+      }
+    }
+
+    // set item unselected
+    blueprint3d_1.three.getController().setSelectedObject(null);
+
+    // show and hide the right divs
+    currentState_1.div.hide()
+    newState.div.show()
+
+    // custom actions
+    if (newState == scope_1.states.FLOORPLAN) {
+      floorplanControls_1.updateFloorplanView();
+      floorplanControls_1.handleWindowResize_1();
+    } 
+
+    if (currentState_1 == scope_1.states.FLOORPLAN) {
+      blueprint3d_1.model.floorplan.update();
+    }
+
+    if (newState == scope_1.states.DEFAULT) {
+      blueprint3d_1.three.updateWindowSize();
+    }
+ 
+    // set new state
+    handleWindowResize_1();    
+    currentState_1 = newState;
+
+    scope_1.stateChangeCallbacks.fire(newState);
+  }
+
+  function initLeftMenu_1() {
+    $( window ).resize( handleWindowResize_1 );
+    handleWindowResize_1();
+  }
+
+  function handleWindowResize_1() {
+    $(".sidebar").height(window.innerHeight);
+    
+    /// inizio parte aggiunta per add-items_1
+    $("#add-items_1").height(window.innerHeight);
+    /// fine parte aggiunta per add-items_1
+
+  };
+
+  
+  ////////////////////parte aggiunta per add-item_1
+  
+function initItems_1() {
+    $("#add-items_1").find(".add-item_1").mousedown(function(e_1) {
+      var modelUrl_1 = $(this).attr("model-url");
+      var itemType_1 = parseInt($(this).attr("model-type"));
+      var metadata_1 = {
+        itemName_1: $(this).attr("model-name"),
+        resizable_1: true,
+        modelUrl_1: modelUrl_1,
+        itemType_1: itemType_1
+      }
+
+      blueprint3d_1.model.scene.addItem(itemType_1, modelUrl_1, metadata_1);
+      setCurrentState_1(scope_1.states.DEFAULT);
+    });
+  }  
+  
+  
+  
+  
+ /////fine parte aggiunta per add-items_1 
+
+  init_1();
+
+}
+
+/////////////////////// FINE BLOCCO SIDE BAR 1
+
+
+
+
+
+
+
+
+
+
 /*
  * Change floor and wall textures
  */
