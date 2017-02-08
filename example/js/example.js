@@ -358,17 +358,17 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   ////////////////////parte aggiunta per add-item_1
   
 function initItems_1() {
-    $("#add-items_1").find(".add-item_1").mousedown(function(e) {
-      var modelUrl = $(this).attr("model-url");
-      var itemType = parseInt($(this).attr("model-type"));
-      var metadata = {
-        itemName: $(this).attr("model-name"),
-        resizable: true,
-        modelUrl: modelUrl,
-        itemType: itemType
+    $("#add-items_1").find(".add-item_1").mousedown(function(e_1) {
+      var modelUrl_1 = $(this).attr("model-url");
+      var itemType_1 = parseInt($(this).attr("model-type"));
+      var metadata_1 = {
+        itemName_1: $(this).attr("model-name"),
+        resizable_1: true,
+        modelUrl_1: modelUrl_1,
+        itemType_1: itemType_1
       }
 
-      blueprint3d.model.scene.addItem(itemType, modelUrl, metadata);
+      blueprint3d.model.scene.addItem(itemType_1, modelUrl_1, metadata_1);
       setCurrentState(scope.states.DEFAULT);
     });
   }  
