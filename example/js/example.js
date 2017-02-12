@@ -507,11 +507,15 @@ var mainControls = function(blueprint3d) {
     a.click();
     document.body.removeChild(a)
   }
+  
+  function saveJpg() {
+  }   
 
   function init() {
     $("#new").click(newDesign);
     $("#loadFile").change(loadDesign);
     $("#saveFile").click(saveDesign);
+    $("#saveJpg").click(saveJpg);
   }
 
   init();
