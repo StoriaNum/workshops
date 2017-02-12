@@ -19,41 +19,11 @@
     <script src="js/items_2.js"></script>
     
     <script src="js/example.js"></script>
-    <script src="js/html2canvas.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
        
   </head>
 
   <body>
-    
-
-<style>
-    #downloadasjpg{
-        margin:10% 40%;
-    }
-    .download-btn{
-        padding:10px;
-        font-size:20px;
-        margin:0 20px;
-</style>    
-<script>    
-      $('#download-jpg').click(function(){
-    html2canvas($('#downloadasjpg'), 
-    {
-      onrendered: function (canvas) {
-        var a = document.createElement('a');
-        // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
-        a.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
-        a.download = 'image.jpg';
-        a.click();
-      }
-    });
-  });
- </script>
-    
-    
-    
-    
 
     <div class="container-fluid">
       <div class="row main-row">
@@ -174,7 +144,7 @@
         </div>
 
         <!-- Right Column -->
-        <div class="col-xs-9 main">    <div id="downloadasjpg">
+        <div class="col-xs-9 main">    
 
           <!-- 3D Viewer -->
           <div id="viewer">
@@ -190,7 +160,7 @@
                <input type="file" class="hidden-input" id="loadFile">
                Carica
               </a>
-              <button id="download-jpg" class="download-btn">Download jpg</button>
+              
             </div>
 
             <div id="camera-controls">
@@ -282,7 +252,7 @@
         </div> 
         <!-- End Right Column -->
       </div>
-    </div> </div>
+    </div> 
 
   </body>
 </html>
