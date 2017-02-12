@@ -1,7 +1,3 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript" src="html2canvas.js"></script>
-
-
 /*
  * Camera Buttons
  */
@@ -511,25 +507,12 @@ var mainControls = function(blueprint3d) {
     document.body.removeChild(a)
   }
   
-  function saveJpg() {
-    html2canvas($('#viewer'), 
-    {
-      onrendered: function (canvas) {
-        var a = document.createElement('a');
-        // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
-        a.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
-        a.download = 'somefilename.jpg';
-        a.click();
-      }
-    });
-  });
-  }   
+
 
   function init() {
     $("#new").click(newDesign);
     $("#loadFile").change(loadDesign);
     $("#saveFile").click(saveDesign);
-    $("#saveJpg").click(saveJpg);
   }
 
   init();
