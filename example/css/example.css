@@ -116,6 +116,14 @@ div {
   padding: 0;  
 }
 
+#main-controls h3 {
+  text-align: right; 
+  margin-top: 20px;
+  color: #ff0000;
+  font-style: italic;
+}
+
+
 #camera-controls {
   position: absolute;
   bottom: 20px;
