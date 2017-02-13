@@ -174,3 +174,9 @@ div {
   cursor: inherit;
   display: block;
 }
+
+
+a.all-right { 
+  text-align:right; 
+  font-size:22px;
+}
