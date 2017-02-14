@@ -117,10 +117,13 @@ div {
 }
 
 .mcright {
-	  position: relative;
-    top: 0;
-    right: -300px;
-    text-align: right;
+  position: relative;
+  top: 0;
+  right: -390px;
+  text-align: right;
+  color: red;
+  font-size: 20px;
+  font-style: italic;
 }
 
 #camera-controls {
