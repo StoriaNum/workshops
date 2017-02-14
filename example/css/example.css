@@ -117,11 +117,10 @@ div {
 }
 
 .mcright {
-    display: inline-block;
     position: relative;
     float: right;
     top: 20px;
-    right: 0;
+    right: -80px;
     text-align: right;
 }
 
