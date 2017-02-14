@@ -118,9 +118,8 @@ div {
 
 .mcright {
     position: relative;
-    float: right;
     top: 20px;
-    right: -80px;
+    right: -200px;
     text-align: right;
 }
 
