@@ -116,12 +116,10 @@ div {
   padding: 0;  
 }
 
-#main-controls h3 {
-  position:relative; 
-  top: 20px;
-  left: 20px;
-  color: red;
-  font-style: italic;
+.righthref {
+    position: relative;
+    top: 20px;
+    right: 20px;
 }
 
 
