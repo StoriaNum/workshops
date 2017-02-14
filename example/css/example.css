@@ -119,7 +119,7 @@ div {
 .mcright {
   position: relative;
   top: 0;
-  right: -550px;
+  right: -500px;
   text-align: right;
 }
 
@@ -189,4 +189,6 @@ div {
 
 .fontkaushan {
     font-family: 'Kaushan-script';
+    font-size: 20px;
+    color: red;
 }
