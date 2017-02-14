@@ -116,12 +116,6 @@ div {
   padding: 0;  
 }
 
-.righthref {
-    position: relative;
-    top: 20px;
-    right: 20px;
-}
-
 
 #camera-controls {
   position: absolute;
