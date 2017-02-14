@@ -182,5 +182,11 @@ div {
   display: block;
 }
 
+@font-face {
+    font-family: 'Kaushan-script'; 
+    src: url('kaushan-script.ttf'); /*URL to font*/
+}
 
-
+.fontkaushan {
+    font-family: 'Kaushan-script';
+}
