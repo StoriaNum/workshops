@@ -117,9 +117,8 @@ div {
 }
 
 .mcright {
-    position: absolute;
     top: 20px;
-    right: 0;
+    right: 90px;
     text-align: right;
 }
 
