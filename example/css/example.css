@@ -117,8 +117,10 @@ div {
 }
 
 .mcright {
+    position: relative;
+    top: 20px;
+    right: 0;
     text-align: right;
-    float: right;
 }
 
 #camera-controls {
