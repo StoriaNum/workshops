@@ -13,7 +13,7 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_arch-white-oval-nightstand.jpg",
       "model" : "models/js/cb-archnight-white_baked.js",
       "type" : "1"
-    }
+    },
     {
       "name" : "Pouf a stella colori Italia",
       "image" : "models/thumbnails/thumbnail_pouf_star_it.png",
