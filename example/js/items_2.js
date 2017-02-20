@@ -14,6 +14,12 @@ $(document).ready(function() {
       "model" : "models/js/cb-archnight-white_baked.js",
       "type" : "1"
     }
+    {
+      "name" : "Pouf a stella colori Italia",
+      "image" : "models/thumbnails/titolo.jpg",
+      "model" : "models/js/poufstar.js",
+      "type" : "1"
+    }
    /*     
    {
       "name" : "",
