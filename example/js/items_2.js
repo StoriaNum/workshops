@@ -16,7 +16,7 @@ $(document).ready(function() {
     }
     {
       "name" : "Pouf a stella colori Italia",
-      "image" : "models/thumbnails/titolo.jpg",
+      "image" : "models/thumbnails/thumbnail_pouf_star_it.png",
       "model" : "models/js/poufstar.js",
       "type" : "1"
     }
