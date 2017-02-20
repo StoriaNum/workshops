@@ -15,12 +15,6 @@ $(document).ready(function() {
       "type" : "1"
     },
     {
-      "name" : "Pouf a stella colori Italia",
-      "image" : "models/thumbnails/thumbnail_pouf_star_it.png",
-      "model" : "models/js/poufstar.js",
-      "type" : "1"
-    },
-{
       "name" : "Consolle Luigi XV",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
       "model" : "models/js/tavoloexp.js",
