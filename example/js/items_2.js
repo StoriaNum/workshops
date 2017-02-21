@@ -19,6 +19,12 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
       "model" : "models/js/tavoloexp.js",
       "type" : "1"
+    },
+    {
+      "name" : "Pouf Scoiattolo Colore Blue",
+      "image" : "models/thumbnails/thumbnail_scoiattolopouf.png",
+      "model" : "models/js/scoiattolopouf.js",
+      "type" : "1"
     }
    /*     
    {
