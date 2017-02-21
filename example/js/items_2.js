@@ -57,7 +57,7 @@ $(document).ready(function() {
                 item.image + 
                 '" alt="Add Item"> '+
                 item.name +
-               '<br>'+ item.price +
+                item.price +
                 '</a></div>';
     itemsDiv_2.append(html);
   }
