@@ -6,12 +6,14 @@ $(document).ready(function() {
       "name" : "Tappeto",
       "image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
       "model" : "models/js/cb-blue-block-60x96.js",
+      "price" : "x,y&euro;",
       "type" : "8"
     },
     {
       "name" : "Poster-Quadro-Foto",
       "image" : "models/thumbnails/thumbnail_nyc2.jpg",
       "model" : "models/js/nyc-poster2.js",
+      "price" : "x,y&euro;",
       "type" : "2"
     }
    /*     
@@ -19,6 +21,7 @@ $(document).ready(function() {
       "name" : "",
       "image" : "",
       "model" : "",
+      "price" : "x,y&euro;",
       "type" : "1"
     }, 
     */
@@ -39,7 +42,8 @@ $(document).ready(function() {
                 '"><img src="' +
                 item.image + 
                 '" alt="Add Item"> '+
-                item.name +
+                item.name +  
+                '<br><i>Prezzo:</i> ' + item.price +
                 '</a></div>';
     itemsDiv_1.append(html);
   }
