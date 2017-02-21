@@ -57,9 +57,8 @@ $(document).ready(function() {
                 item.image + 
                 '" alt="Add Item"> '+
                 item.name +
-                '</a><br>'+
-                item.price +
-                '</div>';
+                '</a></div><br>'+
+                item.price +';
     itemsDiv_2.append(html);
   }
 });
