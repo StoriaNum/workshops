@@ -7,28 +7,28 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_Blu-Dot-Shale-Bedside-Table.jpg",
       "model" : "models/js/bd-shalebedside-smoke_baked.js",
       "type" : "1"
-      "price" : "x&euro;"
+      "price" : "Euro"
     }, 
     {
       "name" : "Comodino Colore Bianco",
       "image" : "models/thumbnails/thumbnail_arch-white-oval-nightstand.jpg",
       "model" : "models/js/cb-archnight-white_baked.js",
       "type" : "1"
-      "price" : "x&euro;"
+      "price" : "Euro"
     },
     {
       "name" : "Consolle Luigi XV",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
       "model" : "models/js/tavoloexp.js",
       "type" : "1"
-      "price" : "x&euro;"
+      "price" : "Euro"
     },
     {
       "name" : "Pouf Scoiattolo Colore Blue",
       "image" : "models/thumbnails/thumbnail_scoiattolopouf.png",
       "model" : "models/js/scoiattolopouf.js",
       "type" : "1"
-      "price" : "x&euro;"
+      "price" : "Euro"
     }
    /*     
    {
@@ -57,6 +57,7 @@ $(document).ready(function() {
                 item.image + 
                 '" alt="Add Item"> '+
                 item.name +
+                item.price +
                 '</a></div>';
     itemsDiv_2.append(html);
   }
