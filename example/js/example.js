@@ -120,11 +120,11 @@ var ContextMenu = function(blueprint3d) {
     $("#context-menu-name").text(item.metadata.itemName);
     
     /* */
-    $("#modelGalleryPass").click(function()
+    $("#modelGallery").click(function()
            {
             //  var modelGalleryUri = $("model-gallery").text(item.metadata.modelGallery); //Your Gallery URi here
-           //   var modelGalleryUri = $(this).prop('modelGallery');
-              var modelGalleryUri = $("#modelGallery").text(item.model_gallery); //Your Gallery URi here
+              var modelGalleryUri = $(this).prop('item.model_gallery');
+           //   var modelGalleryUri = $("#modelGallery").text(item.model_gallery); //Your Gallery URi here
               window.location.href = modelGalleryUri;
       
             });      /*         */
