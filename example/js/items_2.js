@@ -28,6 +28,7 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_scoiattolopouf.png",
       "model" : "models/js/scoiattolopouf.js",
       "price" : "x,y &euro;",
+      "gallery" : "https://ohsnapboutique.com/product/2016-easter-palooza-cards/#prettyPhoto[product-gallery]/0/",
       "type" : "1"
     }
    /*     
@@ -36,6 +37,7 @@ $(document).ready(function() {
       "image" : "",
       "model" : "",
       "price" : "x,y &euro;",
+      "gallery": "url di interesse",
       "type" : "1"
     }, 
     */
