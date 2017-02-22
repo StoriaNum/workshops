@@ -118,7 +118,14 @@ var ContextMenu = function(blueprint3d) {
     selectedItem = item;
 
     $("#context-menu-name").text(item.metadata.itemName);
+    
+    
+    $("#modelGallery").click(function()
+           {
+              window.location.href = ""+text(item.metadata.modelGallery)+""; //Your Gallery URi here
+            });
 
+    
     $("#item-width").val(cmToIn(selectedItem.getWidth()).toFixed(0));
     $("#item-height").val(cmToIn(selectedItem.getHeight()).toFixed(0));
     $("#item-depth").val(cmToIn(selectedItem.getDepth()).toFixed(0));
