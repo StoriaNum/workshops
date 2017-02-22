@@ -122,7 +122,7 @@ var ContextMenu = function(blueprint3d) {
     
     $("#modelGallery").click(function()
            {
-              window.location.href = ""+text(item.metadata.modelGallery)+""; //Your Gallery URi here
+              window.location.href = " ' + item.metadata.modelGallery + ' "; //Your Gallery URi here
             });
 
     
