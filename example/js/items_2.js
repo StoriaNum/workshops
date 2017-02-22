@@ -58,6 +58,8 @@ $(document).ready(function() {
                 item.model +
                 '" model-type="' +
                 item.type + 
+                '" model-gallery="' + 
+                item.gallery +
                 '"><img src="' +
                 item.image +
                 '" alt="Add Item"> '+
