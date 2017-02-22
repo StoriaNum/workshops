@@ -7,7 +7,7 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
       "model" : "models/js/cb-blue-block-60x96.js",
       "price" : "x,y &euro;",
-      "gallery": "",
+      "gallery": "#",
       "type" : "8"
     },
     {
@@ -15,7 +15,7 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_nyc2.jpg",
       "model" : "models/js/nyc-poster2.js",
       "price" : "x,y &euro;",
-      "gallery": "",
+      "gallery": "#",
       "type" : "2"
     }
    /*     
@@ -24,7 +24,7 @@ $(document).ready(function() {
       "image" : "",
       "model" : "",
       "price" : "x,y &euro;",
-      "gallery": "",
+      "gallery": "#",
       "type" : "1"
     }, 
     */
