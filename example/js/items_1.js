@@ -42,8 +42,10 @@ $(document).ready(function() {
                 item.model +
                 '" model-type="' +
                 item.type + 
+                '" model-gallery="' + 
+                item.gallery +
                 '"><img src="' +
-                item.image + 
+                item.image +
                 '" alt="Add Item"> '+
                 item.name +  
                 '<br><i>Prezzo:</i> ' + item.price +
