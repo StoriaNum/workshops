@@ -339,10 +339,12 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     $("#add-items,#add-items_1,#add-items_2").find(".add-item").mousedown(function(e) {
       var modelUrl = $(this).attr("model-url");
       var itemType = parseInt($(this).attr("model-type"));
+      var modelGallery = $(this).attr("model-gallery");
       var metadata = {
         itemName: $(this).attr("model-name"),
         resizable: true,
         modelUrl: modelUrl,
+        modelGallery: modelGallery,
         itemType: itemType
       }
 
