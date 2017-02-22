@@ -7,7 +7,7 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_Blu-Dot-Shale-Bedside-Table.jpg",
       "model" : "models/js/bd-shalebedside-smoke_baked.js",
       "price" : "x,y &euro;",
-      "gallery": "",
+      "gallery": "#",
       "type" : "1"
     }, 
     {
@@ -15,7 +15,7 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_arch-white-oval-nightstand.jpg",
       "model" : "models/js/cb-archnight-white_baked.js",
       "price" : "x,y &euro;",
-      "gallery": "",
+      "gallery": "#",
       "type" : "1"
     },
     {
@@ -23,7 +23,7 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
       "model" : "models/js/tavoloexp.js",
       "price" : "x,y &euro;",
-      "gallery": "",
+      "gallery": "#",
       "type" : "1"
     },
     {
