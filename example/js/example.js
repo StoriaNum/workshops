@@ -119,7 +119,7 @@ var ContextMenu = function(blueprint3d) {
 
     $("#context-menu-name").text(item.metadata.itemName);
     
-    /* */
+    /* 
     $("#modelGallery").click(function()
            {
             //  var modelGalleryUri = $("model-gallery").text(item.metadata.modelGallery); //Your Gallery URi here
@@ -128,6 +128,9 @@ var ContextMenu = function(blueprint3d) {
       
       
             });      /*         */
+    
+    var modelGalleryuri = "http://www.google.it";
+    document.getElementById("modelGallery").href = modelGalleryuri;
 
     
     $("#item-width").val(cmToIn(selectedItem.getWidth()).toFixed(0));
