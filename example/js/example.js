@@ -127,7 +127,7 @@ var ContextMenu = function(blueprint3d) {
         */
 
   //  var modelGalleryuri = "http://www.google.it";
-  //  document.getElementById("modelGallery").href = modelGalleryuri;
+  //  document.getElementById("modelGallery").href = modelGalleryuri; 
     var modelGalleryuri = $(".add-item").text(item.metadata.modelGallery); 
     document.getElementById("modelGallery").href = modelGalleryuri;
 
