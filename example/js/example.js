@@ -119,22 +119,7 @@ var ContextMenu = function(blueprint3d) {
 
     $("#context-menu-name").text(item.metadata.itemName);
     
-    /* 
- 
-          
-            //  window.location.href = modelGalleryUri;
-              window.location.href ="http://www.google.it";
-        */
-
-  //  var modelGalleryuri = "http://www.google.it";
-  //  document.getElementById("modelGallery").href = modelGalleryuri; 
-  //  var modelGalleryuri = $(".add-item").text(item.metadata.modelGallery); 
-   // $("#modelGallerylink").attr("href", modelGalleryuri);
     
-/* fino ad ora migliore versione 
-   var modelGalleryuri = "http://www.google.it";
-   document.getElementById("modelGallerylink").href = modelGalleryuri; 
-*/
    var modelGalleryuri = ""+item.metadata.modelGallery+""; 
    document.getElementById("modelGallerylink").href = modelGalleryuri;
    
