@@ -33,7 +33,15 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "gallery" : "https://ohsnapboutique.com/product/2016-easter-palooza-cards/#prettyPhoto[product-gallery]/0/",
       "type" : "1"
-    }
+    },
+    {
+      "name" : "Fluttable",
+      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
+      "model" : "models/js/fluttable.js",
+      "price" : "x,y &euro;",
+      "gallery" : "#",
+      "type" : "1"
+    }    
    /*     
    {
       "name" : "",
