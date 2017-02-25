@@ -45,7 +45,7 @@ $(document).ready(function() {
     {
       "name" : "Mobiletto Bagno Esemlus",
       "image" : "models/thumbnails/thumbnail_mobilettobagno.jpg",
-      "model" : "models/js/mobilettobagno.js",
+      "model" : "models/js/mobilettobagno2.js",
       "price" : "x,y &euro;",
       "gallery" : "#",
       "type" : "1"
