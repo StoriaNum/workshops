@@ -41,7 +41,15 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "gallery" : "#",
       "type" : "1"
-    }    
+    },
+    {
+      "name" : "Fluttable Bis",
+      "image" : "models/thumbnails/thumbnail_fluttablebis.jpg",
+      "model" : "models/js/fluttablebis.js",
+      "price" : "x,y &euro;",
+      "gallery" : "#",
+      "type" : "1"
+    }  
    /*     
    {
       "name" : "",
