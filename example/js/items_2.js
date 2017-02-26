@@ -74,6 +74,8 @@ $(document).ready(function() {
                 item.model +
                 '" model-type="' +
                 item.type + 
+                '" model-price="' +
+                item.price +
                 '" model-gallery="' + 
                 item.gallery +
                 '"><img src="' +
