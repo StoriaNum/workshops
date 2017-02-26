@@ -40,6 +40,7 @@ var Model = function(textureDir) {
         item_name: object.metadata.itemName,
         item_type: object.metadata.itemType,
         model_url: object.metadata.modelUrl,
+        model_price: object.metadata.modelPrice,
         model_gallery: object.metadata.modelGallery,
         xpos: object.position.x,
         ypos: object.position.y,
@@ -71,6 +72,7 @@ var Model = function(textureDir) {
         resizable: item.resizable,
         itemType: item.item_type,
         modelUrl: item.model_url,
+        modelPrice: item.model_price,
         modelGallery: item.model_gallery
       }
       var scale = {
@@ -81,6 +83,7 @@ var Model = function(textureDir) {
       scope.scene.addItem( 
         item.item_type, 
         item.model_url, 
+        item.model_price,
         item.model_gallery,
         metadata,
         position, 
