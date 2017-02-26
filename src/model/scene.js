@@ -83,7 +83,7 @@ var Scene = function(model, textureDir) {
     }
   }
 
-  this.addItem = function(itemType, fileName, model_gallery, metadata, position, rotation, scale, fixed) {
+  this.addItem = function(itemType, fileName, model_price, model_gallery, metadata, position, rotation, scale, fixed) {
     itemType = itemType || 1;
 
     var loaderCallback = function(geometry, materials) {
