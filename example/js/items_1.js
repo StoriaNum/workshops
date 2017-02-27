@@ -47,6 +47,8 @@ $(document).ready(function() {
                 item.type + 
                 '" model-price="' +
                 item.price +
+                '" model-buybasket="' +
+                item.buybasket +
                 '" model-gallery="' + 
                 item.gallery +
                 '"><img src="' +
