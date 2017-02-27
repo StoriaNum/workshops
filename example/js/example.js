@@ -126,6 +126,9 @@ var ContextMenu = function(blueprint3d) {
    $("#modelPricetot").text(item.metadata.modelPrice); 
      
    
+   var modelBuybasketuri = ""+item.metadata.modelBuybasket+""; 
+   document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
+    
     
     $("#item-width").val(cmToIn(selectedItem.getWidth()).toFixed(0));
     $("#item-height").val(cmToIn(selectedItem.getHeight()).toFixed(0));
