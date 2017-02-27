@@ -33,7 +33,7 @@ $(document).ready(function() {
       "name" : "Sedia",
       "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
       "model" : "models/js/gus-churchchair-whiteoak.js",
-      "price" : "1500,74 &euro;",
+      "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
       "type" : "1"
