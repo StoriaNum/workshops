@@ -41,6 +41,7 @@ var Model = function(textureDir) {
         item_type: object.metadata.itemType,
         model_url: object.metadata.modelUrl,
         model_price: object.metadata.modelPrice,
+        model_buybasket: object.metadata.modelBuybasket,
         model_gallery: object.metadata.modelGallery,
         xpos: object.position.x,
         ypos: object.position.y,
@@ -73,6 +74,7 @@ var Model = function(textureDir) {
         itemType: item.item_type,
         modelUrl: item.model_url,
         modelPrice: item.model_price,
+        modelBuybasket: item.model_buybasket,
         modelGallery: item.model_gallery
       }
       var scale = {
@@ -84,6 +86,7 @@ var Model = function(textureDir) {
         item.item_type, 
         item.model_url, 
         item.model_price,
+        item.model_buybasket,
         item.model_gallery,
         metadata,
         position, 
