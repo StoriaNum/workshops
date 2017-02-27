@@ -33,7 +33,7 @@ $(document).ready(function() {
       "name" : "Pouf Scoiattolo Colore Blue",
       "image" : "models/thumbnails/thumbnail_scoiattolopouf.png",
       "model" : "models/js/scoiattolopouf.js",
-      "price" : "380,50 &euro;",
+      "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "https://ohsnapboutique.com/product/2016-easter-palooza-cards/#prettyPhoto[product-gallery]/0/",
       "type" : "1"
