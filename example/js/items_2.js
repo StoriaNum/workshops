@@ -59,7 +59,61 @@ $(document).ready(function() {
     {
       "name" : "FluttableBis",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
-      "model" : "models/js/tablespec2.js",
+      "model" : "",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+        {
+      "name" : "FluttableBis",
+      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
+      "model" : "",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+        {
+      "name" : "FluttableBis",
+      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
+      "model" : "",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+        {
+      "name" : "FluttableBis",
+      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
+      "model" : "",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+        {
+      "name" : "FluttableBis",
+      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
+      "model" : "",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+        {
+      "name" : "FluttableBis",
+      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
+      "model" : "",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+        {
+      "name" : "FluttableBis",
+      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
+      "model" : "",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "#",
