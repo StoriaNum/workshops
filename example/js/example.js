@@ -342,6 +342,8 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   function handleWindowResize() {
     $(".sidebar").height(window.innerHeight);
     $("#add-items").height(window.innerHeight);
+    $("#add-items_1").height(window.innerHeight);
+    $("#add-items_2").height(window.innerHeight);
    
   };
 
