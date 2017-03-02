@@ -137,7 +137,7 @@ $(document).ready(function() {
   var itemsDiv_2 = $("#items-wrapper_2")
   for (var i = 0; i < items_2.length; i++) {
     var item = items_2[i];
-    var html = '<div class="col-sm-4">' +
+    var html_2 = '<div class="col-sm-4">' +
                 '<a class="thumbnail add-item" model-name="' + 
                 item.name + 
                 '" model-url="' +
@@ -156,6 +156,6 @@ $(document).ready(function() {
                 item.name +  
                 '<br><i>Prezzo:</i> ' + item.price +
                 '</a></div>';
-    itemsDiv_2.append(html);
+    itemsDiv_2.append(html_2);
   }
 });
