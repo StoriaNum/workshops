@@ -64,6 +64,15 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery" : "#",
       "type" : "1"
+    },
+        {
+      "name" : "Sediaspec",
+      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
+      "model" : "models/js/sediaspec.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "http://www.ansa.it",
+      "gallery" : "#",
+      "type" : "1"
     }
      
    /*     
