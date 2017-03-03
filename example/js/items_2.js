@@ -64,6 +64,15 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery" : "#",
       "type" : "1"
+    },
+        {
+      "name" : "FluttableBis",
+      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
+      "model" : "models/js/primotentativoUV.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
     }
      
    /*     
