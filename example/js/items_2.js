@@ -68,7 +68,7 @@ $(document).ready(function() {
         {
       "name" : "Sediaspec",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
-      "model" : "models/js/xgiowood.js",
+      "model" : "models/js/xgiowood2.js",
       "price" : "x,y &euro;",
       "buybasket" : "http://www.google.it",
       "gallery" : "#",
