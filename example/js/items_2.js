@@ -68,7 +68,7 @@ $(document).ready(function() {
         {
       "name" : "Sediaspec",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
-      "model" : "models/js/sediaspec.js",
+      "model" : "models/js/sediaspec2.js",
       "price" : "x,y &euro;",
       "buybasket" : "http://www.ansa.it",
       "gallery" : "#",
