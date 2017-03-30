@@ -20,46 +20,11 @@
      <script src="js/items_1.js"></script>
     <script src="js/items_2.js"></script>
     
-    
+    <script src="js/exaC/example0123.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/html2canvas.js"></script>
        
-	  
-<!-- INIZIO SEZIONE RECUPERO VARIABILE cod -->	  
-<script>
-  
-  var QueryString = function () {
-  // This function is anonymous, is executed immediately and 
-  // the return value is assigned to QueryString!
-  var query_string = {};
-  var query = window.location.search.substring(1);
-  var vars = query.split("&");
-  for (var i=0;i<vars.length;i++) {
-    var pair = vars[i].split("=");
-        // If first entry with this name
-    if (typeof query_string[pair[0]] === "undefined") {
-      query_string[pair[0]] = decodeURIComponent(pair[1]);
-        // If second entry with this name
-    } else if (typeof query_string[pair[0]] === "string") {
-      var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
-      query_string[pair[0]] = arr;
-        // If third or later entry with this name
-    } else {
-      query_string[pair[0]].push(decodeURIComponent(pair[1]));
-    }
-  } 
-  return query_string;
-}();
-
-  var urlexampleart = "js/exampleC"+QueryString.cod+".js";  
-
-</script>	  
-	  
-	  
-<!-- FINE SEZIONE RECUPERO VARIABILE cod -->	
-	  
-   <script src=urlexampleart ></script>
 	  
   </head>
 
