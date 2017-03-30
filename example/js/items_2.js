@@ -39,7 +39,7 @@ $(document).ready(function() {
       "type" : "1"
     },
     {
-      "name" : "Fluttable",
+      "name" : "Bliss Rovere con Tessuto Grigio",
       "image" : "models/thumbnails/thumbnail_bliss_rovere.jpg",
       "model" : "models/js/bliss1.js",
       "price" : "x,y &euro;",
