@@ -40,6 +40,15 @@ $(document).ready(function() {
     },
     {
       "name" : "Fluttable",
+      "image" : "models/thumbnails/thumbnail_bliss_rovere.jpg",
+      "model" : "models/js/bliss1.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+    {
+      "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
       "model" : "models/js/fluttable.js",
       "price" : "x,y &euro;",
