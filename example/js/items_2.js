@@ -48,6 +48,15 @@ $(document).ready(function() {
       "type" : "1"
     },
     {
+      "name" : "Bliss Nero Lucido con Ecopelle",
+      "image" : "models/thumbnails/thumbnail_bliss_pelle-nerolucido.jpg",
+      "model" : "models/js/bliss2.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },    
+    {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
       "model" : "models/js/fluttable.js",
