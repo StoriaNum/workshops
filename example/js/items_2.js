@@ -56,6 +56,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },    
+        {
+      "name" : "Bliss con braccioli blu e nero",
+      "image" : "models/thumbnails/thumbnail_blisswithoutblend.jpg",
+      "model" : "models/js/blisswithoutblend.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },  
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
