@@ -65,7 +65,7 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },  
-            {
+     {
       "name" : "C1 nero e acciaio",
       "image" : "models/thumbnails/thumbnail_blisswithoutblend.jpg",
       "model" : "models/js/c1vitra.js",
@@ -74,6 +74,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },  
+     {
+      "name" : "C1 giallo scuro e acciaio",
+      "image" : "models/thumbnails/thumbnail_blisswithoutblend.jpg",
+      "model" : "models/js/c1vitradarkyellow.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    }, 
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
