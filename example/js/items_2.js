@@ -66,9 +66,9 @@ $(document).ready(function() {
       "type" : "1"
     },  
             {
-      "name" : "C1 giallo scuro e acciaio",
+      "name" : "C1 nero e acciaio",
       "image" : "models/thumbnails/thumbnail_blisswithoutblend.jpg",
-      "model" : "models/js/c1vitradarkyellow.js",
+      "model" : "models/js/c1vitra.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "#",
