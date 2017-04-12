@@ -77,7 +77,7 @@ $(document).ready(function() {
      {
       "name" : "Mobiletto tedesco",
       "image" : "models/thumbnails/thumbnails_tiefe60104.jpg",
-      "model" : "models/js/zzz.js",
+      "model" : "models/js/untitled.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "#",
