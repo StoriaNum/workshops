@@ -83,6 +83,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     }, 
+     {
+      "name" : "Carrellino tedesco",
+      "image" : "models/thumbnails/thumbnail_46_500BR.jpg",
+      "model" : "models/js/46500BR.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
