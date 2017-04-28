@@ -119,6 +119,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+        {
+      "name" : "Mobiletto tedesco 5",
+      "image" : "models/thumbnails/713-2422_special_02.jpg",
+      "model" : "models/js/713-2422.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
