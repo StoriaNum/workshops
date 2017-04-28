@@ -111,6 +111,15 @@ $(document).ready(function() {
       "type" : "1"
     },
     {
+      "name" : "Mobiletto tedesco 4",
+      "image" : "models/thumbnails/60_701_01.jpg",
+      "model" : "models/js/60_701A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+    {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
       "model" : "models/js/fluttable.js",
