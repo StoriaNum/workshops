@@ -101,6 +101,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+     {
+      "name" : "Mobiletto tedesco 3",
+      "image" : "models/thumbnails/thumbnail_60_340_03.jpg",
+      "model" : "models/js/60_304A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
