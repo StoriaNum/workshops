@@ -137,6 +137,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+        {
+      "name" : "Mobiletto tedesco 7",
+      "image" : "models/thumbnails/thumbnail_1000-2321_02.jpg",
+      "model" : "models/js/1000_2321A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
