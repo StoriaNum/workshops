@@ -155,6 +155,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+         {
+      "name" : "Carrellino tedesco 2",
+      "image" : "models/thumbnails/46_301BR_02.jpg",
+      "model" : "models/js/46_301BR.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
