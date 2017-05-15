@@ -174,6 +174,15 @@ $(document).ready(function() {
       "type" : "1"
     },
     {
+      "name" : "Carrellino tedesco 4",
+      "image" : "models/thumbnails/68_700_01.jpg",
+      "model" : "models/js/68_700AM.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+    {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
       "model" : "models/js/fluttable.js",
