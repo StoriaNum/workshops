@@ -182,6 +182,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+        {
+      "name" : "Tavolo attrezzato tedesco 1",
+      "image" : "models/thumbnails/04_512_04_Lochwand_01.jpg",
+      "model" : "models/js/04_512_04A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
