@@ -200,6 +200,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+                {
+      "name" : "Armadietto carrellino tedesco 1",
+      "image" : "models/thumbnails/04_11_03.jpg",
+      "model" : "models/js/04_11_05A_01.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
