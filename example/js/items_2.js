@@ -183,6 +183,15 @@ $(document).ready(function() {
       "type" : "1"
     },
         {
+      "name" : "Carrellino tedesco 5",
+      "image" : "models/thumbnails/04_10_09.jpg",
+      "model" : "models/js/04_10_05B.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+        {
       "name" : "Tavolo attrezzato tedesco 1",
       "image" : "models/thumbnails/04_512_04_Lochwand_01.jpg",
       "model" : "models/js/04_512_04A.js",
