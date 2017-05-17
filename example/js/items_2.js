@@ -228,9 +228,18 @@ $(document).ready(function() {
       "type" : "1"
     },
                     {
-      "name" : "Carrellino CNC tedesco",
+      "name" : "Carrellino CNC tedesco 1",
       "image" : "models/thumbnails/02_88_02.jpg",
       "model" : "models/js/02_88_06A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+                        {
+      "name" : "Carrellino CNC tedesco 2",
+      "image" : "models/thumbnails/02_86_01.jpg",
+      "model" : "models/js/02_85_07A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "#",
