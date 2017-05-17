@@ -227,6 +227,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+                    {
+      "name" : "Carrellino CNC tedesco",
+      "image" : "models/thumbnails/02_88_02.jpg",
+      "model" : "models/js/02_88_06A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
