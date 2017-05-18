@@ -263,6 +263,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+                                    {
+      "name" : "Armadietto tedesco 2",
+      "image" : "models/thumbnails/02_95_01-3_01.jpg",
+      "model" : "models/js/02_95_01-3A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
