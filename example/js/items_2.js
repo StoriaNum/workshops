@@ -290,6 +290,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+            {
+      "name" : "Armadietto tedesco 5",
+      "image" : "models/thumbnails/04_110_M_offen_01.jpg",
+      "model" : "models/js/04_110B.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
