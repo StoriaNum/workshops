@@ -263,10 +263,19 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
-                                    {
+      {
       "name" : "Armadietto tedesco 2",
       "image" : "models/thumbnails/02_95_01-3_01.jpg",
       "model" : "models/js/02_95_01-3A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+    {
+      "name" : "Armadietto tedesco 3",
+      "image" : "models/thumbnails/02_98_00-02_1080_4_03.jpg",
+      "model" : "models/js/02_2098_00K.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "#",
