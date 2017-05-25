@@ -317,6 +317,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+                        {
+      "name" : "Armadio tedesco 2",
+      "image" : "models/thumbnails/04_155_02.jpg",
+      "model" : "models/js/04_155_12A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
