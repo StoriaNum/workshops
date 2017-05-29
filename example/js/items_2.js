@@ -164,7 +164,7 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
-             {
+      {
       "name" : "Carrellino tedesco 3",
       "image" : "models/thumbnails/68_221_04.jpg",
       "model" : "models/js/68_221AM_01.js",
