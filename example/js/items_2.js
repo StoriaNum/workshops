@@ -353,6 +353,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+                 {
+      "name" : "Tavolino tedesco 03",
+      "image" : "models/thumbnails/05_10_09.jpg",
+      "model" : "models/js/05_10_03B.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
