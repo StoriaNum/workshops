@@ -362,6 +362,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+     {
+      "name" : "Rack tedesco 00",
+      "image" : "models/thumbnails/04_118_600.jpg",
+      "model" : "models/js/04_118_600A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
