@@ -371,6 +371,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+     {
+      "name" : "Scaffalatura tedesca 00",
+      "image" : "models/thumbnails/hoehe-2700-mm-8-ebenen.jpg",
+      "model" : "models/js/HZGA27310EX_ZEILE_5_02_002_20.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
