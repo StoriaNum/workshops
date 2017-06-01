@@ -380,6 +380,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+         {
+      "name" : "Scaffalatura tedesca 01",
+      "image" : "models/thumbnails/hoehe-2000-mm-6-ebenen.jpg",
+      "model" : "models/js/HRG20610DA_07.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
