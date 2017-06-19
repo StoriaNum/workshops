@@ -398,6 +398,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+                 {
+      "name" : "Cassettiera laboratorio 00",
+      "image" : "models/thumbnails/11_502_010.jpg",
+      "model" : "models/js/11_502_010lista.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
