@@ -407,6 +407,15 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+       {
+      "name" : "Stazione appoggiatutto 00",
+      "image" : "models/thumbnails/53_450_876thurmetall.jpg",
+      "model" : "models/js/53_450_876thurmetall.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
     {
       "name" : "Fluttable",
       "image" : "models/thumbnails/thumbnail_tavoloexp.png",
