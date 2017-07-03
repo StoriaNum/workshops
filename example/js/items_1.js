@@ -11,6 +11,15 @@ $(document).ready(function() {
       "gallery": "#",
       "type" : "8"
     },
+        {
+      "name" : "Tappeto Kilim 1",
+      "image" : "models/thumbnails/thumbnail_HTR034-87_1.jpg",
+      "model" : "models/js/tappetokilim1.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "8"
+    },
     {
       "name" : "Poster-Quadro-Foto",
       "image" : "models/thumbnails/thumbnail_nyc2.jpg",
