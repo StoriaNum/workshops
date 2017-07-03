@@ -21,6 +21,15 @@ $(document).ready(function() {
       "type" : "8"
     },
     {
+      "name" : "Poster Torre",
+      "image" : "models/thumbnails/thumbnail_torre-di-pisa.jpg",
+      "model" : "models/js/poster-pisa.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
+    },
+    {
       "name" : "Poster-Quadro-Foto",
       "image" : "models/thumbnails/thumbnail_nyc2.jpg",
       "model" : "models/js/nyc-poster2.js",
