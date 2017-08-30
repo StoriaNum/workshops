@@ -217,6 +217,9 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     "SHOP" : $("#items_tab"),
     "SHOP_1" : $("#items_tab_1"),
     "SHOP_2" : $("#items_tab_2"),
+    "SHOP_3" : $("#items_tab_3"),
+    "SHOP_4" : $("#items_tab_4"),
+    "SHOP_5" : $("#items_tab_5"),
     "DESIGN" : $("#design_tab")
   }
 
@@ -241,6 +244,21 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     "SHOP_2" : {
       "div" : $("#add-items_2"),
       "tab" : tabs.SHOP_2
+    },
+    
+    "SHOP_3" : {
+      "div" : $("#add-items_3"),
+      "tab" : tabs.SHOP_3
+    },
+    
+    "SHOP_4" : {
+      "div" : $("#add-items_4"),
+      "tab" : tabs.SHOP_4
+    },
+    
+    "SHOP_5" : {
+      "div" : $("#add-items_5"),
+      "tab" : tabs.SHOP_5
     },
     
     "SHOP" : {
@@ -349,7 +367,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
 
   // TODO: this doesn't really belong here
   function initItems() {
-    $("#add-items,#add-items_1,#add-items_2").find(".add-item, .add-item_1, .add-item_2").mousedown(function(e) {
+    $("#add-items,#add-items_1,#add-items_2,#add-items_3,#add-items_4,#add-items_5").find(".add-item, .add-item_1, .add-item_2, .add-item_3, .add-item_4, .add-item_5").mousedown(function(e) {
       var modelUrl = $(this).attr("model-url");
       var itemType = parseInt($(this).attr("model-type"));
       var modelPrice = $(this).attr("model-price");
