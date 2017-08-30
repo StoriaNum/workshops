@@ -109,6 +109,24 @@ div {
   overflow-y: auto; 
 }
 
+#add-items_3 {
+  display: none;
+  padding: 20px;
+  overflow-y: auto; 
+}
+
+#add-items_4 {
+  display: none;
+  padding: 20px;
+  overflow-y: auto; 
+}
+
+#add-items_5 {
+  display: none;
+  padding: 20px;
+  overflow-y: auto; 
+}
+
 #main-controls {
   position: absolute;
   top: 20px;
@@ -160,6 +178,18 @@ div {
 }
 
 .add-item_2 {
+  cursor: pointer;
+}
+
+.add-item_3 {
+  cursor: pointer;
+}
+
+.add-item_4 {
+  cursor: pointer;
+}
+
+.add-item_5 {
   cursor: pointer;
 }
 
