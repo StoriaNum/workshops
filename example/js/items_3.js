@@ -2,41 +2,159 @@
 
 $(document).ready(function() {
   var items_3 = [
-    {
-      "name" : "Tappeto",
-      "image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
-      "model" : "models/js/cb-blue-block-60x96.js",
+    
+   {
+      "name" : "Carrellino ",
+      "image" : "models/thumbnails/thumbnail_46_500BR.jpg",
+      "model" : "models/js/46500BR.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery": "#",
-      "type" : "8"
+      "gallery" : "#",
+      "type" : "1"
+    },
+{
+      "name" : "Carrellino 2",
+      "image" : "models/thumbnails/46_301BR_02.jpg",
+      "model" : "models/js/46_301BR.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+      {
+      "name" : "Carrellino 3",
+      "image" : "models/thumbnails/68_221_04.jpg",
+      "model" : "models/js/68_221AM_01.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+    {
+      "name" : "Carrellino 4",
+      "image" : "models/thumbnails/68_700_01.jpg",
+      "model" : "models/js/68_700AM.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
     },
         {
-      "name" : "Tappeto Kilim 1",
-      "image" : "models/thumbnails/thumbnail_HTR034-87_1.jpg",
-      "model" : "models/js/tappetokilim1.js",
+      "name" : "Carrellino 5",
+      "image" : "models/thumbnails/04_10_09.jpg",
+      "model" : "models/js/04_10_05B.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery": "#",
-      "type" : "8"
+      "gallery" : "#",
+      "type" : "1"
     },
-    {
-      "name" : "Poster Torre",
-      "image" : "models/thumbnails/thumbnail_torre-di-pisa.jpg",
-      "model" : "models/js/poster-pisa.js",
+            {
+      "name" : "Carrellino 6",
+      "image" : "models/thumbnails/04_10_08.jpg",
+      "model" : "models/js/04_10_06B.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery": "#",
-      "type" : "2"
+      "gallery" : "#",
+      "type" : "1"
     },
-    {
-      "name" : "Poster-Quadro-Foto",
-      "image" : "models/thumbnails/thumbnail_nyc2.jpg",
-      "model" : "models/js/nyc-poster2.js",
+{
+      "name" : "Tavolo attrezzato 1",
+      "image" : "models/thumbnails/04_512_04_Lochwand_01.jpg",
+      "model" : "models/js/04_512_04A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery": "#",
-      "type" : "2"
+      "gallery" : "#",
+      "type" : "1"
+    },
+            {
+      "name" : "Tavolo attrezzato 2",
+      "image" : "models/thumbnails/04_512_01.jpg",
+      "model" : "models/js/04_512_03A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+                {
+      "name" : "Armadietto carrellino 1",
+      "image" : "models/thumbnails/04_11_03.jpg",
+      "model" : "models/js/04_11_05A_01.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+                    {
+      "name" : "Carrellino CNC 1",
+      "image" : "models/thumbnails/02_88_02.jpg",
+      "model" : "models/js/02_88_06A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+                        {
+      "name" : "Carrellino CNC 2",
+      "image" : "models/thumbnails/02_86_01.jpg",
+      "model" : "models/js/02_85_07A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+                            {
+      "name" : "Carrellino CNC 3",
+      "image" : "models/thumbnails/02_780_04_ge_ffnet_01.jpg",
+      "model" : "models/js/02_580_04RB.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+{
+      "name" : "Armadietto 5",
+      "image" : "models/thumbnails/04_110_M_offen_01.jpg",
+      "model" : "models/js/04_110B.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+                {
+      "name" : "Armadietto 6",
+      "image" : "models/thumbnails/04_105K_01.jpg",
+      "model" : "models/js/04_105K.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+{
+      "name" : "Tavolino 03",
+      "image" : "models/thumbnails/05_10_09.jpg",
+      "model" : "models/js/05_10_03B.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+{
+      "name" : "Rack 00",
+      "image" : "models/thumbnails/04_118_600.jpg",
+      "model" : "models/js/04_118_600A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+{
+      "name" : "Stazione appoggiatutto 00",
+      "image" : "models/thumbnails/53_450_876thurmetall.jpg",
+      "model" : "models/js/53_450_876thurmetall.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
     }
       
    /*     
