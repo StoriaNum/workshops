@@ -2,41 +2,51 @@
 
 $(document).ready(function() {
   var items_1 = [
+    
     {
-      "name" : "Tappeto",
-      "image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
-      "model" : "models/js/cb-blue-block-60x96.js",
+      "name" : "Tavolino in Legno",
+      "image" : "models/thumbnails/thumbnail_Blu-Dot-Shale-Bedside-Table.jpg",
+      "model" : "models/js/bd-shalebedside-smoke_baked.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "type" : "8"
+      "type" : "1"
+    }, 
+{
+      "name" : "Tavolino 00",
+      "image" : "models/thumbnails/03_15_535_2_02.jpg",
+      "model" : "models/js/03_15_535_2A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
     },
-        {
-      "name" : "Tappeto Kilim 1",
-      "image" : "models/thumbnails/thumbnail_HTR034-87_1.jpg",
-      "model" : "models/js/tappetokilim1.js",
+         {
+      "name" : "Tavolino 01",
+      "image" : "models/thumbnails/03_20_580_01.jpg",
+      "model" : "models/js/03_20_580_20A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery": "#",
-      "type" : "8"
+      "gallery" : "#",
+      "type" : "1"
     },
-    {
-      "name" : "Poster Torre",
-      "image" : "models/thumbnails/thumbnail_torre-di-pisa.jpg",
-      "model" : "models/js/poster-pisa.js",
+             {
+      "name" : "Tavolino 02",
+      "image" : "models/thumbnails/03_19_01.jpg",
+      "model" : "models/js/03_19_26A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery": "#",
-      "type" : "2"
+      "gallery" : "#",
+      "type" : "1"
     },
-    {
-      "name" : "Poster-Quadro-Foto",
-      "image" : "models/thumbnails/thumbnail_nyc2.jpg",
-      "model" : "models/js/nyc-poster2.js",
+{
+      "name" : "Tavolo a crescente 00",
+      "image" : "models/thumbnails/5120494.jpg",
+      "model" : "models/js/Howe_Tempest_Flip_Cresent_1500x750.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery": "#",
-      "type" : "2"
+      "gallery" : "#",
+      "type" : "1"
     }
       
    /*     
