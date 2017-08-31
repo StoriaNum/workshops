@@ -73,7 +73,18 @@
 
           <!-- Context Menu -->
           <div id="context-menu">
-            <div style="margin: 0 20px">
+            
+		<script>
+
+var itemTypeVarJS = document.getElementById('itemTypetot').value;
+
+if (itemTypeVarJS !== "000") {
+
+    document.getElementById("context-menu").innerHTML = "
+
+<!-- qui tutti gli arredi da comprare con relative voci e bottoni -->
+
+<div style="margin: 0 20px">
               <span id="context-menu-name" class="lead"></span>
               <br /> 
               <button class="btn btn-block btn-danger" id="context-menu-delete">
@@ -137,6 +148,80 @@
               </a><br /><br />                                                   
               
             </div>
+
+
+";
+}
+
+else {
+
+
+document.getElementById("context-menu").innerHTML = "
+
+<!-- qui tutti gli arredi che non si comprano con relative voci e bottoni di tipo ridotto rispetto a quelli acquistabili-->
+
+<div style="margin: 0 20px">
+              <span id="context-menu-name" class="lead"></span>
+              <br /> 
+              <button class="btn btn-block btn-danger" id="context-menu-delete">
+                <span class="glyphicon glyphicon-trash"></span> 
+                Cancella Arredo
+              </button>
+            <br />
+              
+   
+            <div class="panel panel-default">
+              <div class="panel-heading">Varia Dimensione</div>
+              <div class="panel-body" style="color: #333333">
+
+                <div class="form form-horizontal" class="lead">
+                  <div class="form-group">
+                    <label class="col-sm-5 control-label">
+                       L
+                    </label>
+                    <div class="col-sm-6">
+                   <!--   <input type="number" class="form-control" id="item-width"> se voglio campo L modificabile -->
+                    <input type="number" class="form-control" id="item-width" readonly> 
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-5 control-label">
+                      P 
+                    </label>
+                    <div class="col-sm-6">
+                    <!--  <input type="number" class="form-control" id="item-depth"> se voglio campo P modificabile -->
+                      <input type="number" class="form-control" id="item-depth" readonly>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-5 control-label">
+                      H
+                    </label>
+                    <div class="col-sm-6">
+                    <!--   <input type="number" class="form-control" id="item-height"> se voglio campo H modificabile -->
+                      <input type="number" class="form-control" id="item-height" readonly>
+                    </div>
+                  </div>
+                </div>
+                <small><span class="text-muted">Misure in centimetri [cm]</span></small>
+              </div>
+            </div>
+
+            <label><input type="checkbox" id="fixed" /> Blocca posizione</label>
+ <!--  -->           <br />
+            <br />
+                                                               
+              
+            </div>
+
+
+";
+}
+
+</script>  
+		  
+		  
+		  
           </div>
 
           <!-- Floor textures -->
