@@ -10,7 +10,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "type" : "7"
+      "type" : "000"
     }, 
     {
       "name" : "Porta Aperta",
@@ -19,7 +19,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "type" : "7"
+      "type" : "000"
     }, 
     {
       "name" : "Finestra",
@@ -28,7 +28,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "type" : "3"
+      "type" : "000"
     }, 
     {
       "name" : "Sedia",
