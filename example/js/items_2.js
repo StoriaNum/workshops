@@ -2,80 +2,9 @@
 
 $(document).ready(function() {
   var items_2 = [
-    {
-      "name" : "Comodino in Legno",
-      "image" : "models/thumbnails/thumbnail_Blu-Dot-Shale-Bedside-Table.jpg",
-      "model" : "models/js/bd-shalebedside-smoke_baked.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "1"
-    }, 
-    {
-      "name" : "Comodino Colore Bianco",
-      "image" : "models/thumbnails/thumbnail_arch-white-oval-nightstand.jpg",
-      "model" : "models/js/cb-archnight-white_baked.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "1"
-    },
-    {
-      "name" : "Consolle Luigi XV",
-      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
-      "model" : "models/js/tavoloexp.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "1"
-    },
-    {
-      "name" : "Pouf Scoiattolo Colore Blue",
-      "image" : "models/thumbnails/thumbnail_scoiattolopouf.png",
-      "model" : "models/js/scoiattolopouf.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "https://ohsnapboutique.com/product/2016-easter-palooza-cards/#prettyPhoto[product-gallery]/0/",
-      "type" : "1"
-    },
-    {
-      "name" : "Bliss Rovere con Tessuto Grigio",
-      "image" : "models/thumbnails/thumbnail_bliss_rovere.jpg",
-      "model" : "models/js/bliss1.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-    {
-      "name" : "Bliss Nero Lucido con Ecopelle",
-      "image" : "models/thumbnails/thumbnail_bliss_pelle-nerolucido.jpg",
-      "model" : "models/js/bliss2.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },    
-        {
-      "name" : "Bliss con braccioli blu e nero",
-      "image" : "models/thumbnails/thumbnail_blisswithoutblend.jpg",
-      "model" : "models/js/blisswithoutblend.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },  
-     {
-      "name" : "C1 nero e acciaio",
-      "image" : "models/thumbnails/thumbnail_blisswithoutblend.jpg",
-      "model" : "models/js/c1vitra.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },   
-     {
-      "name" : "Mobiletto tedesco",
+   
+  {
+      "name" : "Mobiletto ",
       "image" : "models/thumbnails/thumbnails_tiefe60104.jpg",
       "model" : "models/js/60_104A.js",
       "price" : "x,y &euro;",
@@ -83,17 +12,8 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     }, 
-     {
-      "name" : "Carrellino tedesco",
-      "image" : "models/thumbnails/thumbnail_46_500BR.jpg",
-      "model" : "models/js/46500BR.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-     {
-      "name" : "Mobiletto tedesco 2",
+{
+      "name" : "Mobiletto 2",
       "image" : "models/thumbnails/thumbnail_60_303_01.jpg",
       "model" : "models/js/60_303.js",
       "price" : "x,y &euro;",
@@ -102,7 +22,7 @@ $(document).ready(function() {
       "type" : "1"
     },
      {
-      "name" : "Mobiletto tedesco 3",
+      "name" : "Mobiletto 3",
       "image" : "models/thumbnails/thumbnail_60_340_03.jpg",
       "model" : "models/js/60_304A.js",
       "price" : "x,y &euro;",
@@ -111,7 +31,7 @@ $(document).ready(function() {
       "type" : "1"
     },
     {
-      "name" : "Mobiletto tedesco 4",
+      "name" : "Mobiletto 4",
       "image" : "models/thumbnails/60_701_01.jpg",
       "model" : "models/js/60_701A.js",
       "price" : "x,y &euro;",
@@ -120,7 +40,7 @@ $(document).ready(function() {
       "type" : "1"
     },
         {
-      "name" : "Mobiletto tedesco 5",
+      "name" : "Mobiletto 5",
       "image" : "models/thumbnails/713-2422_special_02.jpg",
       "model" : "models/js/713-2422.js",
       "price" : "x,y &euro;",
@@ -129,7 +49,7 @@ $(document).ready(function() {
       "type" : "1"
     },
         {
-      "name" : "Mobiletto tedesco 6",
+      "name" : "Mobiletto 6",
       "image" : "models/thumbnails/thumbnail_780-1311_01.jpg",
       "model" : "models/js/780-1311A.js",
       "price" : "x,y &euro;",
@@ -138,7 +58,7 @@ $(document).ready(function() {
       "type" : "1"
     },
         {
-      "name" : "Mobiletto tedesco 7",
+      "name" : "Mobiletto 7",
       "image" : "models/thumbnails/thumbnail_1000-2321_02.jpg",
       "model" : "models/js/1000_2321A.js",
       "price" : "x,y &euro;",
@@ -147,7 +67,7 @@ $(document).ready(function() {
       "type" : "1"
     },
             {
-      "name" : "Mobiletto tedesco 8",
+      "name" : "Mobiletto 8",
       "image" : "models/thumbnails/1000-0222_01.jpg",
       "model" : "models/js/1000_0222A.js",
       "price" : "x,y &euro;",
@@ -155,107 +75,8 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
-         {
-      "name" : "Carrellino tedesco 2",
-      "image" : "models/thumbnails/46_301BR_02.jpg",
-      "model" : "models/js/46_301BR.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-      {
-      "name" : "Carrellino tedesco 3",
-      "image" : "models/thumbnails/68_221_04.jpg",
-      "model" : "models/js/68_221AM_01.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-    {
-      "name" : "Carrellino tedesco 4",
-      "image" : "models/thumbnails/68_700_01.jpg",
-      "model" : "models/js/68_700AM.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-        {
-      "name" : "Carrellino tedesco 5",
-      "image" : "models/thumbnails/04_10_09.jpg",
-      "model" : "models/js/04_10_05B.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-            {
-      "name" : "Carrellino tedesco 6",
-      "image" : "models/thumbnails/04_10_08.jpg",
-      "model" : "models/js/04_10_06B.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-        {
-      "name" : "Tavolo attrezzato tedesco 1",
-      "image" : "models/thumbnails/04_512_04_Lochwand_01.jpg",
-      "model" : "models/js/04_512_04A.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-            {
-      "name" : "Tavolo attrezzato tedesco 2",
-      "image" : "models/thumbnails/04_512_01.jpg",
-      "model" : "models/js/04_512_03A.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-                {
-      "name" : "Armadietto carrellino tedesco 1",
-      "image" : "models/thumbnails/04_11_03.jpg",
-      "model" : "models/js/04_11_05A_01.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-                    {
-      "name" : "Carrellino CNC tedesco 1",
-      "image" : "models/thumbnails/02_88_02.jpg",
-      "model" : "models/js/02_88_06A.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-                        {
-      "name" : "Carrellino CNC tedesco 2",
-      "image" : "models/thumbnails/02_86_01.jpg",
-      "model" : "models/js/02_85_07A.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-                            {
-      "name" : "Carrellino CNC tedesco 3",
-      "image" : "models/thumbnails/02_780_04_ge_ffnet_01.jpg",
-      "model" : "models/js/02_580_04RB.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-                                {
-      "name" : "Armadietto tedesco 1",
+{
+      "name" : "Armadietto 1",
       "image" : "models/thumbnails/02_118_04_neu_01.jpg",
       "model" : "models/js/02_118_04.js",
       "price" : "x,y &euro;",
@@ -264,7 +85,7 @@ $(document).ready(function() {
       "type" : "1"
     },
       {
-      "name" : "Armadietto tedesco 2",
+      "name" : "Armadietto 2",
       "image" : "models/thumbnails/02_95_01-3_01.jpg",
       "model" : "models/js/02_95_01-3A.js",
       "price" : "x,y &euro;",
@@ -273,7 +94,7 @@ $(document).ready(function() {
       "type" : "1"
     },
     {
-      "name" : "Armadietto tedesco 3",
+      "name" : "Armadietto 3",
       "image" : "models/thumbnails/02_98_00-02_1080_4_03.jpg",
       "model" : "models/js/02_2098_00K.js",
       "price" : "x,y &euro;",
@@ -282,7 +103,7 @@ $(document).ready(function() {
       "type" : "1"
     },
         {
-      "name" : "Armadietto tedesco 4",
+      "name" : "Armadietto 4",
       "image" : "models/thumbnails/02_140_03.jpg",
       "model" : "models/js/02_140-1RA.js",
       "price" : "x,y &euro;",
@@ -290,26 +111,8 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
-            {
-      "name" : "Armadietto tedesco 5",
-      "image" : "models/thumbnails/04_110_M_offen_01.jpg",
-      "model" : "models/js/04_110B.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-                {
-      "name" : "Armadietto tedesco 6",
-      "image" : "models/thumbnails/04_105K_01.jpg",
-      "model" : "models/js/04_105K.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-                    {
-      "name" : "Armadio tedesco 1",
+{
+      "name" : "Armadio 1",
       "image" : "models/thumbnails/04_155_4_01.jpg",
       "model" : "models/js/04_155_04A.js",
       "price" : "x,y &euro;",
@@ -318,7 +121,7 @@ $(document).ready(function() {
       "type" : "1"
     },
                         {
-      "name" : "Armadio tedesco 2",
+      "name" : "Armadio 2",
       "image" : "models/thumbnails/04_155_02.jpg",
       "model" : "models/js/04_155_12A.js",
       "price" : "x,y &euro;",
@@ -326,129 +129,12 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
-     {
-      "name" : "Tavolino tedesco 00",
-      "image" : "models/thumbnails/03_15_535_2_02.jpg",
-      "model" : "models/js/03_15_535_2A.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-         {
-      "name" : "Tavolino tedesco 01",
-      "image" : "models/thumbnails/03_20_580_01.jpg",
-      "model" : "models/js/03_20_580_20A.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-             {
-      "name" : "Tavolino tedesco 02",
-      "image" : "models/thumbnails/03_19_01.jpg",
-      "model" : "models/js/03_19_26A.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-                 {
-      "name" : "Tavolino tedesco 03",
-      "image" : "models/thumbnails/05_10_09.jpg",
-      "model" : "models/js/05_10_03B.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-     {
-      "name" : "Rack tedesco 00",
-      "image" : "models/thumbnails/04_118_600.jpg",
-      "model" : "models/js/04_118_600A.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-     {
-      "name" : "Scaffalatura tedesca 00",
-      "image" : "models/thumbnails/hoehe-2700-mm-8-ebenen.jpg",
-      "model" : "models/js/HZGA27310EX_ZEILE_5_02_002_20.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-         {
-      "name" : "Scaffalatura tedesca 01",
-      "image" : "models/thumbnails/hoehe-2000-mm-6-ebenen.jpg",
-      "model" : "models/js/HRG20610DA_07.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-             {
-      "name" : "Tavolo a crescente tedesco 00",
-      "image" : "models/thumbnails/5120494.jpg",
-      "model" : "models/js/Howe_Tempest_Flip_Cresent_1500x750.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-                 {
+ {
       "name" : "Cassettiera laboratorio 00",
       "image" : "models/thumbnails/11_502_010.jpg",
       "model" : "models/js/11_502_010lista.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-       {
-      "name" : "Stazione appoggiatutto 00",
-      "image" : "models/thumbnails/53_450_876thurmetall.jpg",
-      "model" : "models/js/53_450_876thurmetall.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-    {
-      "name" : "Fluttable",
-      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
-      "model" : "models/js/fluttable.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-    {
-      "name" : "Mobiletto Bagno Esemlus",
-      "image" : "models/thumbnails/thumbnail_mobilettobagno.jpg",
-      "model" : "models/js/mobilettobagno2.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-    {
-      "name" : "FluttableBis",
-      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
-      "model" : "",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-        {
-      "name" : "Sediaspec",
-      "image" : "models/thumbnails/thumbnail_tavoloexp.png",
-      "model" : "models/js/xgiowood2.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "http://www.google.it",
       "gallery" : "#",
       "type" : "1"
     }
