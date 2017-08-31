@@ -3,7 +3,7 @@
 $(document).ready(function() {
   var items_4 = [
     {
-      "name" : "Rack tedesco 00",
+      "name" : "Rack 00",
       "image" : "models/thumbnails/04_118_600.jpg",
       "model" : "models/js/04_118_600A.js",
       "price" : "x,y &euro;",
