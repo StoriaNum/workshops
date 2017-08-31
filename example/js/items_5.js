@@ -3,41 +3,24 @@
 $(document).ready(function() {
   var items_5 = [
     {
-      "name" : "Tappeto",
-      "image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
-      "model" : "models/js/cb-blue-block-60x96.js",
+      "name" : "Scaffalatura 00",
+      "image" : "models/thumbnails/hoehe-2700-mm-8-ebenen.jpg",
+      "model" : "models/js/HZGA27310EX_ZEILE_5_02_002_20.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery": "#",
-      "type" : "8"
+      "gallery" : "#",
+      "type" : "1"
     },
-        {
-      "name" : "Tappeto Kilim 1",
-      "image" : "models/thumbnails/thumbnail_HTR034-87_1.jpg",
-      "model" : "models/js/tappetokilim1.js",
+         {
+      "name" : "Scaffalatura 01",
+      "image" : "models/thumbnails/hoehe-2000-mm-6-ebenen.jpg",
+      "model" : "models/js/HRG20610DA_07.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery": "#",
-      "type" : "8"
-    },
-    {
-      "name" : "Poster Torre",
-      "image" : "models/thumbnails/thumbnail_torre-di-pisa.jpg",
-      "model" : "models/js/poster-pisa.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "2"
-    },
-    {
-      "name" : "Poster-Quadro-Foto",
-      "image" : "models/thumbnails/thumbnail_nyc2.jpg",
-      "model" : "models/js/nyc-poster2.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "2"
+      "gallery" : "#",
+      "type" : "1"
     }
+    
       
    /*     
    {
