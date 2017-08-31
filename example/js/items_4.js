@@ -3,41 +3,15 @@
 $(document).ready(function() {
   var items_4 = [
     {
-      "name" : "Tappeto",
-      "image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
-      "model" : "models/js/cb-blue-block-60x96.js",
+      "name" : "Rack tedesco 00",
+      "image" : "models/thumbnails/04_118_600.jpg",
+      "model" : "models/js/04_118_600A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery": "#",
-      "type" : "8"
-    },
-        {
-      "name" : "Tappeto Kilim 1",
-      "image" : "models/thumbnails/thumbnail_HTR034-87_1.jpg",
-      "model" : "models/js/tappetokilim1.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "8"
-    },
-    {
-      "name" : "Poster Torre",
-      "image" : "models/thumbnails/thumbnail_torre-di-pisa.jpg",
-      "model" : "models/js/poster-pisa.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "2"
-    },
-    {
-      "name" : "Poster-Quadro-Foto",
-      "image" : "models/thumbnails/thumbnail_nyc2.jpg",
-      "model" : "models/js/nyc-poster2.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "2"
+      "gallery" : "#",
+      "type" : "1"
     }
+
       
    /*     
    {
