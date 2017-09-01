@@ -82,73 +82,69 @@ if (itemTypeVarJS !== "000") {
 
     document.getElementById("context-menu").innerHTML = '
 
-<!-- qui tutti gli arredi da comprare con relative voci e bottoni -->
-
-<div style="margin: 0 20px">
-              <span id="context-menu-name" class="lead"></span>
-              <br /> 
-              <button class="btn btn-block btn-danger" id="context-menu-delete">
-                <span class="glyphicon glyphicon-trash"></span> 
+&lt;!-- qui tutti gli arredi da comprare con relative voci e bottoni --&gt;
+&lt;div style="margin: 0 20px"&gt;
+              &lt;span id="context-menu-name" class="lead"&gt;&lt;/span&gt;
+              &lt;br /&gt; 
+              &lt;button class="btn btn-block btn-danger" id="context-menu-delete"&gt;
+                &lt;span class="glyphicon glyphicon-trash"&gt;&lt;/span&gt; 
                 Cancella Arredo
-              </button>
-            <br />
+              &lt;/button&gt;
+            &lt;br /&gt;
               
               
-                <a class="btn btn-block btn-info" href="" id="modelGallerylink" target="_blank">
-                <span class="glyphicon glyphicon-align-center"></span> 
+                &lt;a class="btn btn-block btn-info" href="" id="modelGallerylink" target="_blank"&gt;
+                &lt;span class="glyphicon glyphicon-align-center"&gt;&lt;/span&gt; 
                 Zoom arredo
-              </a><br />
+              &lt;/a&gt;&lt;br /&gt;
               
               
-            <div class="panel panel-default">
-              <div class="panel-heading">Varia Dimensione</div>
-              <div class="panel-body" style="color: #333333">
-
-                <div class="form form-horizontal" class="lead">
-                  <div class="form-group">
-                    <label class="col-sm-5 control-label">
+            &lt;div class="panel panel-default"&gt;
+              &lt;div class="panel-heading"&gt;Varia Dimensione&lt;/div&gt;
+              &lt;div class="panel-body" style="color: #333333"&gt;
+                &lt;div class="form form-horizontal" class="lead"&gt;
+                  &lt;div class="form-group"&gt;
+                    &lt;label class="col-sm-5 control-label"&gt;
                        L
-                    </label>
-                    <div class="col-sm-6">
-                   <!--   <input type="number" class="form-control" id="item-width"> se voglio campo L modificabile -->
-                    <input type="number" class="form-control" id="item-width" readonly> 
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-sm-5 control-label">
+                    &lt;/label&gt;
+                    &lt;div class="col-sm-6"&gt;
+                   &lt;!--   &lt;input type="number" class="form-control" id="item-width"&gt; se voglio campo L modificabile --&gt;
+                    &lt;input type="number" class="form-control" id="item-width" readonly&gt; 
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="form-group"&gt;
+                    &lt;label class="col-sm-5 control-label"&gt;
                       P 
-                    </label>
-                    <div class="col-sm-6">
-                    <!--  <input type="number" class="form-control" id="item-depth"> se voglio campo P modificabile -->
-                      <input type="number" class="form-control" id="item-depth" readonly>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-sm-5 control-label">
+                    &lt;/label&gt;
+                    &lt;div class="col-sm-6"&gt;
+                    &lt;!--  &lt;input type="number" class="form-control" id="item-depth"&gt; se voglio campo P modificabile --&gt;
+                      &lt;input type="number" class="form-control" id="item-depth" readonly&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="form-group"&gt;
+                    &lt;label class="col-sm-5 control-label"&gt;
                       H
-                    </label>
-                    <div class="col-sm-6">
-                    <!--   <input type="number" class="form-control" id="item-height"> se voglio campo H modificabile -->
-                      <input type="number" class="form-control" id="item-height" readonly>
-                    </div>
-                  </div>
-                </div>
-                <small><span class="text-muted">Misure in centimetri [cm]</span></small>
-              </div>
-            </div>
-
-            <label><input type="checkbox" id="fixed" /> Blocca posizione</label>
- <!--  -->           <br />
-            <label><span class="text-muted" style="color:green">Prezzo: </span><i><span id="modelPricetot"></span></i></label>
-            <br /><br />
+                    &lt;/label&gt;
+                    &lt;div class="col-sm-6"&gt;
+                    &lt;!--   &lt;input type="number" class="form-control" id="item-height"&gt; se voglio campo H modificabile --&gt;
+                      &lt;input type="number" class="form-control" id="item-height" readonly&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;small&gt;&lt;span class="text-muted"&gt;Misure in centimetri [cm]&lt;/span&gt;&lt;/small&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;label&gt;&lt;input type="checkbox" id="fixed" /&gt; Blocca posizione&lt;/label&gt;
+ &lt;!--  --&gt;           &lt;br /&gt;
+            &lt;label&gt;&lt;span class="text-muted" style="color:green"&gt;Prezzo: &lt;/span&gt;&lt;i&gt;&lt;span id="modelPricetot"&gt;&lt;/span&gt;&lt;/i&gt;&lt;/label&gt;
+            &lt;br /&gt;&lt;br /&gt;
               
-            <a class="btn btn-block btn-success" href="" id="modelBuybasketlink" target="_blank">
-                <span class="glyphicon glyphicon-align-center"></span> 
+            &lt;a class="btn btn-block btn-success" href="" id="modelBuybasketlink" target="_blank"&gt;
+                &lt;span class="glyphicon glyphicon-align-center"&gt;&lt;/span&gt; 
                 Info/Aggiungi al Carrello
-              </a><br /><br />                                                   
+              &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;                                                   
               
-            </div>
-
+            &lt;/div&gt;
 
 ';
 }
