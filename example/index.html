@@ -71,92 +71,9 @@
           </ul>
           <hr />
 
-          <!-- Context Menu -->
+         <!-- Context Menu -->
           <div id="context-menu">
-            
-		<script>
-
-var itemTypeVarJS = document.getElementById('itemTypetot').value;
-
-if (itemTypeVarJS !== "000") {
-
-    document.getElementById("context-menu").innerHTML = '
-
-&lt;!-- qui tutti gli arredi da comprare con relative voci e bottoni --&gt;
-&lt;div style="margin: 0 20px"&gt;
-              &lt;span id="context-menu-name" class="lead"&gt;&lt;/span&gt;
-              &lt;br /&gt; 
-              &lt;button class="btn btn-block btn-danger" id="context-menu-delete"&gt;
-                &lt;span class="glyphicon glyphicon-trash"&gt;&lt;/span&gt; 
-                Cancella Arredo
-              &lt;/button&gt;
-            &lt;br /&gt;
-              
-              
-                &lt;a class="btn btn-block btn-info" href="" id="modelGallerylink" target="_blank"&gt;
-                &lt;span class="glyphicon glyphicon-align-center"&gt;&lt;/span&gt; 
-                Zoom arredo
-              &lt;/a&gt;&lt;br /&gt;
-              
-              
-            &lt;div class="panel panel-default"&gt;
-              &lt;div class="panel-heading"&gt;Varia Dimensione&lt;/div&gt;
-              &lt;div class="panel-body" style="color: #333333"&gt;
-                &lt;div class="form form-horizontal" class="lead"&gt;
-                  &lt;div class="form-group"&gt;
-                    &lt;label class="col-sm-5 control-label"&gt;
-                       L
-                    &lt;/label&gt;
-                    &lt;div class="col-sm-6"&gt;
-                   &lt;!--   &lt;input type="number" class="form-control" id="item-width"&gt; se voglio campo L modificabile --&gt;
-                    &lt;input type="number" class="form-control" id="item-width" readonly&gt; 
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                  &lt;div class="form-group"&gt;
-                    &lt;label class="col-sm-5 control-label"&gt;
-                      P 
-                    &lt;/label&gt;
-                    &lt;div class="col-sm-6"&gt;
-                    &lt;!--  &lt;input type="number" class="form-control" id="item-depth"&gt; se voglio campo P modificabile --&gt;
-                      &lt;input type="number" class="form-control" id="item-depth" readonly&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                  &lt;div class="form-group"&gt;
-                    &lt;label class="col-sm-5 control-label"&gt;
-                      H
-                    &lt;/label&gt;
-                    &lt;div class="col-sm-6"&gt;
-                    &lt;!--   &lt;input type="number" class="form-control" id="item-height"&gt; se voglio campo H modificabile --&gt;
-                      &lt;input type="number" class="form-control" id="item-height" readonly&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;small&gt;&lt;span class="text-muted"&gt;Misure in centimetri [cm]&lt;/span&gt;&lt;/small&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;label&gt;&lt;input type="checkbox" id="fixed" /&gt; Blocca posizione&lt;/label&gt;
- &lt;!--  --&gt;           &lt;br /&gt;
-            &lt;label&gt;&lt;span class="text-muted" style="color:green"&gt;Prezzo: &lt;/span&gt;&lt;i&gt;&lt;span id="modelPricetot"&gt;&lt;/span&gt;&lt;/i&gt;&lt;/label&gt;
-            &lt;br /&gt;&lt;br /&gt;
-              
-            &lt;a class="btn btn-block btn-success" href="" id="modelBuybasketlink" target="_blank"&gt;
-                &lt;span class="glyphicon glyphicon-align-center"&gt;&lt;/span&gt; 
-                Info/Aggiungi al Carrello
-              &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;                                                   
-              
-            &lt;/div&gt;
-
-';
-}
-
-else {
-
-
-document.getElementById("context-menu").innerHTML = '
-
-<!-- qui tutti gli arredi che non si comprano con relative voci e bottoni di tipo ridotto rispetto a quelli acquistabili-->
-
-<div style="margin: 0 20px">
+            <div style="margin: 0 20px">
               <span id="context-menu-name" class="lead"></span>
               <br /> 
               <button class="btn btn-block btn-danger" id="context-menu-delete">
@@ -165,7 +82,13 @@ document.getElementById("context-menu").innerHTML = '
               </button>
             <br />
               
-   
+              
+                <a class="btn btn-block btn-info" href="" id="modelGallerylink" target="_blank">
+                <span class="glyphicon glyphicon-align-center"></span> 
+                Zoom arredo
+              </a><br />
+              
+              
             <div class="panel panel-default">
               <div class="panel-heading">Varia Dimensione</div>
               <div class="panel-body" style="color: #333333">
@@ -205,19 +128,15 @@ document.getElementById("context-menu").innerHTML = '
 
             <label><input type="checkbox" id="fixed" /> Blocca posizione</label>
  <!--  -->           <br />
-            <br />
-                                                               
+            <label><span class="text-muted" style="color:green">Prezzo: </span><i><span id="modelPricetot"></span></i></label>
+            <br /><br />
+              
+            <a class="btn btn-block btn-success" href="" id="modelBuybasketlink" target="_blank">
+                <span class="glyphicon glyphicon-align-center"></span> 
+                Info/Aggiungi al Carrello
+              </a><br /><br />                                                   
               
             </div>
-
-
-';
-}
-
-</script>  
-		  
-		  
-		  
           </div>
 
           <!-- Floor textures -->
