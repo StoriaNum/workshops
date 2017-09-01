@@ -16,7 +16,7 @@ $(document).ready(function() {
       "name" : "Porta Aperta",
       "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.22.46_PM.png",
       "model" : "models/js/open_door.js",
-      "price" : "x,y &euro;",
+      "price" : "000",
       "buybasket" : "",
       "gallery": "#",
       "type" : "7"
