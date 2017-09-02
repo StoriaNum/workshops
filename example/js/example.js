@@ -126,7 +126,7 @@ var ContextMenu = function(blueprint3d) {
    $("#modelPricetot").text(item.metadata.modelPrice); 
     
   // document.getElementById("selettoreifprezzo").textContent=""+item.metadata.modelPrice+"";  
-  var selettoreifprezzo = ""+item.metadata.modelPrice+"";   
+  var selettoreifprezzo = ""+item.metadata.modelPrice+"";
   if (selettoreifprezzo === "000") { 
             document.getElementById("modelGallerylink").setAttribute("hidden", true);
             document.getElementById("prez").setAttribute("hidden", true);
