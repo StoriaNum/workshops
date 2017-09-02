@@ -133,6 +133,12 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("modelPricetot").setAttribute("hidden", true);
   
   }
+  else  { 
+            document.getElementById("modelGallerylink").removeAttribute("hidden");
+            document.getElementById("prez").removeAttribute("hidden");
+            document.getElementById("modelPricetot").removeAttribute("hidden");
+  
+  }
    
    var modelBuybasketuri = ""+item.metadata.modelBuybasket+""; 
    document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
