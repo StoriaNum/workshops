@@ -2,23 +2,32 @@
 
 $(document).ready(function() {
   var items_0 = [
+     {
+      "name" : "Porta Chiusa",
+      "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
+      "model" : "models/js/closed-door28x80_baked.js",
+      "price" : "000",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "7"
+    }, 
     {
-      "name" : "Scaffalatura 00",
-      "image" : "models/thumbnails/hoehe-2700-mm-8-ebenen.jpg",
-      "model" : "models/js/HZGA27310EX_ZEILE_5_02_002_20.js",
-      "price" : "x,y &euro;",
+      "name" : "Porta Aperta",
+      "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.22.46_PM.png",
+      "model" : "models/js/open_door.js",
+      "price" : "000",
       "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-         {
-      "name" : "Scaffalatura 01",
-      "image" : "models/thumbnails/hoehe-2000-mm-6-ebenen.jpg",
-      "model" : "models/js/HRG20610DA_07.js",
-      "price" : "x,y &euro;",
+      "gallery": "#",
+      "type" : "7"
+    }, 
+    {
+      "name" : "Finestra",
+      "image" : "models/thumbnails/thumbnail_window.png",
+      "model" : "models/js/whitewindow.js",
+      "price" : "000",
       "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
+      "gallery": "#",
+      "type" : "3"
     }
     
       
