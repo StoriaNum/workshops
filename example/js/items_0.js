@@ -6,7 +6,7 @@ $(document).ready(function() {
       "name" : "Porta Chiusa",
       "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
       "model" : "models/js/closed-door28x80_baked.js",
-      "price" : "000",
+      "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
       "type" : "7"
@@ -15,7 +15,7 @@ $(document).ready(function() {
       "name" : "Porta Aperta",
       "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.22.46_PM.png",
       "model" : "models/js/open_door.js",
-      "price" : "000",
+      "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
       "type" : "7"
@@ -24,7 +24,7 @@ $(document).ready(function() {
       "name" : "Finestra",
       "image" : "models/thumbnails/thumbnail_window.png",
       "model" : "models/js/whitewindow.js",
-      "price" : "000",
+      "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
       "type" : "3"
@@ -66,9 +66,8 @@ $(document).ready(function() {
                 item.image +
                 '" alt="Add Item"> '+
                 item.name +  
-            /*    '<br><i>Prezzo:</i> ' + item.price +   */ /* commentato per complementi di progettazione che sono non in vendita */
-                '<br><i>NOT ON SALE</i> ' + ' ' + 
-                '</a></div>';
+               '<br><i> ' + item.price +    /* per complementi di progettazione che non sono in vendita */
+                '</i></a></div>';
     itemsDiv_0.append(html_0);
   }
 });
