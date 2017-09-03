@@ -2,16 +2,7 @@
 
 $(document).ready(function() {
   var items = [
-   
-    {
-      "name" : "Porta Chiusa",
-      "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
-      "model" : "models/js/closed-door28x80_baked.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "7"
-    }, 
+  
     {
       "name" : "Porta Aperta",
       "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.22.46_PM.png",
@@ -20,15 +11,6 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery": "#",
       "type" : "7"
-    }, 
-    {
-      "name" : "Finestra",
-      "image" : "models/thumbnails/thumbnail_window.png",
-      "model" : "models/js/whitewindow.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "3"
     }, 
     {
       "name" : "Sedia",
