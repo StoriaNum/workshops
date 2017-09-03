@@ -124,19 +124,20 @@ var ContextMenu = function(blueprint3d) {
    document.getElementById("modelGallerylink").href = modelGalleryuri;
     
    $("#modelPricetot").text(item.metadata.modelPrice); 
-    
-  // document.getElementById("selettoreifprezzo").textContent=""+item.metadata.modelPrice+"";  
+     
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
   if (selettoreifprezzo === "000") { 
-             document.getElementById("modelGallerylink").style.display="none";
+            document.getElementById("modelGallerylink").style.display="none";
             document.getElementById("prez").setAttribute("hidden", true);
             document.getElementById("modelPricetot").setAttribute("hidden", true);
+            document.getElementById("modelBuybasketlink").style.display="none";
   
   }
   else  { 
             $("#modelGallerylink").show();
             document.getElementById("prez").removeAttribute("hidden");
             document.getElementById("modelPricetot").removeAttribute("hidden");
+            $("#modelBuybasketlink").show();
   
   }
    
