@@ -66,7 +66,8 @@ $(document).ready(function() {
                 item.image +
                 '" alt="Add Item"> '+
                 item.name +  
-                '<br><i>Prezzo:</i> ' + item.price +
+            /*    '<br><i>Prezzo:</i> ' + item.price +   */ /* commentato per complementi di progettazione che sono non in vendita */
+                '<br><i>NOT ON SALE</i> ' + ' ' + 
                 '</a></div>';
     itemsDiv_0.append(html_0);
   }
