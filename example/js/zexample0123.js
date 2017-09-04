@@ -124,7 +124,32 @@ var ContextMenu = function(blueprint3d) {
    document.getElementById("modelGallerylink").href = modelGalleryuri;
     
    $("#modelPricetot").text(item.metadata.modelPrice); 
-     
+    
+    
+  var selettoreifprezzo = ""+item.metadata.modelPrice+"";
+  if (selettoreifprezzo === "NOT-ON-SALE") { 
+            document.getElementById("modelGallerylink").style.display="none";
+            document.getElementById("prez").setAttribute("hidden", true);
+            document.getElementById("modelPricetot").setAttribute("hidden", true);
+            document.getElementById("modelBuybasketlink").style.display="none";
+            document.getElementById("item-width").removeAttribute("readonly");
+            document.getElementById("item-depth").removeAttribute("readonly");
+            document.getElementById("item-height").removeAttribute("readonly");
+            document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
+  
+  }
+  else  { 
+            $("#modelGallerylink").show();
+            document.getElementById("prez").removeAttribute("hidden");
+            document.getElementById("modelPricetot").removeAttribute("hidden");
+            $("#modelBuybasketlink").show();
+            document.getElementById("item-width").setAttribute("readonly", true);
+            document.getElementById("item-depth").setAttribute("readonly", true);
+            document.getElementById("item-height").setAttribute("readonly", true);
+            document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";
+  
+  }
+    
    
    var modelBuybasketuri = ""+item.metadata.modelBuybasket+""; 
    document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
