@@ -97,6 +97,12 @@ div {
   overflow-y: auto; 
 }
 
+#add-items_0 {
+  display: none;
+  padding: 20px;
+  overflow-y: auto; 
+}
+
 #add-items_1 {
   display: none;
   padding: 20px;
@@ -170,6 +176,10 @@ div {
 }
 
 .add-item {
+  cursor: pointer;
+}
+
+.add-item_0 {
   cursor: pointer;
 }
 
