@@ -3,15 +3,7 @@
 $(document).ready(function() {
   var items = [
   
-    {
-      "name" : "Porta Aperta",
-      "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.22.46_PM.png",
-      "model" : "models/js/open_door.js",
-      "price" : "NOT-ON-SALE",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "7"
-    }, 
+
     {
       "name" : "Sedia",
       "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
