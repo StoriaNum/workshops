@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blueprint Esempio</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/example.css" rel="stylesheet">
+
+    <!-- Make sure you've built blueprint3d.js -->
+    <!-- See README.md for details -->
+    <script src="js/blueprint3d.js"></script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/items.js"></script>
+    
+    <script src="js/items_0.js"></script>
+    <script src="js/items_1.js"></script>
+    <script src="js/items_2.js"></script>
+    <script src="js/items_3.js"></script>
+    <script src="js/items_4.js"></script>
+    <script src="js/items_5.js"></script>
+    
+    <script src="js/zexample0123.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/html2canvas.js"></script>
+    
+<style>
+div.ciao {
+
+    margin-left: 250px;
+}
+</style>
+       
+  </head>
+
+  <body> 
+    <div class="ciao"> 
+    <div class="container-fluid">
+      <div class="row main-row">
+
+        
+    
+          
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-xs-9 main">    <div id="imagesave">
+
+          <!-- 3D Viewer -->
+          <div id="viewer">
+
+            <div id="main-controls"> <!--
+              <a href="#" class="btn btn-default btn-sm" id="new">
+                Nuovo
+              </a>
+              <a href="#" class="btn btn-default btn-sm" id="saveFile">
+                Salva
+              </a>
+              <a class="btn btn-sm btn-default btn-file">
+               <input type="file" class="hidden-input" id="loadFile">
+               Carica
+              </a>
+            -->
+
+<a href="#" class="btn btn-default btn-sm" id="save_image_locally">
+  ImgJpg
+</a>  
+<script>
+  $('#save_image_locally').click(function(){
+    html2canvas($('#imagesave'), 
+    {
+      onrendered: function (canvas) {  
+       var a = document.createElement('a');
+        // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
+        a.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
+        a.download = 'myfilename.jpg';
+        a.click();  
+   
+      }
+    });
+  });
+</script>
+              
+<!-- insert label storiablue with its own link                  
+
+<a href="storiablueblue" style="font-size: 20px; font-style: italic; color: red;">storiablue</a>
+--> 
+              
+<span class="mcright"><a href="storiablueblue" class="fontkaushan">storiabluee12345</a>
+</span>
+                    
+
+              
+<!-- end inserting label storiablue with its own link  -->
+               
+            </div>
+            
+           
+             
+            
+            
+            <div id="camera-controls">
+              <a href="#" class="btn btn-default bottom" id="zoom-out">
+                <span class="glyphicon glyphicon-zoom-out"></span>
+              </a>
+              <a href="#" class="btn btn-default bottom" id="reset-view">
+                <span class="glyphicon glyphicon glyphicon-home"></span>
+              </a>
+              <a href="#" class="btn btn-default bottom" id="zoom-in">
+                <span class="glyphicon glyphicon-zoom-in"></span>
+              </a>
+              
+              <span>&nbsp;</span>
+
+              <a class="btn btn-default bottom" href="#" id="move-right" >
+                <span class="glyphicon glyphicon-arrow-left"></span>
+              </a>
+              <span class="btn-group-vertical">
+                <a class="btn btn-default" href="#" id="move-down">
+                  <span class="glyphicon glyphicon-arrow-up"></span>
+                </a>
+                <a class="btn btn-default" href="#" id="move-up">
+                  <span class="glyphicon glyphicon-arrow-down"></span>
+                </a>
+              </span>
+              <a class="btn btn-default bottom" href="#" id="move-left" >
+                <span class="glyphicon glyphicon-arrow-right"></span>
+              </a>
+            </div>
+
+            <div id="loading-modal">
+              <h1>Caricamento Arredo nella Stanza di Esempio...</h1>  
+            </div>
+          </div>
+
+          <!-- 2D Floorplanner -->
+          <div id="floorplanner">
+            <canvas id="floorplanner-canvas"></canvas>
+            <div id="floorplanner-controls">
+
+              <button id="move" class="btn btn-sm btn-default">
+                <span class="glyphicon glyphicon-move"></span>
+                Muovi Parete
+              </button>
+              <button id="draw" class="btn btn-sm btn-default">
+                <span class="glyphicon glyphicon-pencil"></span>
+                Disegna Parete
+              </button>
+              <button id="delete" class="btn btn-sm btn-default">
+                <span class="glyphicon glyphicon-remove"></span>
+                Cancella Parete
+              </button>
+              <span class="pull-right">
+                <button class="btn btn-primary btn-sm" id="update-floorplan">Fine &raquo;</button>
+              </span>
+
+            </div>
+            <div id="draw-walls-hint">
+              Premi tasto "Esc" per finire disegno pareti
+            </div>
+          </div>
+
+          <!-- Add Items_0 commento-->
+          <div id="add-items_0">   
+            <div class="row" id="items-wrapper_0">  
+
+              <!-- Items added here by items_0.js commento -->
+            </div>   
+          </div>
+		
+
+          <!-- Add Items -->
+          <div id="add-items">
+            <div class="row" id="items-wrapper">
+
+              <!-- Items added here by items.js -->
+            </div>
+          </div>
+          
+         <!-- Add Items_1 commento-->
+          <div id="add-items_1">   
+            <div class="row" id="items-wrapper_1">  
+
+              <!-- Items added here by items_1.js commento -->
+            </div>   
+          </div>     
+      
+          <!-- Add Items_2 commento-->
+          <div id="add-items_2">   
+            <div class="row" id="items-wrapper_2">  
+
+              <!-- Items added here by items_2.js commento -->
+            </div>   
+          </div>
+          
+          
+          <!-- Add Items_3 commento-->
+          <div id="add-items_3">   
+            <div class="row" id="items-wrapper_3">  
+
+              <!-- Items added here by items_3.js commento -->
+            </div>   
+          </div>
+		
+	 <!-- Add Items_4 commento-->
+          <div id="add-items_4">   
+            <div class="row" id="items-wrapper_4">  
+
+              <!-- Items added here by items_4.js commento -->
+            </div>   
+          </div>
+          
+          
+	 <!-- Add Items_5 commento-->
+          <div id="add-items_5">   
+            <div class="row" id="items-wrapper_5">  
+
+              <!-- Items added here by items_5.js commento -->
+            </div>   
+          </div>
+          
+          
+        </div> 
+        <!-- End Right Column -->
+      </div>
+      
+    </div>
+  </body>
+</html>
