@@ -2,9 +2,16 @@
 <html>
   <head>
     <title>Blueprint Esempio</title>
+	
+	  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">	  
 
+	  
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/example.css" rel="stylesheet">
+    <link href="css/iao-alert/iao-alert.css" rel="stylesheet" type="text/css">	  
 
     <!-- Make sure you've built blueprint3d.js -->
     <!-- See README.md for details -->
@@ -65,10 +72,19 @@ div.ciao {
                Carica
               </a>
             -->
-<!--
-<a href="#" class="btn btn-default btn-sm" id="save_image_locally">
-  ImgJpg
-</a>  -->
+		    
+<a href="#" class="btn btn-default btn-sm" id="info-sign">
+<span class="glyphicon glyphicon-info-sign"></span>
+</a>
+<script src="css/iao-alert/iao-alert.jquery.js"></script>
+<script>
+$( "#info-sign" ).click(function() {
+  $.iaoAlert({msg: "You are on the Floor 2",
+            type: "notification",
+            mode: "dark",})
+});
+</script>	
+		    
 <a href="#" class="btn btn-default btn-sm" id="save_image_locally">
 <span class="glyphicon glyphicon-screenshot"></span>&nbsp; Jpg
 </a>		    
