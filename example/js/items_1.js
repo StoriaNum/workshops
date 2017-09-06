@@ -16,7 +16,7 @@ $(document).ready(function() {
       "name" : "Tavolino 00",
       "image" : "models/thumbnails/03_15_535_2_02.jpg",
       "model" : "models/js/03_15_535_2A.js",
-      "price" : "x,y &euro;",
+      "price" : "50,36 &euro;",
       "buybasket" : "",
       "gallery" : "#",
       "type" : "1"
@@ -25,7 +25,7 @@ $(document).ready(function() {
       "name" : "Tavolino 01",
       "image" : "models/thumbnails/03_20_580_01.jpg",
       "model" : "models/js/03_20_580_20A.js",
-      "price" : "x,y &euro;",
+      "price" : "200,90 &euro;",
       "buybasket" : "",
       "gallery" : "#",
       "type" : "1"
