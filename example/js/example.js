@@ -127,7 +127,6 @@ var ContextMenu = function(blueprint3d) {
    
      
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
-  var selettoreifcustom = ""+item.metadata.itemType+"";
   
   var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";
   document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
@@ -151,9 +150,9 @@ var ContextMenu = function(blueprint3d) {
   }
 
     
-          else if(selettoreifcustom == "CUSTOM") {    
+          else if(selettoreifprezzo === "CUSTOM:A-RICHIESTA") {    
     
-               /*  eventualmente mettere condizione su prezzo customizzato custom-a-richiesta */                             
+                                          
                                            
                                             document.getElementById("infoiva").setAttribute("hidden", true); 
                                             $("#modelBuybasketlink2").show();
@@ -177,7 +176,7 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("item-depth").setAttribute("readonly", true);
             document.getElementById("item-height").setAttribute("readonly", true);
             document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";
-            document.getElementById("esperimento").innerHTML = "EXP: "+selettoreifcustom+"";
+            
   
   }       
    
