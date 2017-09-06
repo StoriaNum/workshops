@@ -142,7 +142,7 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("infoiva").setAttribute("hidden", true);
             document.getElementById("modelPricetot").setAttribute("hidden", true);
             document.getElementById("modelBuybasketlink").style.display="none";
-          //  document.getElementById("modelBuybasketlink2").style.display="none";
+            document.getElementById("modelBuybasketlink2").style.display="none";
             document.getElementById("item-width").removeAttribute("readonly");
             document.getElementById("item-depth").removeAttribute("readonly");
             document.getElementById("item-height").removeAttribute("readonly");
@@ -151,7 +151,7 @@ var ContextMenu = function(blueprint3d) {
   }
 
     
-           else if(selettoreifcustom === "CUSTOM" && selettoreifprezzo !== "NOT-ON-SALE") {   
+           else if(selettoreifcustom === "CUSTOM") {   
                                             
                                            
                                             document.getElementById("infoiva").setAttribute("hidden", true); 
