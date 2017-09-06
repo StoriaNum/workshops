@@ -151,9 +151,9 @@ var ContextMenu = function(blueprint3d) {
   }
 
     
-        /*   else if(selettoreifcustom === "CUSTOM") {   */ 
-    if(selettoreifcustom === "CUSTOM" && selettoreifprezzo !== "NOT-ON-SALE") {
-                                            
+          else if(selettoreifcustom === "CUSTOM" && selettoreifprezzo !== "NOT-ON-SALE") {    
+    
+               /*  eventualmente mettere condizione su prezzo customizzato custom-a-richiesta */                             
                                            
                                             document.getElementById("infoiva").setAttribute("hidden", true); 
                                             $("#modelBuybasketlink2").show();
