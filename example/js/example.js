@@ -151,9 +151,9 @@ var ContextMenu = function(blueprint3d) {
   }
 
     
-  else  if (selettoreifcustom === "CUSTOM") { 
+    if (selettoreifcustom === "CUSTOM") { 
                                             
-                                            document.getElementById("infoiva").removeAttribute("hidden"); /// PROVA
+                                            
                                             document.getElementById("infoiva").setAttribute("hidden", true);
                                             $("#modelBuybasketlink2").show();
                                             document.getElementById("modelBuybasketlink2").href = "";
