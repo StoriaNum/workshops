@@ -126,6 +126,10 @@ var ContextMenu = function(blueprint3d) {
    $("#modelPricetot").text(item.metadata.modelPrice); 
      
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
+  var selettoreifcustom = ""+item.metadata.itemType+"";
+  var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";  
+    
+    
   if (selettoreifprezzo === "NOT-ON-SALE") { 
             document.getElementById("modelGallerylink").style.display="none";
             document.getElementById("prez").setAttribute("hidden", true);
@@ -139,6 +143,36 @@ var ContextMenu = function(blueprint3d) {
   
   }
   else  { 
+    
+    /////////////////////////////////////////////////////////////// trattamento di arredi personalizzabili
+    
+                                    if (selettoreifcustom === "CUSTOM") { 
+
+                                            document.getElementById("infoiva").setAttribute("hidden", true);
+                                            document.getElementById("modelBuybasketlink").href = "";
+                            //NB:    id="basketorcustom" è l'id da inserire nello span associato a modelBuybasketlink
+                                            document.getElementById("basketorcustom").className = "glyphicon glyphicon-send";
+                                            document.getElementById("basketorcustom").textContent=" Richiedi Info e Costi";
+                                            document.getElementById("item-width").removeAttribute("readonly");
+                                            document.getElementById("item-depth").removeAttribute("readonly");
+                                            document.getElementById("item-height").removeAttribute("readonly");
+                                            document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
+
+                                      } else  {
+                                        
+                                        
+                                            document.getElementById("infoiva").removeAttribute("hidden");
+                                            document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
+                                            document.getElementById("basketorcustom").className = "glyphicon glyphicon-align-center";
+                                            document.getElementById("basketorcustom").textContent=" Info/Aggiungi al Carrello";
+                                            document.getElementById("item-width").setAttribute("readonly", true);
+                                            document.getElementById("item-depth").setAttribute("readonly", true);
+                                            document.getElementById("item-height").setAttribute("readonly", true);
+                                            document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";
+                                       }
+                                            
+   /////////////////////////////////////////////////////////////// fine trattamento di arredi personalizzabili 
+    
             $("#modelGallerylink").show();
             document.getElementById("prez").removeAttribute("hidden");
             document.getElementById("infoiva").removeAttribute("hidden");
@@ -151,7 +185,7 @@ var ContextMenu = function(blueprint3d) {
   
   }
    
-   var modelBuybasketuri = ""+item.metadata.modelBuybasket+""; 
+//   var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";      definita qualche rigo prima
    document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
     
     
