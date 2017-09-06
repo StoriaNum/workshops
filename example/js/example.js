@@ -124,6 +124,7 @@ var ContextMenu = function(blueprint3d) {
    document.getElementById("modelGallerylink").href = modelGalleryuri;
     
    $("#modelPricetot").text(item.metadata.modelPrice); 
+   $("#modelPricetot2").text(item.metadata.modelPrice);
      
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
   var selettoreifcustom = ""+item.metadata.itemType+"";
@@ -135,6 +136,9 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("prez").setAttribute("hidden", true);
             document.getElementById("infoiva").setAttribute("hidden", true);
             document.getElementById("modelPricetot").setAttribute("hidden", true);
+            document.getElementById("prez2").setAttribute("hidden", true);
+            document.getElementById("infoiva2").setAttribute("hidden", true);
+            document.getElementById("modelPricetot2").setAttribute("hidden", true);
             document.getElementById("modelBuybasketlink").style.display="none";
             document.getElementById("item-width").removeAttribute("readonly");
             document.getElementById("item-depth").removeAttribute("readonly");
