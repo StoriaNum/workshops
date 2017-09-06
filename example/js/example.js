@@ -128,7 +128,12 @@ var ContextMenu = function(blueprint3d) {
      
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
   var selettoreifcustom = ""+item.metadata.itemType+"";
-  var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";  
+  
+  var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";
+  document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
+  
+  var modelBuybasketuri2 = ""+item.metadata.modelBuybasket+"";
+  document.getElementById("modelBuybasketlink2").href = modelBuybasketuri2;
     
     
   if (selettoreifprezzo === "NOT-ON-SALE") { 
@@ -137,46 +142,35 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("infoiva").setAttribute("hidden", true);
             document.getElementById("modelPricetot").setAttribute("hidden", true);
             document.getElementById("modelBuybasketlink").style.display="none";
+            document.getElementById("modelBuybasketlink2").style.display="none";
             document.getElementById("item-width").removeAttribute("readonly");
             document.getElementById("item-depth").removeAttribute("readonly");
             document.getElementById("item-height").removeAttribute("readonly");
             document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
   
   }
-//  else  { 
+
     
-    /////////////////////////////////////////////////////////////// trattamento di arredi personalizzabili
-    
-                                  else  if (selettoreifcustom === "CUSTOM") { 
+  else  if (selettoreifcustom === "CUSTOM") { 
 
                                             document.getElementById("infoiva").setAttribute("hidden", true);
-                                            document.getElementById("modelBuybasketlink").href = "";
-                            //NB:    id="basketorcustom" è l'id da inserire nello span associato a modelBuybasketlink
-                                        
-                                            document.getElementById("basketorcustom").className = "glyphicon glyphicon-send";
-                                            document.getElementById("basketorcustom").textContent=" Richiedi Info e Costi";
+                                            $("#modelBuybasketlink2").show();
+                                            document.getElementById("modelBuybasketlink2").href = "";
+                                            document.getElementById("modelBuybasketlink").style.display="none";
                                             document.getElementById("item-width").removeAttribute("readonly");
                                             document.getElementById("item-depth").removeAttribute("readonly");
                                             document.getElementById("item-height").removeAttribute("readonly");
                                             document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
 
-                                      }      else  {
+          }      else  {
                                         
-                                        
-                                           
-                                            document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
-                                            document.getElementById("basketorcustom").className = "glyphicon glyphicon-align-center";
-                                            document.getElementById("basketorcustom").textContent=" Info/Aggiungi al Carrello";
-                                           
-                                //       }
-                                            
-   /////////////////////////////////////////////////////////////// fine trattamento di arredi personalizzabili 
     
             $("#modelGallerylink").show();
             document.getElementById("prez").removeAttribute("hidden");
             document.getElementById("infoiva").removeAttribute("hidden");
             document.getElementById("modelPricetot").removeAttribute("hidden");
             $("#modelBuybasketlink").show();
+            document.getElementById("modelBuybasketlink2").style.display="none";
             document.getElementById("item-width").setAttribute("readonly", true);
             document.getElementById("item-depth").setAttribute("readonly", true);
             document.getElementById("item-height").setAttribute("readonly", true);
@@ -185,7 +179,7 @@ var ContextMenu = function(blueprint3d) {
   }
    
 //   var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";      definita qualche rigo prima
-   document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
+//   document.getElementById("modelBuybasketlink").href = modelBuybasketuri;      definita qualche rigo prima
     
     
     $("#item-width").val(cmToIn(selectedItem.getWidth()).toFixed(0));
