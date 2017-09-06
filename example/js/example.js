@@ -151,7 +151,7 @@ var ContextMenu = function(blueprint3d) {
   }
 
     
-          else if(selettoreifcustom === "CUSTOM" && selettoreifprezzo !== "NOT-ON-SALE") {    
+          else if(selettoreifcustom === "CUSTOM") {    
     
                /*  eventualmente mettere condizione su prezzo customizzato custom-a-richiesta */                             
                                            
