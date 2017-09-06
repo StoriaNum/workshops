@@ -52,7 +52,7 @@ $(document).ready(function() {
       "name" : "Tavolo a crescente SU MISURA",
       "image" : "models/thumbnails/5120494.jpg",
       "model" : "models/js/Howe_Tempest_Flip_Cresent_1500x750.js",
-      "price" : "CUSTOM A RICHIESTA",
+      "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
       "gallery" : "#",
       "type" : "1"   
