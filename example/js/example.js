@@ -151,7 +151,7 @@ var ContextMenu = function(blueprint3d) {
   }
 
     
-   else {         if (selettoreifcustom === "CUSTOM") {   
+           else if (selettoreifcustom === "CUSTOM") {   
                                             
                                            
                                             document.getElementById("infoiva").setAttribute("hidden", true); 
@@ -177,7 +177,7 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("item-height").setAttribute("readonly", true);
             document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";
   
-  }     }  
+  }       
    
 //   var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";      definita qualche rigo prima
 //   document.getElementById("modelBuybasketlink").href = modelBuybasketuri;      definita qualche rigo prima
