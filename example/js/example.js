@@ -177,6 +177,7 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("item-depth").setAttribute("readonly", true);
             document.getElementById("item-height").setAttribute("readonly", true);
             document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";
+            document.getElementById("esperimento").innerHTML = "ESPERIMENTO";
   
   }       
    
