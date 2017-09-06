@@ -134,7 +134,7 @@ var ContextMenu = function(blueprint3d) {
   
   var modelBuybasketuri2 = ""+item.metadata.modelBuybasket+"";
   document.getElementById("modelBuybasketlink2").href = modelBuybasketuri2;
-  /*  
+   
     
   if (selettoreifprezzo === "NOT-ON-SALE") { 
             document.getElementById("modelGallerylink").style.display="none";
@@ -151,9 +151,9 @@ var ContextMenu = function(blueprint3d) {
   }
 
     
-   else {         if (selettoreifcustom === "CUSTOM") {   */
+   else {         if (selettoreifcustom === "CUSTOM") {   
                                             
-                   if (selettoreifprezzo === "CUSTOM-A-RICHIESTA") {                         
+                                           
                                             document.getElementById("infoiva").setAttribute("hidden", true); 
                                             $("#modelBuybasketlink2").show();
                                             document.getElementById("modelBuybasketlink2").href = "";
@@ -177,7 +177,7 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("item-height").setAttribute("readonly", true);
             document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";
   
-  }   /*  }  */
+  }     }  
    
 //   var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";      definita qualche rigo prima
 //   document.getElementById("modelBuybasketlink").href = modelBuybasketuri;      definita qualche rigo prima
