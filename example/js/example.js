@@ -151,6 +151,10 @@ var ContextMenu = function(blueprint3d) {
                                             document.getElementById("infoiva").setAttribute("hidden", true);
                                             document.getElementById("modelBuybasketlink").href = "";
                             //NB:    id="basketorcustom" è l'id da inserire nello span associato a modelBuybasketlink
+                                            document.getElementById("prez").setAttribute("hidden", true);
+                                            document.getElementById("infoiva").setAttribute("hidden", true);
+                                            document.getElementById("modelPricetot").setAttribute("hidden", true);
+                                    
                                             document.getElementById("basketorcustom").className = "glyphicon glyphicon-send";
                                             document.getElementById("basketorcustom").textContent=" Richiedi Info e Costi";
                                             document.getElementById("item-width").removeAttribute("readonly");
