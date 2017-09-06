@@ -129,6 +129,7 @@ var ContextMenu = function(blueprint3d) {
   if (selettoreifprezzo === "NOT-ON-SALE") { 
             document.getElementById("modelGallerylink").style.display="none";
             document.getElementById("prez").setAttribute("hidden", true);
+            document.getElementById("infoiva").setAttribute("hidden", true);
             document.getElementById("modelPricetot").setAttribute("hidden", true);
             document.getElementById("modelBuybasketlink").style.display="none";
             document.getElementById("item-width").removeAttribute("readonly");
@@ -140,6 +141,7 @@ var ContextMenu = function(blueprint3d) {
   else  { 
             $("#modelGallerylink").show();
             document.getElementById("prez").removeAttribute("hidden");
+            document.getElementById("infoiva").removeAttribute("hidden");
             document.getElementById("modelPricetot").removeAttribute("hidden");
             $("#modelBuybasketlink").show();
             document.getElementById("item-width").setAttribute("readonly", true);
