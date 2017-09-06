@@ -55,7 +55,7 @@ $(document).ready(function() {
       "price" : "CUSTOM-A-RICHIESTA",
       "buybasket" : "",
       "gallery" : "#",
-      "type" : "CUSTOM"
+      "type" : "1"   /*  1 invece di CUSTOM */
     }
       
    /*     
