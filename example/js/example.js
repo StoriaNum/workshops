@@ -151,7 +151,7 @@ var ContextMenu = function(blueprint3d) {
   }
 
     
-           else if(selettoreifcustom === "CUSTOM") {   
+           else if(selettoreifcustom === "CUSTOM" && selettoreifprezzo !== "NOT-ON-SALE") {   
                                             
                                            
                                             document.getElementById("infoiva").setAttribute("hidden", true); 
