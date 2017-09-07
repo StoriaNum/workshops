@@ -152,8 +152,9 @@ var ContextMenu = function(blueprint3d) {
     
           else if(selettoreifprezzo === "CUSTOM:A-RICHIESTA") {    
     
-                                          
-                                           
+                                            $("#modelGallerylink").show();
+                                            document.getElementById("prez").removeAttribute("hidden");
+                                            document.getElementById("modelPricetot").removeAttribute("hidden");
                                             document.getElementById("infoiva").setAttribute("hidden", true); 
                                             $("#modelBuybasketlink2").show();
                                             document.getElementById("modelBuybasketlink2").href = "";
