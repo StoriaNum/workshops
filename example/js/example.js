@@ -162,7 +162,7 @@ var ContextMenu = function(blueprint3d) {
                    var Prof = inToCm($("#item-depth").val());
         //           document.getElementById("modelBuybasketlink2").href = "http://mediametalli.com?Arredo="+item.metadata.itemName+"&Larg="+Larg+"&Altz="+Altz+"&Prof="+Prof+"";
                    
-document.getElementById("modelBuybasketlink2").href = "http://mediametalli.com?&Larg="+Larg+"&Altz="+Altz+"&Prof="+Prof+"";
+document.getElementById("modelBuybasketlink2").href = "http://mediametalli.com?Larg="+Larg+"&Altz="+Altz+"&Prof="+Prof+"";
   
             
                   document.getElementById("modelBuybasketlink").style.display="none";
