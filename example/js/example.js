@@ -152,23 +152,20 @@ var ContextMenu = function(blueprint3d) {
     
           else if(selettoreifprezzo === "CUSTOM:A-RICHIESTA") {    
     
-                                            $("#modelGallerylink").show();
-                                            document.getElementById("prez").removeAttribute("hidden");
-                                            document.getElementById("modelPricetot").removeAttribute("hidden");
-                                            document.getElementById("infoiva").setAttribute("hidden", true); 
-                                            $("#modelBuybasketlink2").show();
-            
-      var Altz = inToCm($("#item-height").val());
-      var Larg = inToCm($("#item-width").val());
-      var Prof = inToCm($("#item-depth").val());
-      document.getElementById("modelBuybasketlink2").href = "http://mediametalli.com?Larg="+Larg+"&Altz="+Altz+"&Prof="+Prof+"";
-            
-                                        //    document.getElementById("modelBuybasketlink2").href = "";
-                                            document.getElementById("modelBuybasketlink").style.display="none";
-                                            document.getElementById("item-width").removeAttribute("readonly");
-                                            document.getElementById("item-depth").removeAttribute("readonly");
-                                            document.getElementById("item-height").removeAttribute("readonly");
-                                            document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
+                   $("#modelGallerylink").show();
+                   document.getElementById("prez").removeAttribute("hidden");
+                   document.getElementById("modelPricetot").removeAttribute("hidden");
+                   document.getElementById("infoiva").setAttribute("hidden", true); 
+                   $("#modelBuybasketlink2").show();       
+                   var Altz = inToCm($("#item-height").val());
+                   var Larg = inToCm($("#item-width").val());
+                   var Prof = inToCm($("#item-depth").val());
+                   document.getElementById("modelBuybasketlink2").href = "http://mediametalli.com?Arredo="+item.metadata.itemName+"&Larg="+Larg+"&Altz="+Altz+"&Prof="+Prof+"";
+                   document.getElementById("modelBuybasketlink").style.display="none";
+                   document.getElementById("item-width").removeAttribute("readonly");
+                   document.getElementById("item-depth").removeAttribute("readonly");
+                   document.getElementById("item-height").removeAttribute("readonly");
+                   document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
 
           }      else  {
                                         
