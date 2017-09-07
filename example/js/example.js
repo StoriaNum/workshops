@@ -157,7 +157,13 @@ var ContextMenu = function(blueprint3d) {
                                             document.getElementById("modelPricetot").removeAttribute("hidden");
                                             document.getElementById("infoiva").setAttribute("hidden", true); 
                                             $("#modelBuybasketlink2").show();
-                                            document.getElementById("modelBuybasketlink2").href = "";
+            
+      var Altz = inToCm($("#item-height").val());
+      var Larg = inToCm($("#item-width").val());
+      var Prof = inToCm($("#item-depth").val());
+      document.getElementById("modelBuybasketlink2").href = "http://mediametalli.com?Larg="+Larg+"&Altz="+Altz+"&Prof="+Prof+"";
+            
+                                        //    document.getElementById("modelBuybasketlink2").href = "";
                                             document.getElementById("modelBuybasketlink").style.display="none";
                                             document.getElementById("item-width").removeAttribute("readonly");
                                             document.getElementById("item-depth").removeAttribute("readonly");
