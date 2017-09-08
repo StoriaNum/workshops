@@ -148,7 +148,7 @@
             <span class="glyphicon glyphicon-send" id="basketorcustom2"></span>
                 Richiedi Info e Costi
               </a>
-	    <span id="namecodeitem" hidden></span>	    
+	    <span id="namecodeitem" hidden>nome e codice arredo</span>	    
    
    
 <script>
@@ -158,7 +158,7 @@
     var spinnerP = $( "#item-depth" ).spinner();
   //  var primapartediurl = document.getElementById("modelBuybasketlink2").href;
   //  var nomearredo = document.getElementById("context-menu-name").innerHTML;
-    var nomearredo = $('#namecodeitem').text(); 	  
+    var nomearredo = document.getElementById("namecodeitem").innerHTML;	  
     var primapartediurl = "http://mediametalli.com?Arredo="+nomearredo+"";
 
     $( "#modelBuybasketlink2" ).on( "click", function() {
