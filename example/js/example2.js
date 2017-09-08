@@ -156,7 +156,13 @@ var ContextMenu = function(blueprint3d) {
                    document.getElementById("prez").removeAttribute("hidden");
                    document.getElementById("modelPricetot").removeAttribute("hidden");
                    document.getElementById("infoiva").setAttribute("hidden", true); 
-                   $("#modelBuybasketlink2").show();       
+                   $("#modelBuybasketlink2").show();    
+            
+    $( function() {
+    var spinnerW = $( "#item-width" ).spinner();
+    var spinnerH = $( "#item-height" ).spinner();
+    var spinnerP = $( "#item-prof" ).spinner();
+            
                    var Altz = inToCm($("#item-height").val());
                    var Larg = inToCm($("#item-width").val());
                    var Prof = inToCm($("#item-depth").val());
