@@ -158,19 +158,11 @@
     var spinnerW = $( "#item-width" ).spinner();
     var spinnerH = $( "#item-height" ).spinner();
     var spinnerP = $( "#item-depth" ).spinner();
-  //  var primapartediurl = document.getElementById("modelBuybasketlink2").href;
-  //  var nomearredo = document.getElementById("context-menu-name").innerHTML;
- //   var nomearredo = document.getElementById("namecodeitem").href;	  
-  //  var primapartediurl = "http://mediametalli.com?Arredo="+nomearredo+"";
-  // var primapartediurl = document.getElementById("namecodeitem").href;
-
-    $( "#modelBuybasketlink2" ).on( "click", function() {
-	    
+ 
+    $( "#modelBuybasketlink2" ).on( "click", function() {    
       var primapartediurl = document.getElementById("namecodeitem").href;
       var secondapartediurl = "&L="+spinnerW.spinner( "value" )+"&H="+spinnerH.spinner( "value" )+"&P="+spinnerP.spinner( "value" )+"";
-      
-      document.getElementById("modelBuybasketlink2").href = ""+primapartediurl+""+secondapartediurl+"";
-      
+      document.getElementById("modelBuybasketlink2").href = ""+primapartediurl+""+secondapartediurl+""; 
     });
   } );
   </script> 
