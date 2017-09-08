@@ -146,7 +146,7 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("item-depth").removeAttribute("readonly");
             document.getElementById("item-height").removeAttribute("readonly");
             document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
-    document.getElementById("namecodeitem").setAttribute("hidden", true);
+            document.getElementById("namecodeitem").style.display="none";
   
   }
 
@@ -157,14 +157,9 @@ var ContextMenu = function(blueprint3d) {
                    document.getElementById("prez").removeAttribute("hidden");
                    document.getElementById("modelPricetot").removeAttribute("hidden");
                    document.getElementById("infoiva").setAttribute("hidden", true); 
-                   $("#modelBuybasketlink2").show();  
-                //   document.getElementById("namecodeitem").innerHTML = ""+item.metadata.itemName+"";
+                   $("#modelBuybasketlink2").show();                 
                    document.getElementById("namecodeitem").href= "http://mediametalli.com/index.html?Arredo="+item.metadata.itemName+"";
-                   document.getElementById("namecodeitem").setAttribute("hidden", true);
-                 //  var Altz = inToCm($("#item-height").val());
-                 //  var Larg = inToCm($("#item-width").val());
-                 //  var Prof = inToCm($("#item-depth").val());
-                 //  document.getElementById("modelBuybasketlink2").href = "http://mediametalli.com?Arredo="+item.metadata.itemName+"";
+                   document.getElementById("namecodeitem").style.display="none";
                    document.getElementById("modelBuybasketlink").style.display="none";
                    document.getElementById("item-width").removeAttribute("readonly");
                    document.getElementById("item-depth").removeAttribute("readonly");
@@ -183,9 +178,8 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("item-width").setAttribute("readonly", true);
             document.getElementById("item-depth").setAttribute("readonly", true);
             document.getElementById("item-height").setAttribute("readonly", true);
-            document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";
-            
-            document.getElementById("namecodeitem").setAttribute("hidden", true);
+            document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";            
+            document.getElementById("namecodeitem").style.display="none";
   
   }       
    
