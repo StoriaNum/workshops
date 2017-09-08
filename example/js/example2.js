@@ -149,7 +149,7 @@ var ContextMenu = function(blueprint3d) {
   
   }
 
-var primapartediurl =  "http://mediametalli.com?Arredo="+nomearredo+"";    
+    
           else if(selettoreifprezzo === "CUSTOM:A-RICHIESTA") {    
     
                    $("#modelGallerylink").show();
