@@ -160,7 +160,7 @@ var ContextMenu = function(blueprint3d) {
                  //  var Altz = inToCm($("#item-height").val());
                  //  var Larg = inToCm($("#item-width").val());
                  //  var Prof = inToCm($("#item-depth").val());
-                   document.getElementById("modelBuybasketlink2").href = "http://mediametalli.com?Arredo="+item.metadata.itemName+"";
+                 //  document.getElementById("modelBuybasketlink2").href = "http://mediametalli.com?Arredo="+item.metadata.itemName+"";
                    document.getElementById("modelBuybasketlink").style.display="none";
                    document.getElementById("item-width").removeAttribute("readonly");
                    document.getElementById("item-depth").removeAttribute("readonly");
