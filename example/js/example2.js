@@ -149,7 +149,7 @@ var ContextMenu = function(blueprint3d) {
   
   }
 
-    
+var primapartediurl =  "http://mediametalli.com?Arredo="+nomearredo+"";    
           else if(selettoreifprezzo === "CUSTOM:A-RICHIESTA") {    
     
                    $("#modelGallerylink").show();
@@ -157,7 +157,8 @@ var ContextMenu = function(blueprint3d) {
                    document.getElementById("modelPricetot").removeAttribute("hidden");
                    document.getElementById("infoiva").setAttribute("hidden", true); 
                    $("#modelBuybasketlink2").show();  
-                   document.getElementById("namecodeitem").innerHTML = ""+item.metadata.itemName+"";
+                //   document.getElementById("namecodeitem").innerHTML = ""+item.metadata.itemName+"";
+                   document.getElementById("namecodeitem").href= "http://mediametalli.com?Arredo="+item.metadata.itemName+"";
                    document.getElementById("namecodeitem").setAttribute("hidden", true);
                  //  var Altz = inToCm($("#item-height").val());
                  //  var Larg = inToCm($("#item-width").val());
