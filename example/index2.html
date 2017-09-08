@@ -160,10 +160,11 @@
   //  var nomearredo = document.getElementById("context-menu-name").innerHTML;
  //   var nomearredo = document.getElementById("namecodeitem").href;	  
   //  var primapartediurl = "http://mediametalli.com?Arredo="+nomearredo+"";
-   var primapartediurl = document.getElementById("namecodeitem").href;
+  // var primapartediurl = document.getElementById("namecodeitem").href;
 
     $( "#modelBuybasketlink2" ).on( "click", function() {
-      
+	    
+      var primapartediurl = document.getElementById("namecodeitem").href;
       var secondapartediurl = "&L="+spinnerW.spinner( "value" )+"&H="+spinnerH.spinner( "value" )+"&P="+spinnerP.spinner( "value" )+"";
       
       document.getElementById("modelBuybasketlink2").href = ""+primapartediurl+""+secondapartediurl+"";
