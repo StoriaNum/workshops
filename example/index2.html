@@ -156,12 +156,13 @@
     var spinnerW = $( "#item-width" ).spinner();
     var spinnerH = $( "#item-height" ).spinner();
     var spinnerP = $( "#item-depth" ).spinner();
+    var primapartediurl = document.getElementById("modelBuybasketlink2").href;
 
     $( "#modelBuybasketlink2" ).on( "click", function() {
       
-      var partediurl = "?W="+spinnerW.spinner( "value" )+"&H="+spinnerH.spinner( "value" )+"&L="+spinnerP.spinner( "value" )+"";
+      var secondapartediurl = "&L="+spinnerW.spinner( "value" )+"&H="+spinnerH.spinner( "value" )+"&P="+spinnerP.spinner( "value" )+"";
       
-      alert (partediurl);
+      document.getElementById("modelBuybasketlink2").href = ""+primapartediurl+""+secondapartediurl+"";
       
     });
   } );
