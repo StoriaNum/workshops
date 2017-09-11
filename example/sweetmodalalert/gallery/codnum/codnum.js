@@ -1,4 +1,4 @@
-function Functioncodnum() {
+function GalleryZoomFunction() {
 
   $.sweetModal({
 	title: {
