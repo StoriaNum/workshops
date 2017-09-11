@@ -743,7 +743,8 @@ module.exports = {
 },{"./SweetModal.class.coffee":1,"./helpers.coffee":2,"./templates.coffee":4}],4:[function(require,module,exports){
 module.exports = {
   overlay: "<div class=\"sweet-modal-overlay\">\n</div>",
-  modal: "<div class=\"sweet-modal-box\">\n	<div class=\"sweet-modal-close\"><a href=\"javascript:void(0);\" class=\"sweet-modal-close-link\"></a></div>\n	<div class=\"sweet-modal-title-wrap\">\n		<div class=\"sweet-modal-title\"><h2></h2></div>\n	</div>\n	\n	<div class=\"sweet-modal-content\">\n	</div>\n</div>",
+//  modal: "<div class=\"sweet-modal-box\">\n	<div class=\"sweet-modal-close\"><a href=\"javascript:void(0);\" class=\"sweet-modal-close-link\"></a></div>\n	<div class=\"sweet-modal-title-wrap\">\n		<div class=\"sweet-modal-title\"><h2></h2></div>\n	</div>\n	\n	<div class=\"sweet-modal-content\">\n	</div>\n</div>",
+  modal: "<div class=\"sweet-modal-box\">\n	<div class=\"sweet-modal-close\"><a href=\"JavaScript:window.close()\" class=\"sweet-modal-close-link\"></a></div>\n	<div class=\"sweet-modal-title-wrap\">\n		<div class=\"sweet-modal-title\"><h2></h2></div>\n	</div>\n	\n	<div class=\"sweet-modal-content\">\n	</div>\n</div>", 
   buttons: "<div class=\"sweet-modal-buttons\"></div>",
   tabs: {
     links: "<div class=\"sweet-modal-tabs-links\">\n	<ul>\n	</ul>\n</div>",
