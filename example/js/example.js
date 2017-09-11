@@ -139,7 +139,7 @@ var ContextMenu = function(blueprint3d) {
     
   if (selettoreifprezzo === "NOT-ON-SALE") { 
             document.getElementById("modelGallerylink").style.display="none";
-            document.getElementById("btngalleryzoom").style.display="none";
+      //      document.getElementById("btngalleryzoom").style.display="none";
             document.getElementById("prez").setAttribute("hidden", true);
             document.getElementById("infoiva").setAttribute("hidden", true);
             document.getElementById("modelPricetot").setAttribute("hidden", true);
@@ -156,7 +156,7 @@ var ContextMenu = function(blueprint3d) {
     
           else if(selettoreifprezzo === "CUSTOM:A-RICHIESTA") {    
     
-                   $("#btngalleryzoom").show();
+           //        $("#btngalleryzoom").show();
                    $("#modelGallerylink").show();
                    document.getElementById("prez").removeAttribute("hidden");
                    document.getElementById("modelPricetot").removeAttribute("hidden");
@@ -173,7 +173,7 @@ var ContextMenu = function(blueprint3d) {
           }      else  {
                                         
     
-            $("#btngalleryzoom").show();
+     //       $("#btngalleryzoom").show();
             $("#modelGallerylink").show();
             document.getElementById("prez").removeAttribute("hidden");
             document.getElementById("infoiva").removeAttribute("hidden");
