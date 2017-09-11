@@ -45,7 +45,7 @@ $(document).ready(function() {
       "model" : "models/js/Howe_Tempest_Flip_Cresent_1500x750.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "sweetmodalalert/gallery/codnum/codnum.js",
+      "gallery" : "https://storianum.github.io/workshops/example/sweetmodalalert/gallery/codnum/codnum.js",
       "type" : "1"
     },
 {
