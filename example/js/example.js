@@ -158,7 +158,7 @@ var ContextMenu = function(blueprint3d) {
                    document.getElementById("modelPricetot").removeAttribute("hidden");
                    document.getElementById("infoiva").setAttribute("hidden", true); 
                    $("#modelBuybasketlink2").show();                 
-                   document.getElementById("namecodeitem").href= "http://mediametalli.com/index.html?Arredo="+item.metadata.itemName+"";
+                   document.getElementById("namecodeitem").href= "http://mediametalli.altervista.org/sweetmodalalert/emailbox/promptit.html?Arredo="+item.metadata.itemName+"";
                    document.getElementById("namecodeitem").style.display="none";
                    document.getElementById("modelBuybasketlink").style.display="none";
                    document.getElementById("item-width").removeAttribute("readonly");
