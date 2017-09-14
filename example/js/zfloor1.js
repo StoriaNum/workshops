@@ -124,35 +124,67 @@ var ContextMenu = function(blueprint3d) {
    document.getElementById("modelGallerylink").href = modelGalleryuri;
     
    $("#modelPricetot").text(item.metadata.modelPrice); 
-    
-    
+   
+     
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
+  
+  var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";
+  document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
+  
+  var modelBuybasketuri2 = ""+item.metadata.modelBuybasket+"";
+  document.getElementById("modelBuybasketlink2").href = modelBuybasketuri2;
+   
+    
   if (selettoreifprezzo === "NOT-ON-SALE") { 
             document.getElementById("modelGallerylink").style.display="none";
             document.getElementById("prez").setAttribute("hidden", true);
+            document.getElementById("infoiva").setAttribute("hidden", true);
             document.getElementById("modelPricetot").setAttribute("hidden", true);
             document.getElementById("modelBuybasketlink").style.display="none";
+            document.getElementById("modelBuybasketlink2").style.display="none";
             document.getElementById("item-width").removeAttribute("readonly");
             document.getElementById("item-depth").removeAttribute("readonly");
             document.getElementById("item-height").removeAttribute("readonly");
             document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
+            document.getElementById("namecodeitem").style.display="none";
   
   }
-  else  { 
+
+    
+          else if(selettoreifprezzo === "CUSTOM:A-RICHIESTA") {    
+    
+                   $("#modelGallerylink").show();
+                   document.getElementById("prez").removeAttribute("hidden");
+                   document.getElementById("modelPricetot").removeAttribute("hidden");
+                   document.getElementById("infoiva").setAttribute("hidden", true); 
+                   $("#modelBuybasketlink2").show();                 
+                   document.getElementById("namecodeitem").href= "http://mediametalli.altervista.org/sweetmodalalert/emailbox/promptit.html?Arredo="+item.metadata.itemName+"";
+                   document.getElementById("namecodeitem").style.display="none";
+                   document.getElementById("modelBuybasketlink").style.display="none";
+                   document.getElementById("item-width").removeAttribute("readonly");
+                   document.getElementById("item-depth").removeAttribute("readonly");
+                   document.getElementById("item-height").removeAttribute("readonly");
+                   document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
+
+          }      else  {
+                                        
+    
             $("#modelGallerylink").show();
             document.getElementById("prez").removeAttribute("hidden");
+            document.getElementById("infoiva").removeAttribute("hidden");
             document.getElementById("modelPricetot").removeAttribute("hidden");
             $("#modelBuybasketlink").show();
+            document.getElementById("modelBuybasketlink2").style.display="none";
             document.getElementById("item-width").setAttribute("readonly", true);
             document.getElementById("item-depth").setAttribute("readonly", true);
             document.getElementById("item-height").setAttribute("readonly", true);
-            document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";
+            document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";            
+            document.getElementById("namecodeitem").style.display="none";
   
-  }
-    
+  }       
    
-   var modelBuybasketuri = ""+item.metadata.modelBuybasket+""; 
-   document.getElementById("modelBuybasketlink").href = modelBuybasketuri;
+//   var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";      definita qualche rigo prima
+//   document.getElementById("modelBuybasketlink").href = modelBuybasketuri;      definita qualche rigo prima
     
     
     $("#item-width").val(cmToIn(selectedItem.getWidth()).toFixed(0));
