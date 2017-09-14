@@ -133,15 +133,47 @@
               </div>
             </div>
 
-            <label><input type="checkbox" id="fixed" /> Blocca posizione</label>
+           <label><input type="checkbox" id="fixed" /> Blocca posizione</label>
  <!--  -->           <br />
-            <label><span class="text-muted" style="color:green" id="prez">Prezzo: </span><i><span id="modelPricetot"></span></i></label>
+            <label><span class="text-muted" style="color:green" id="prez">Prezzo: </span><i><span id="modelPricetot"></span></i>
+	    <span class="text-muted" style="color:green" id="infoiva"> IVA inclusa</span>
+	    </label>  
             <br /><br />
               
             <a class="btn btn-block btn-success" href="" id="modelBuybasketlink" target="_blank">
-                <span class="glyphicon glyphicon-align-center"></span> 
+                <span class="glyphicon glyphicon-align-center" id="basketorcustom"></span> 
                 Info/Aggiungi al Carrello
-              </a><br /><br />                                                   
+              </a>
+	    <a class="btn btn-block btn-success" href="" id="modelBuybasketlink2" target="_blank">
+            <span class="glyphicon glyphicon-send" id="basketorcustom2"></span>
+                Richiedi Info e Costi
+              </a>
+            <a class="btn btn-block btn-success" href="" id="namecodeitem" target="_blank">
+		link
+	      </a> 
+   
+   
+<script>
+  $( function() {
+    var spinnerW = $( "#item-width" ).spinner();
+    var spinnerH = $( "#item-height" ).spinner();
+    var spinnerP = $( "#item-depth" ).spinner();
+ 
+    $( "#modelBuybasketlink2" ).on( "click", function() {    
+      var primapartediurl = document.getElementById("namecodeitem").href;
+      var secondapartediurl = "&L="+spinnerW.spinner( "value" )+"&H="+spinnerH.spinner( "value" )+"&P="+spinnerP.spinner( "value" )+"";
+      document.getElementById("modelBuybasketlink2").href = ""+primapartediurl+""+secondapartediurl+""; 
+    });
+  } );
+  </script> 
+              
+              
+             
+             
+             
+             
+              
+	     <br /><br />                                                   
               
             </div>
           </div>
