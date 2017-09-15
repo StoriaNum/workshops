@@ -28,7 +28,16 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery": "#",
       "type" : "3"
-    }
+    },
+    {
+      "name" : "Figura umana maschile",
+      "image" : "models/thumbnails/thumbnail_man.jpg",
+      "model" : "models/js/man.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "1"
+    }    
     
       
    /*     
