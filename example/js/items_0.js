@@ -30,6 +30,15 @@ $(document).ready(function() {
       "type" : "3"
     },
     {
+      "name" : "Ascensore tipo 1",
+      "image" : "models/thumbnails/thumbnail_ascensore1.jpg",
+      "model" : "models/js/ascensore1.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "1"
+    },
+    {
       "name" : "Figura umana maschile",
       "image" : "models/thumbnails/thumbnail_man.jpg",
       "model" : "models/js/man.js",
