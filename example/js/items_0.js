@@ -37,7 +37,16 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery": "#",
       "type" : "1"
-    }    
+    },
+    {
+      "name" : "Figura umana femminile",
+      "image" : "models/thumbnails/thumbnail_donna.jpg",
+      "model" : "models/js/donna.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "1"
+    }
     
       
    /*     
