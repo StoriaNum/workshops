@@ -47,15 +47,6 @@ $(document).ready(function() {
       "gallery": "#",
       "type" : "1"
     },
-        {
-      "name" : "Ascensore tipo 2",
-      "image" : "models/thumbnails/thumbnail_ascensore2.jpg",
-      "model" : "models/js/ascensore2.js",
-      "price" : "NOT-ON-SALE",
-      "buybasket" : "",
-      "gallery": "#",
-      "type" : "1"
-    },
     {
       "name" : "Figura umana maschile",
       "image" : "models/thumbnails/thumbnail_man.jpg",
