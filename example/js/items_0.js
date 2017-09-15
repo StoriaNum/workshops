@@ -29,6 +29,15 @@ $(document).ready(function() {
       "gallery": "#",
       "type" : "3"
     },
+     {
+      "name" : "Scale tipo 1",
+      "image" : "models/thumbnails/thumbnail_scale1.jpg",
+      "model" : "models/js/scale1.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "1"
+    },
     {
       "name" : "Ascensore tipo 1",
       "image" : "models/thumbnails/thumbnail_ascensore1.jpg",
