@@ -46,6 +46,15 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery": "#",
       "type" : "1"
+    },
+    {
+      "name" : "Figura umana bambino",
+      "image" : "models/thumbnails/thumbnail_bambino.jpg",
+      "model" : "models/js/bambino.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "1"
     }
     
       
