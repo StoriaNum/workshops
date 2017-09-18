@@ -165,6 +165,7 @@ var ContextMenu = function(blueprint3d) {
                    document.getElementById("item-depth").removeAttribute("readonly");
                    document.getElementById("item-height").removeAttribute("readonly");
                    document.getElementById("contentdimens").innerHTML = "Inserisci le tue misure personalizzate";
+                   document.getElementById('panelcustomitem').className = 'panel panel-danger';
 
           }      else  {
                                         
