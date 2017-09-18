@@ -40,17 +40,17 @@ $(document).ready(function() {
     },
     {
       "name" : "Scale tipo 2",
-      "image" : "models/thumbnails/thumbnail_scale3.jpg",
-      "model" : "models/js/scale2.js",
+      "image" : "models/thumbnails/thumbnail_scala2.jpg",
+      "model" : "models/js/scala2.js",
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
       "type" : "1"
     },
     {
-      "name" : "Scale tipo 2",
-      "image" : "models/thumbnails/thumbnail_scala2.jpg",
-      "model" : "models/js/scala2.js",
+      "name" : "Scale tipo 3",
+      "image" : "models/thumbnails/thumbnail_scale3.jpg",
+      "model" : "models/js/scale3.js",
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
