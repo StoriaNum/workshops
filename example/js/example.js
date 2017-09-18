@@ -147,6 +147,7 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("item-height").removeAttribute("readonly");
             document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
             document.getElementById("namecodeitem").style.display="none";
+            document.getElementById('panelcustomitem').className = 'panel panel-default';
   
   }
 
@@ -164,7 +165,7 @@ var ContextMenu = function(blueprint3d) {
                    document.getElementById("item-width").removeAttribute("readonly");
                    document.getElementById("item-depth").removeAttribute("readonly");
                    document.getElementById("item-height").removeAttribute("readonly");
-                   document.getElementById("contentdimens").innerHTML = "Inserisci le tue misure personalizzate";
+                   document.getElementById("contentdimens").innerHTML = "<b>Inserisci le tue misure personalizzate</b>";
                    document.getElementById('panelcustomitem').className = 'panel panel-danger';
 
           }      else  {
@@ -181,6 +182,7 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("item-height").setAttribute("readonly", true);
             document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";            
             document.getElementById("namecodeitem").style.display="none";
+            document.getElementById('panelcustomitem').className = 'panel panel-default';
   
   }       
    
