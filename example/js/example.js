@@ -164,7 +164,7 @@ var ContextMenu = function(blueprint3d) {
                    document.getElementById("item-width").removeAttribute("readonly");
                    document.getElementById("item-depth").removeAttribute("readonly");
                    document.getElementById("item-height").removeAttribute("readonly");
-                   document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
+                   document.getElementById("contentdimens").innerHTML = "Inserisci le tue misure personalizzate";
 
           }      else  {
                                         
