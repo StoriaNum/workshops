@@ -75,6 +75,15 @@ $(document).ready(function() {
       "type" : "1"
     },
     {
+      "name" : "Scale tipo 6",
+      "image" : "models/thumbnails/thumbnail_scale6.jpg",
+      "model" : "models/js/scale6.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "1"
+    },
+    {
       "name" : "Ascensore tipo 1",
       "image" : "models/thumbnails/thumbnail_ascensore1.jpg",
       "model" : "models/js/ascensore1.js",
