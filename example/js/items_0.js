@@ -129,6 +129,15 @@ $(document).ready(function() {
       "type" : "1"
     },
     {
+      "name" : "Barriera",
+      "image" : "models/thumbnails/thumbnail_barriera.jpg",
+      "model" : "models/js/barriera.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "1"
+    },
+    {
       "name" : "Figura umana maschile",
       "image" : "models/thumbnails/thumbnail_man.jpg",
       "model" : "models/js/man.js",
