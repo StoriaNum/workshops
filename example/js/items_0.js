@@ -22,7 +22,7 @@ $(document).ready(function() {
     }, 
     {
       "name" : "Finestra scorrevole",
-      "image" : "models/thumbnails/thumbnail_finestra_scorrevole.png",
+      "image" : "models/thumbnails/thumbnail_finestra_scorrevole.jpg",
       "model" : "models/js/finestra_scorrevole.js",
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
