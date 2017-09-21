@@ -21,7 +21,16 @@ $(document).ready(function() {
       "type" : "7"
     }, 
     {
-      "name" : "Finestra",
+      "name" : "Finestra scorrevole",
+      "image" : "models/thumbnails/thumbnail_finestra_scorrevole.png",
+      "model" : "models/js/finestra_scorrevole.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "3"
+    },
+    {
+      "name" : "Finestra 1",
       "image" : "models/thumbnails/thumbnail_window.png",
       "model" : "models/js/whitewindow.js",
       "price" : "NOT-ON-SALE",
