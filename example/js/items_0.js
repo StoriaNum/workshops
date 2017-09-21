@@ -50,7 +50,7 @@ $(document).ready(function() {
     {
       "name" : "Finestra 3",
       "image" : "models/thumbnails/thumbnail_finestra3.jpg",
-      "model" : "models/js/finestra3.js",
+      "model" : "models/js/finestra3bis.js",
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
