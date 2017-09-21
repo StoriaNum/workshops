@@ -47,6 +47,15 @@ $(document).ready(function() {
       "gallery": "#",
       "type" : "3"
     },
+    {
+      "name" : "Finestra 3",
+      "image" : "models/thumbnails/thumbnail_finestra3.jpg",
+      "model" : "models/js/finestra3.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "3"
+    },
      {
       "name" : "Scale tipo 1",
       "image" : "models/thumbnails/thumbnail_scale1.jpg",
