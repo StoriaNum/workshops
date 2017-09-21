@@ -3,7 +3,7 @@
 $(document).ready(function() {
   var items_0 = [
      {
-      "name" : "Porta Chiusa",
+      "name" : "Porta 1",
       "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
       "model" : "models/js/closed-door28x80_baked.js",
       "price" : "NOT-ON-SALE",
@@ -20,6 +20,15 @@ $(document).ready(function() {
       "gallery": "#",
       "type" : "7"
     }, 
+    {
+      "name" : "Porta 2",
+      "image" : "models/thumbnails/thumbnail_porta2.jpg",
+      "model" : "models/js/porta2.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "7"
+    },
     {
       "name" : "Finestra/Porta scorrevole",
       "image" : "models/thumbnails/thumbnail_finestra_scorrevole.jpg",
