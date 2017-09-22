@@ -46,7 +46,7 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery": "#",
       "type" : "7"
-    },
+    }, 
     {
       "name" : "Portale",
       "image" : "models/thumbnails/thumbnail_portale.jpg",
