@@ -30,6 +30,15 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
+      "name" : "Porta 3",
+      "image" : "models/thumbnails/thumbnail_porta3.jpg",
+      "model" : "models/js/porta3.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "7"
+    },
+    {
       "name" : "Portale",
       "image" : "models/thumbnails/thumbnail_portale.jpg",
       "model" : "models/js/portale.js",
