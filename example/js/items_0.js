@@ -39,6 +39,15 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
+      "name" : "Porta 4",
+      "image" : "models/thumbnails/thumbnail_porta4.jpg",
+      "model" : "models/js/porta4.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "7"
+    },
+    {
       "name" : "Portale",
       "image" : "models/thumbnails/thumbnail_portale.jpg",
       "model" : "models/js/portale.js",
