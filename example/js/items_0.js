@@ -46,7 +46,16 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery": "#",
       "type" : "7"
-    }, 
+    },
+    {
+      "name" : "Porta 5",
+      "image" : "models/thumbnails/thumbnail_porta5.jpg",
+      "model" : "models/js/porta5.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "7"
+    },
     {
       "name" : "Portale",
       "image" : "models/thumbnails/thumbnail_portale.jpg",
