@@ -93,6 +93,15 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
+      "name" : "Portale 3",
+      "image" : "models/thumbnails/thumbnail_portale3.jpg",
+      "model" : "models/js/portale3.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "7"
+    },
+    {
       "name" : "Finestra/Porta scorrevole",
       "image" : "models/thumbnails/thumbnail_finestra_scorrevole.jpg",
       "model" : "models/js/finestra_scorrevole.js",
