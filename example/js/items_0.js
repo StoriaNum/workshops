@@ -217,7 +217,8 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery": "#",
       "type" : "1"
-    },{
+    },
+    {
       "name" : "Presa tipo 1",
       "image" : "models/thumbnails/thumbnail_presa1.jpg",
       "model" : "models/js/presa1.js",
