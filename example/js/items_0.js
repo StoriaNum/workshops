@@ -228,6 +228,15 @@ $(document).ready(function() {
       "type" : "2"
     },
     {
+      "name" : "Presa tipo 2",
+      "image" : "models/thumbnails/thumbnail_presa2.jpg",
+      "model" : "models/js/presa2.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
+    },
+    {
       "name" : "Presa tipo 3",
       "image" : "models/thumbnails/thumbnail_presa3.jpg",
       "model" : "models/js/presa3.js",
