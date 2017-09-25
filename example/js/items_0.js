@@ -3,7 +3,7 @@
 $(document).ready(function() {
   var items_0 = [
      {
-      "name" : "Porta 1",
+      "name" : "Porta tipo 1",
       "image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
       "model" : "models/js/closed-door28x80_baked.js",
       "price" : "NOT-ON-SALE",
@@ -21,7 +21,7 @@ $(document).ready(function() {
       "type" : "7"
     }, 
     {
-      "name" : "Porta 2",
+      "name" : "Porta tipo 2",
       "image" : "models/thumbnails/thumbnail_porta2.jpg",
       "model" : "models/js/porta2.js",
       "price" : "NOT-ON-SALE",
@@ -30,7 +30,7 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
-      "name" : "Porta 3",
+      "name" : "Porta tipo 3",
       "image" : "models/thumbnails/thumbnail_porta3.jpg",
       "model" : "models/js/porta3.js",
       "price" : "NOT-ON-SALE",
@@ -39,7 +39,7 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
-      "name" : "Porta 4",
+      "name" : "Porta tipo 4",
       "image" : "models/thumbnails/thumbnail_porta4.jpg",
       "model" : "models/js/porta4.js",
       "price" : "NOT-ON-SALE",
@@ -48,7 +48,7 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
-      "name" : "Porta 5",
+      "name" : "Porta tipo 5",
       "image" : "models/thumbnails/thumbnail_porta5.jpg",
       "model" : "models/js/porta5.js",
       "price" : "NOT-ON-SALE",
@@ -57,7 +57,7 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
-      "name" : "Porta 6",
+      "name" : "Porta tipo 6",
       "image" : "models/thumbnails/thumbnail_porta6.jpg",
       "model" : "models/js/porta6.js",
       "price" : "NOT-ON-SALE",
@@ -66,7 +66,7 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
-      "name" : "Porta 7",
+      "name" : "Porta tipo 7",
       "image" : "models/thumbnails/thumbnail_porta7.jpg",
       "model" : "models/js/porta7.js",
       "price" : "NOT-ON-SALE",
@@ -75,7 +75,7 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
-      "name" : "Portale",
+      "name" : "Portale tipo 1",
       "image" : "models/thumbnails/thumbnail_portale.jpg",
       "model" : "models/js/portale.js",
       "price" : "NOT-ON-SALE",
@@ -84,7 +84,7 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
-      "name" : "Portale 2",
+      "name" : "Portale tipo 2",
       "image" : "models/thumbnails/thumbnail_portale2.jpg",
       "model" : "models/js/portale2.js",
       "price" : "NOT-ON-SALE",
@@ -93,7 +93,7 @@ $(document).ready(function() {
       "type" : "7"
     },
     {
-      "name" : "Portale 3",
+      "name" : "Portale tipo 3",
       "image" : "models/thumbnails/thumbnail_portale3.jpg",
       "model" : "models/js/portale3.js",
       "price" : "NOT-ON-SALE",
@@ -111,7 +111,7 @@ $(document).ready(function() {
       "type" : "3"
     },
     {
-      "name" : "Finestra 1",
+      "name" : "Finestra tipo 1",
       "image" : "models/thumbnails/thumbnail_window.png",
       "model" : "models/js/whitewindow.js",
       "price" : "NOT-ON-SALE",
@@ -120,7 +120,7 @@ $(document).ready(function() {
       "type" : "3"
     },
     {
-      "name" : "Finestra 2",
+      "name" : "Finestra tipo 2",
       "image" : "models/thumbnails/thumbnail_finestra2.jpg",
       "model" : "models/js/finestra2.js",
       "price" : "NOT-ON-SALE",
@@ -129,7 +129,7 @@ $(document).ready(function() {
       "type" : "3"
     },
     {
-      "name" : "Finestra 3",
+      "name" : "Finestra tipo 3",
       "image" : "models/thumbnails/thumbnail_finestra3.jpg",
       "model" : "models/js/finestra3quater.js",
       "price" : "NOT-ON-SALE",
@@ -217,6 +217,14 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery": "#",
       "type" : "1"
+    },{
+      "name" : "Presa tipo 1",
+      "image" : "models/thumbnails/thumbnail_presa1.jpg",
+      "model" : "models/js/presa1.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "7"
     },
     {
       "name" : "Figura umana maschile",
