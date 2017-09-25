@@ -244,6 +244,15 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery": "#",
       "type" : "1"
+    },
+    {
+      "name" : "Pianta",
+      "image" : "models/thumbnails/thumbnail_pianta.jpg",
+      "model" : "models/js/pianta.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "1"
     }
     
       
