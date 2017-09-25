@@ -225,7 +225,16 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
-      "type" : "7"
+      "type" : "2"
+    },
+    {
+      "name" : "Presa tipo 3",
+      "image" : "models/thumbnails/thumbnail_presa3.jpg",
+      "model" : "models/js/presa3.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
     },
     {
       "name" : "Figura umana maschile",
