@@ -300,6 +300,15 @@ $(document).ready(function() {
       "type" : "2"
     },
     {
+      "name" : "Segnaletica tipo 1",
+      "image" : "models/thumbnails/thumbnail_segnaletica1.jpg",
+      "model" : "models/js/segnaletica1.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
+    },
+    {
       "name" : "Figura umana maschile",
       "image" : "models/thumbnails/thumbnail_man.jpg",
       "model" : "models/js/man.js",
