@@ -319,12 +319,12 @@ $(document).ready(function() {
     },
     {
       "name" : "Monitor",
-      "image" : "models/thumbnails/thumbnail_monitor1.jpg",
-      "model" : "models/js/monitor1.js",
+      "image" : "models/thumbnails/thumbnail_monitor.jpg",
+      "model" : "models/js/monitor.js",
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
-      "type" : "1"
+      "type" : "2"
     },
     {
       "name" : "Figura umana maschile",
