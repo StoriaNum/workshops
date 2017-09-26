@@ -246,6 +246,15 @@ $(document).ready(function() {
       "type" : "2"
     },
     {
+      "name" : "Quadro elettrico",
+      "image" : "models/thumbnails/thumbnail_quadroelettrico.jpg",
+      "model" : "models/js/quadroelettrico.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
+    },
+    {
       "name" : "Figura umana maschile",
       "image" : "models/thumbnails/thumbnail_man.jpg",
       "model" : "models/js/man.js",
