@@ -255,6 +255,15 @@ $(document).ready(function() {
       "type" : "2"
     },
     {
+      "name" : "Armadietto anti-incendio tipo 1",
+      "image" : "models/thumbnails/thumbnail_estintore1.jpg",
+      "model" : "models/js/estintore1.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
+    },
+    {
       "name" : "Figura umana maschile",
       "image" : "models/thumbnails/thumbnail_man.jpg",
       "model" : "models/js/man.js",
