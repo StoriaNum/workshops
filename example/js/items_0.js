@@ -284,7 +284,7 @@ $(document).ready(function() {
     {
       "name" : "Indicazione Toilette tipo 1",
       "image" : "models/thumbnails/thumbnail_toilette1.jpg",
-      "model" : "models/js/toilette2.js",
+      "model" : "models/js/toilette1.js",
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
