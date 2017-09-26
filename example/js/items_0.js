@@ -309,6 +309,15 @@ $(document).ready(function() {
       "type" : "2"
     },
     {
+      "name" : "Segnaletica tipo 2",
+      "image" : "models/thumbnails/thumbnail_segnaletica2.jpg",
+      "model" : "models/js/segnaletica2.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
+    },
+    {
       "name" : "Figura umana maschile",
       "image" : "models/thumbnails/thumbnail_man.jpg",
       "model" : "models/js/man.js",
