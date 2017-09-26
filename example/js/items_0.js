@@ -282,6 +282,15 @@ $(document).ready(function() {
       "type" : "2"
     },
     {
+      "name" : "Indicazione Toilette tipo 1",
+      "image" : "models/thumbnails/thumbnail_toilette1.jpg",
+      "model" : "models/js/toilette2.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
+    },
+    {
       "name" : "Figura umana maschile",
       "image" : "models/thumbnails/thumbnail_man.jpg",
       "model" : "models/js/man.js",
