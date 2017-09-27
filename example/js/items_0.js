@@ -327,6 +327,33 @@ $(document).ready(function() {
       "type" : "2"
     },
     {
+      "name" : "Tappeto Kilim",
+      "image" : "models/thumbnails/thumbnail_HTR034-87_1.jpg",
+      "model" : "models/js/tappetokilim1.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "8"
+    },
+    {
+      "name" : "Foto Torre",
+      "image" : "models/thumbnails/thumbnail_torre-di-pisa.jpg",
+      "model" : "models/js/poster-pisa.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
+    },
+    {
+      "name" : "Poster/Quadro/Stampa",
+      "image" : "models/thumbnails/thumbnail_nyc2.jpg",
+      "model" : "models/js/nyc-poster2.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
+    },
+    {
       "name" : "Figura umana maschile",
       "image" : "models/thumbnails/thumbnail_man.jpg",
       "model" : "models/js/man.js",
