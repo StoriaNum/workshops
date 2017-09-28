@@ -201,6 +201,15 @@ $(document).ready(function() {
       "type" : "8"
     },
     {
+      "name" : "Scale in discesa tipo 2",
+      "image" : "models/thumbnails/thumbnail_scalachescende2.jpg",
+      "model" : "models/js/scalachescende2.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "8"
+    },
+    {
       "name" : "Ascensore tipo 1",
       "image" : "models/thumbnails/thumbnail_ascensore1.jpg",
       "model" : "models/js/ascensore1.js",
