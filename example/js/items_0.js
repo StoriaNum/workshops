@@ -192,7 +192,7 @@ $(document).ready(function() {
       "type" : "1"
     },
     {
-      "name" : "Scale in discesa tipo 1",
+      "name" : "Scale per piano inferiore tipo 1",
       "image" : "models/thumbnails/thumbnail_scalachescende.jpg",
       "model" : "models/js/scalachescende.js",
       "price" : "NOT-ON-SALE",
@@ -201,7 +201,7 @@ $(document).ready(function() {
       "type" : "8"
     },
     {
-      "name" : "Scale in discesa tipo 2",
+      "name" : "Scale per piano inferiore tipo 2",
       "image" : "models/thumbnails/thumbnail_scalachescende2.jpg",
       "model" : "models/js/scalachescende2.js",
       "price" : "NOT-ON-SALE",
