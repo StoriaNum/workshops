@@ -354,6 +354,15 @@ $(document).ready(function() {
       "type" : "2"
     },
     {
+      "name" : "Cassetta di primo intervento",
+      "image" : "models/thumbnails/thumbnail_firstaid.jpg",
+      "model" : "models/js/firstaid.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "2"
+    },
+    {
       "name" : "Figura umana maschile",
       "image" : "models/thumbnails/thumbnail_man.jpg",
       "model" : "models/js/man.js",
