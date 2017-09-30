@@ -144,7 +144,7 @@ $(document).ready(function() {
       "model" : "models/js/04_118_600A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery" : "http://mediametalli.altervista.org/sweetmodalalert/gallery/codnum/codnum.html",
       "type" : "1"
     },
 {
@@ -195,7 +195,7 @@ $(document).ready(function() {
                 '<br><i>Prezzo:</i> ' + item.price +
                 '</a><a href=" ' +
                 item.gallery +  
-                '" class="btn btn-default btn-sm" id="info-sign"><span class="glyphicon glyphicon-info-sign"></span></a></div>';
+                '" class="btn btn-default btn-sm" id="info-sign" style = "text-align:right; float:right"><span class="glyphicon glyphicon-info-sign"></span></a></div>';
     itemsDiv_3.append(html_3);
   }
 });
