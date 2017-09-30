@@ -193,9 +193,9 @@ $(document).ready(function() {
                 '" alt="Add Item"> '+
                 item.name +  
                 '<br><i>Prezzo:</i> ' + item.price +
-                '</a><a href=" ' +
+                '</a><span class="glyphicon glyphicon-info-sign" style ="text-align:right;float:right"><a href=" ' +
                 item.gallery +  
-                '" class="btn btn-default btn-sm" id="info-sign" style = "text-align:right; float:right"><span class="glyphicon glyphicon-info-sign"></span></a></div>';
+                '" > Info</span></div>';
     itemsDiv_3.append(html_3);
   }
 });
