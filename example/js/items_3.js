@@ -193,7 +193,7 @@ $(document).ready(function() {
                 '" alt="Add Item"> '+
                 item.name +  
                 '<br><i>Prezzo:</i> ' + item.price +
-                '</a></div><a class="btn btn-block btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> Info arredo</a>';
+                '</a><a class="btn btn-block btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> Info arredo</a></div>';
     itemsDiv_3.append(html_3);
   }
 });
