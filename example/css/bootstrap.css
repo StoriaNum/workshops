@@ -3514,6 +3514,7 @@ fieldset[disabled] .btn-link:focus {
   width: 100%;
   margin:0;
   padding:0;
+  margin-bottom: 20px;
 }
 .btn-block + .btn-block {
   margin-top: 5px;
