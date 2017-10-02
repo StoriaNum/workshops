@@ -144,7 +144,7 @@ $(document).ready(function() {
       "model" : "models/js/04_118_600A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery" : "http://mediametalli.altervista.org/sweetmodalalert/gallery/codnum/codnum.html",
       "type" : "1"
     },
 {
