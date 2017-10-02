@@ -1117,6 +1117,8 @@ img {
   vertical-align: middle;
 }
 .img-responsive,
+.thumbnailold > img,
+.thumbnailold a > img,
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
@@ -1129,6 +1131,19 @@ img {
   border-radius: 6px;
 }
 .img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.img-thumbnailold {
   display: inline-block;
   max-width: 100%;
   height: auto;
@@ -5083,10 +5098,24 @@ a.badge:focus {
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;
 }
+.thumbnailold > img,
+.thumbnailold a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
 .thumbnail > img,
 .thumbnail a > img {
   margin-right: auto;
   margin-left: auto;
+}
+a.thumbnailold:hover,
+a.thumbnailold:focus,
+a.thumbnailold.active {
+  border-color: #337ab7;
+}
+.thumbnailold .caption {
+  padding: 9px;
+  color: #333;
 }
 a.thumbnail:hover,
 a.thumbnail:focus,
@@ -5284,6 +5313,9 @@ a.thumbnail.active {
   display: block;
 }
 .media-object.img-thumbnail {
+  max-width: none;
+}
+.media-object.img-thumbnailold {
   max-width: none;
 }
 .media-right,
