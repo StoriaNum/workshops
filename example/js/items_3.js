@@ -175,7 +175,7 @@ $(document).ready(function() {
   var itemsDiv_3 = $("#items-wrapper_3")
   for (var i = 0; i < items_3.length; i++) {
     var item = items_3[i];
-    var html_3 = '<div class="col-sm-4">' +
+    var html_3 = '<div class="col-sm-4">' + 
                 '<a class="thumbnail add-item_3" model-name="' + 
                 item.name + 
                 '" model-url="' +
@@ -193,7 +193,7 @@ $(document).ready(function() {
                 '" alt="Add Item"> '+
                 item.name +  
                 '<br><i>Prezzo:</i> ' + item.price +
-                '</a><a class="btn btn-block btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> Info arredo</a></div><br>';
+                '</a><a class="btn btn-block2 btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> Info arredo</a></div><br>';
     itemsDiv_3.append(html_3);
   }
 });
