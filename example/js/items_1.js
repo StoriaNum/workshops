@@ -94,7 +94,7 @@ $(document).ready(function() {
                 '" alt="Add Item"> '+
                 item.name +  
                 '<br><i>Prezzo:</i> ' + item.price +
-                '<a class="btn btn-block2 btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> Info ' + item.name + '</a></a></div>';
+                '<a class="btn btn-block2 btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> <b>Info</b><i> ' + item.name + '</i></a></a></div>';
     itemsDiv_1.append(html_1);
   }
 });
