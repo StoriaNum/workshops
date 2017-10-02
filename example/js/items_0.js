@@ -428,7 +428,7 @@ $(document).ready(function() {
   for (var i = 0; i < items_0.length; i++) {
     var item = items_0[i];
     var html_0 = '<div class="col-sm-4">' +
-                '<a class="thumbnail add-item_0" model-name="' + 
+                '<a class="thumbnailold add-item_0" model-name="' + 
                 item.name + 
                 '" model-url="' +
                 item.model +
