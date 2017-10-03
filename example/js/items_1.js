@@ -32,7 +32,7 @@ $(document).ready(function() {
     },
              {
       "name" : "Tavolino 02",
-      "image" : "models/thumbnails/03_19_01.jpg",
+      "image" : "models/thumbnails/03_19_01bis.jpg",
       "model" : "models/js/03_19_26A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
