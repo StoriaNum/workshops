@@ -41,7 +41,7 @@ $(document).ready(function() {
     },
 {
       "name" : "Tavolo a crescente 00",
-      "image" : "models/thumbnails/5120494.jpg",
+      "image" : "models/thumbnails/51204940.jpg",
       "model" : "models/js/Howe_Tempest_Flip_Cresent_1500x750.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
