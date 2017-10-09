@@ -191,6 +191,15 @@ $(document).ready(function() {
       "gallery": "#",
       "type" : "1"
     },
+        {
+      "name" : "Scale tipo 7",
+      "image" : "https://storianum.github.io/repoworkshops/example/models/thumbnails/thumbnail_scale7.jpg",
+      "model" : "https://storianum.github.io/repoworkshops/example/models/js/scale7.js",
+      "price" : "NOT-ON-SALE",
+      "buybasket" : "",
+      "gallery": "#",
+      "type" : "1"
+    },
     {
       "name" : "Ascensore tipo 1",
       "image" : "models/thumbnails/thumbnail_ascensore1.jpg",
