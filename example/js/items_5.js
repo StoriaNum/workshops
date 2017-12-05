@@ -11,6 +11,17 @@ $(document).ready(function() {
       "gallery" : "#",
       "type" : "1"
     },
+    
+    {
+      "name" : "Albero di Natale",
+      "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
+      "model" : "models/js/alberonatale.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+    
      {
       "name" : "Scaffalatura 01",
       "image" : "models/thumbnails/hoehe-2000-mm-6-ebenen.jpg",
