@@ -938,7 +938,7 @@
 <span class="glyphicon glyphicon-screenshot" title="Salva immagine del progetto"></span>                  <!--  ImgJpg -->
 </a>  
 <script>
-  $('#save_image_locally').on('click',function (){
+  $('#save_image_locally').click(function(){
     html2canvas($('#imagesave'), 
     {
       onrendered: function (canvas) {  
@@ -946,7 +946,7 @@
         // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
         a.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
         a.download = 'myfilename.jpg';
-        a.on();  
+        a.click();  
    
       }
     });
