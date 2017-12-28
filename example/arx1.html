@@ -916,11 +916,20 @@
         <!-- Right Column -->
         <div class="col-xs-9 main">    <div id="imagesave">
 
-         
+          <!-- 3D Viewer -->
+          <div id="viewer">
 
-           
-              
-             
+            <div id="main-controls">
+              <a href="#" class="btn btn-default btn-sm" id="new">
+              <span class="glyphicon glyphicon-refresh" title="Nuovo Progetto"></span>       <!-- Nuovo  -->
+              </a>
+              <a href="#" class="btn btn-default btn-sm" id="saveFile">
+              <span class="glyphicon glyphicon-download-alt" title="Salva progetto su File"></span>   <!--  Salva -->
+              </a>
+              <a class="btn btn-sm btn-default btn-file">
+            <!--   <input type="file" class="hidden-input" id="loadFile">  -->
+              <span class="glyphicon glyphicon-folder-open" title="Carica il file del progetto"><input type="file" class="hidden-input" id="loadFile"></span>  <!-- Carica -->
+              </a>
             
 
 <a href="#" class="btn btn-default btn-sm" id="save_image_locally">
@@ -957,20 +966,69 @@
             </div>
             
            
-           
-           
-           
              
             
             
-            
+            <div id="camera-controls">
+              <a href="#" class="btn btn-default bottom" id="zoom-out">
+                <span class="glyphicon glyphicon-zoom-out"></span>
+              </a>
+              <a href="#" class="btn btn-default bottom" id="reset-view">
+                <span class="glyphicon glyphicon glyphicon-home"></span>
+              </a>
+              <a href="#" class="btn btn-default bottom" id="zoom-in">
+                <span class="glyphicon glyphicon-zoom-in"></span>
+              </a>
+              
+              <span>&nbsp;</span>
+
+              <a class="btn btn-default bottom" href="#" id="move-right" >
+                <span class="glyphicon glyphicon-arrow-left"></span>
+              </a>
+              <span class="btn-group-vertical">
+                <a class="btn btn-default" href="#" id="move-down">
+                  <span class="glyphicon glyphicon-arrow-up"></span>
+                </a>
+                <a class="btn btn-default" href="#" id="move-up">
+                  <span class="glyphicon glyphicon-arrow-down"></span>
+                </a>
+              </span>
+              <a class="btn btn-default bottom" href="#" id="move-left" >
+                <span class="glyphicon glyphicon-arrow-right"></span>
+              </a>
+            </div>
 
             <div id="loading-modal">
-              <h1>Caricamento ...</h1>  
+              <h1>Caricamento Stanza di Esempio...</h1>  
             </div>
           </div>
 
-       
+          <!-- 2D Floorplanner -->
+          <div id="floorplanner">
+            <canvas id="floorplanner-canvas"></canvas>
+            <div id="floorplanner-controls">
+
+              <button id="move" class="btn btn-sm btn-default">
+                <span class="glyphicon glyphicon-move"></span>
+                Muovi Parete
+              </button>
+              <button id="draw" class="btn btn-sm btn-default">
+                <span class="glyphicon glyphicon-pencil"></span>
+                Disegna Parete
+              </button>
+              <button id="delete" class="btn btn-sm btn-default">
+                <span class="glyphicon glyphicon-remove"></span>
+                Cancella Parete
+              </button>
+              <span class="pull-right">
+                <button class="btn btn-primary btn-sm" id="update-floorplan">Fine &raquo;</button>
+              </span>
+
+            </div>
+            <div id="draw-walls-hint">
+              Premi tasto "Esc" per finire disegno pareti
+            </div>
+          </div>
 		
 		
 	  <!-- Add Items_0 commento-->
