@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+	
+	  <!-- include a-frame -->
+<script src="armob/aframe.min.js"></script>
+
+<!-- include ar.js for aframe -->
+<script src='armob/aframe-ar.js'></script>
+	  
+	  
+	  
+	  
 	  
     <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
 
@@ -224,6 +234,29 @@
 		  
 		  
 		  
+		  
+		  
+		  
+		  
+<!-- Define your 3d scene and enabled ar.js -->
+	<a-scene embedded arjs='trackingMethod: best;'>
+
+		<!-- Create a anchor to attach your augmented reality -->
+		<a-anchor hit-testing-enabled='true'>
+
+			<!-- Add your augmented reality here -->
+			<a-box position='0 0.5 0' material='opacity: 0.5; side:double; color:red;'>
+				<a-torus-knot radius='0.26' radius-tubular='0.05'>
+					<a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
+				</a-torus-knot>
+			</a-box>
+
+		</a-anchor>
+
+		<!-- Define a static camera -->
+		<a-camera-static/>
+
+	</a-scene>		  
 		  
 		  
 		  
