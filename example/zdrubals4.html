@@ -375,6 +375,14 @@
 
 		<!-- Create a anchor to attach your augmented reality -->
 		<a-anchor hit-testing-enabled='true'>
+			
+			
+			 <a-assets>
+    <a-asset-item id="skull-model" src="https://dl.dropboxusercontent.com/s/dvahjq5trg9pysj/evil-skull.gltf"></a-asset-item> 
+  </a-assets>
+  <a-gltf-model src="#skull-model" position="0 2 -3"></a-gltf-model>
+    
+			
 
 			<!-- Add your augmented reality here -->
 			<a-box position='0 0.5 0' material='opacity: 0.5; side:double; color:red;'>
@@ -389,11 +397,7 @@
 		<a-camera-static/>
     
  
-  <a-assets>
-    <a-asset-item id="skull-model" src="https://dl.dropboxusercontent.com/s/dvahjq5trg9pysj/evil-skull.gltf"></a-asset-item> 
-  </a-assets>
-  <a-gltf-model src="#skull-model" position="0 2 -3"></a-gltf-model>
-    
+ 
     
     
     
