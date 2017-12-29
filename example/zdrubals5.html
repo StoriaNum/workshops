@@ -377,10 +377,7 @@
 		<a-anchor hit-testing-enabled='true'>
 			
 			
-			 <a-assets>
-    <a-asset-item id="skull-model" src="https://dl.dropboxusercontent.com/s/dvahjq5trg9pysj/evil-skull.gltf"></a-asset-item> 
-  </a-assets>
-  <a-gltf-model src="#skull-model" position="0 2 -3"></a-gltf-model>
+			 
     
 			
 
@@ -394,7 +391,12 @@
 		</a-anchor>
 
 		<!-- Define a static camera -->
-		<a-camera-static/>
+		<a-camera-static>
+		<a-assets>
+    <a-asset-item id="skull-model" src="https://dl.dropboxusercontent.com/s/dvahjq5trg9pysj/evil-skull.gltf"></a-asset-item> 
+  </a-assets>
+  <a-gltf-model src="#skull-model" position="0 2 -3"></a-gltf-model>
+		</a-camera-static>
     
  
  
