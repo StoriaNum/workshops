@@ -444,7 +444,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
 
   // TODO: this doesn't really belong here
   function initItems() {
-    $("#add-items,#add-items_0,#add-items_0mob,#add-items_1,#add-items_2,#add-items_3,#add-items_4,#add-items_5").find(".add-item, .add-item_0, .add-item_1, .add-item_2, .add-item_3, .add-item_4, .add-item_5").mousedown(function(e) {
+    $("#add-items,#add-items_0,#add-items_0mob,#add-items_1,#add-items_2,#add-items_3,#add-items_4,#add-items_5").find(".add-item, .add-item_0, .add-item_0mob, .add-item_1, .add-item_2, .add-item_3, .add-item_4, .add-item_5").mousedown(function(e) {
       var modelUrl = $(this).attr("model-url");
       var itemType = parseInt($(this).attr("model-type"));
       var modelPrice = $(this).attr("model-price");
