@@ -282,7 +282,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     "SHOP_3" : $("#items_tab_3"),
     "SHOP_4" : $("#items_tab_4"),
     "SHOP_5" : $("#items_tab_5"),   
-    "DESIGN" : $("#items_tab_0mob")  
+    "DESIGN" : $("#design_tab")  
   }
 
   var scope = this;
@@ -291,7 +291,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   this.states = {
     "DEFAULT" : {
       "div" : $("#add-items_0mob"),
-      "tab" : tabs.SHOP_0MOB
+      "tab" : tabs.DESIGN
     },
     "FLOORPLAN" : {
       "div" : $("#floorplanner"),
