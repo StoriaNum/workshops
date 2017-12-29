@@ -276,7 +276,6 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     "FLOORPLAN" : $("#floorplan_tab"),
     "SHOP" : $("#items_tab"),
     "SHOP_0" : $("#items_tab_0"),
-    "SHOP_0MOB" : $("#items_tab_0mob"),
     "SHOP_1" : $("#items_tab_1"),
     "SHOP_2" : $("#items_tab_2"),
     "SHOP_3" : $("#items_tab_3"),
@@ -291,7 +290,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   this.states = {
     "DEFAULT" : {
       "div" : $("#viewer"),
-      "tab" : tabs.SHOP_0MOB
+      "tab" : tabs.DESIGN
     },
     "FLOORPLAN" : {
       "div" : $("#floorplanner"),
@@ -303,10 +302,6 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
       "tab" : tabs.SHOP_0
     },
     
-    "SHOP_0MOB" : {
-      "div" : $("#add-items_0mob"),
-      "tab" : tabs.SHOP_0MOB
-    },
     
     "SHOP_1" : {
       "div" : $("#add-items_1"),
@@ -433,7 +428,6 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     $(".sidebar").height(window.innerHeight);
     $("#add-items").height(window.innerHeight);
     $("#add-items_0").height(window.innerHeight);
-    $("#add-items_0mob").height(window.innerHeight);
     $("#add-items_1").height(window.innerHeight);
     $("#add-items_2").height(window.innerHeight);
     $("#add-items_3").height(window.innerHeight);
@@ -444,7 +438,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
 
   // TODO: this doesn't really belong here
   function initItems() {
-    $("#add-items,#add-items_0,#add-items_0mob,#add-items_1,#add-items_2,#add-items_3,#add-items_4,#add-items_5").find(".add-item, .add-item_0, .add-item_0mob, .add-item_1, .add-item_2, .add-item_3, .add-item_4, .add-item_5").mousedown(function(e) {
+    $("#add-items,#add-items_0,#add-items_1,#add-items_2,#add-items_3,#add-items_4,#add-items_5").find(".add-item, .add-item_0, .add-item_1, .add-item_2, .add-item_3, .add-item_4, .add-item_5").mousedown(function(e) {
       var modelUrl = $(this).attr("model-url");
       var itemType = parseInt($(this).attr("model-type"));
       var modelPrice = $(this).attr("model-price");
