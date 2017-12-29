@@ -47,31 +47,12 @@ $(document).ready(function() {
   }
 });  */
 
-  
-    var itemsDiv_0mob = $("#items-wrapper_0mob")
+var itemsDiv_0mob = $("#items-wrapper_0mob")
   for (var i = 0; i < items_0mob.length; i++) {
     var item = items_0mob[i];
-    var html_0mob = '
-    
-    
-           <head><script src="js/bootstrap.js"></script></head>
-           <div id="main-controls">
-           <a href="#" class="btn btn-default btn-sm" id="new">
-           <span class="glyphicon glyphicon-refresh" title="Nuovo Progetto"></span>      
-            </a>
-              
-
-           <a href="#" class="btn btn-default btn-sm" id="save_image_locally">
-           <span class="glyphicon glyphicon-screenshot" title="Salva immagine del progetto"></span>                 
-           </a>           
-    
-   
-            &nbsp;<span class="mcright"><a href="storiablueblue" class="fontkaushan">storiabluee12345</a>
-            </span>
-    
-    
-    
-                <div class="col-sm-4">' +
+    var tophtml = '<head><script src="blueprint3d.js"></script></head><div id="main-controls"><a href="#" class="btn btn-default btn-sm" id="new"><span class="glyphicon glyphicon-refresh" title="Nuovo Progetto"></span></a></div>&nbsp;<span class="mcright"><a href="storiablueblue" class="fontkaushan">storiabluee12345</a></span>';
+    itemsDiv_0mob.append(tophtml);
+    var html_0mob = '<div class="col-sm-4">' +
                 '<a class="thumbnailold add-item_0mob" model-name="' + 
                 item.name + 
                 '" model-url="' +
@@ -92,5 +73,6 @@ $(document).ready(function() {
                 '</i></a></div>';
     itemsDiv_0mob.append(html_0mob);
   }
-});
+}); 
+ 
 
