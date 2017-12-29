@@ -103,6 +103,12 @@ div {
   overflow-y: auto; 
 }
 
+#add-items_0mob {
+  display: none;
+  padding: 20px;
+  overflow-y: auto; 
+}
+
 #add-items_1 {
   display: none;
   padding: 20px;
@@ -180,6 +186,10 @@ div {
 }
 
 .add-item_0 {
+  cursor: pointer;
+}
+
+.add-item_0mob {
   cursor: pointer;
 }
 
