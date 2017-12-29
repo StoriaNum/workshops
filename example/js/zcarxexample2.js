@@ -291,7 +291,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
   this.states = {
     "DEFAULT" : {
       "div" : $("#viewer"),
-      "tab" : tabs.SHOP_0MOB
+      "tab" : tabs.DESIGN
     },
     "FLOORPLAN" : {
       "div" : $("#floorplanner"),
