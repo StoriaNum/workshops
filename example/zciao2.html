@@ -50,14 +50,13 @@
               </a>
               
             
-
-<a href="#" class="btn btn-default btn-sm" id="save_image_locally">
-<span class="glyphicon glyphicon-screenshot" title="Salva immagine del progetto"></span>                  <!--  ImgJpg -->
-</a>  
-<script>
+                <!--  ImgJpg -->
+	
+<button class="btn btn-default btn-sm" onclick="takeScreenshot()"><span class="glyphicon glyphicon-screenshot" title="Salva immagine del progetto"></span></button>
  
-$('#save_image_locally').click(function(){
-   
+<script>
+
+function takeScreenshot() {
 			var w = window.open('', '');
 			w.document.title = "Screenshot";
 			var img = new Image();
@@ -95,7 +94,8 @@ $('#save_image_locally').click(function(){
 				};
 				images[src].src = sources[src];
 			}
-	 });
+		}	
+	
 </script>
               
 <!-- insert label storiablue with its own link                  
