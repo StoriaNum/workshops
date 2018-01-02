@@ -50,10 +50,28 @@
               </a>
               
             
-
+ <!--
 <a href="#" class="btn btn-default btn-sm" id="save_image_locally">
-<span class="glyphicon glyphicon-screenshot" title="Salva immagine del progetto"></span>                  <!--  ImgJpg -->
-</a>  
+<span class="glyphicon glyphicon-screenshot" title="Salva immagine del progetto"></span>                   ImgJpg 
+</a>   -->
+		    
+<!-- A button for taking snaps -->
+	<form>
+		<input type=button class="glyphicon glyphicon-screenshot" onClick="take_snapshot()" title="Salva immagine del progetto">
+	</form>
+	
+	<!-- Code to handle taking the snapshot and displaying it locally -->
+	<script>
+		function take_snapshot() {
+			// take snapshot and get image data
+			Webcam.snap( function(data_uri) {
+				// display results in page
+				document.getElementById('results').innerHTML = 
+					'<h2>Here is your image:</h2>' + 
+					'<img src="'+data_uri+'"/>';
+			} );
+		}
+	</script>		    
 
 <!-- First, include the Webcam.js JavaScript Library -->
 	<script type="text/javascript" src="https://raw.githubusercontent.com/jhuckaby/webcamjs/master/webcam.min.js"></script>
