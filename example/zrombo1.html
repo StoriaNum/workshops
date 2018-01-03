@@ -65,7 +65,7 @@
 		Webcam.attach( '#imagesave' );
 	</script>
   <script language="JavaScript">
-		function take_snapshot() {
+		$('#save_image_locally').click(function take_snapshot() {
 			// take snapshot and get image data
 			Webcam.snap( function(data_uri) {
 				// download result
@@ -76,8 +76,8 @@
         			a.click();  
 				
 				
-			} );
-		}
+			}
+		});
 	</script>
   
 
