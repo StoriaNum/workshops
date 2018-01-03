@@ -89,10 +89,15 @@ var ContextMenu = function(blueprint3d) {
   var scope = this;
   var selectedItem;
   var three = blueprint3d.three;
+  
+  /// PROVA RIGA SOTTO
+  document.getElementById("avocado").removeAttribute("hidden");
 
   function init() {
     $("#context-menu-delete").click(function(event) {
         selectedItem.remove();
+      //// PROVA RIGA SOTTO
+       document.getElementById("avocado").setAttribute("hidden", true);
     });
 
     three.itemSelectedCallbacks.add(itemSelected);
