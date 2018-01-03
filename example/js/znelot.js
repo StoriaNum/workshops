@@ -94,10 +94,6 @@ var ContextMenu = function(blueprint3d) {
   function init() {
     $("#context-menu-delete").click(function(event) {
         selectedItem.remove();
-      
-      //// PROVA RIGA SOTTO
-       document.getElementById("avocado").setAttribute("hidden", true);
-      
     });
 
     three.itemSelectedCallbacks.add(itemSelected);
@@ -125,10 +121,6 @@ var ContextMenu = function(blueprint3d) {
     $("#context-menu-name").text(item.metadata.itemName);
     
     var nomeItemx3D = ""+item.metadata.itemName+"";
-    
-    /// PROVA RIGA SOTTO
-  document.getElementById("avocado").removeAttribute("hidden");
-    
     
    var modelGalleryuri = ""+item.metadata.modelGallery+""; 
    document.getElementById("modelGallerylink").href = modelGalleryuri;
