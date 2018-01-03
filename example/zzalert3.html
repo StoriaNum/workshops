@@ -11,11 +11,11 @@
 <script>
 function myFunction() {
     var txt;
-    var person = prompt("Please enter your name:", "Harry Potter");
-    if (person == null || person == "") {
+    var distance = prompt("Distance meters for object:", "Harry Potter");
+    if (distance == null || distance == "") {
         txt = "User cancelled the prompt.";
     } else {
-        txt = "Hello " + person + "! How are you today?";
+        txt = "Hello " + distance + "! How are you today?";
     }
     document.getElementById("demo").innerHTML = txt;
 }
