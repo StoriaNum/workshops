@@ -1,3 +1,0 @@
-look at:
-
-https://github.com/aframevr/aframe/issues/2547
