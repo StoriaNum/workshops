@@ -125,7 +125,9 @@ var ContextMenu = function(blueprint3d) {
     
    $("#modelPricetot").text(item.metadata.modelPrice); 
    
-     
+   $("#modelAr3d").text(item.metadata.modelUrl);  
+   
+    
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
   
   var modelBuybasketuri = ""+item.metadata.modelBuybasket+"";
