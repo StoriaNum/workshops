@@ -1,0 +1,155 @@
+  <html><head>
+	  
+    
+	  
+    <title>Blueprint Esempio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/example.css" rel="stylesheet">
+   
+
+    <!-- Make sure you've built blueprint3d.js -->
+    <!-- See README.md for details -->
+    <script src="js/blueprint3d.js"></script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    
+    <script src="js/zcarxexample6.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/html2canvas.js"></script>
+
+<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+<script src="https://rawgit.com/jeromeetienne/ar.js/master/aframe/build/aframe-ar.js"></script>
+       
+  </head>
+
+
+<!-- start the body of your page -->
+<body>
+	
+	
+	
+	<div style='position: fixed; width:100%; top: 0px; z-index: 1;'>
+
+
+        <!-- Right Column -->
+        <div class="col-xs-9 main">    <div id="imagesave">
+
+        <!-- 3D Viewer prima era qui-->
+           
+
+            <div id="main-controls">
+              <a href="storiablueblue" class="btn btn-default btn-sm" id="new">
+              <span class="glyphicon glyphicon-refresh" title="Nuovo Progetto"></span>       <!-- Nuovo  -->
+              </a>
+              
+            
+
+<a href="#" class="btn btn-default btn-sm" id="save_image_locally">
+<span class="glyphicon glyphicon-screenshot" title="Salva immagine del progetto"></span>                  <!--  ImgJpg -->
+</a>  
+<form>
+		<input type=button value="Take Snapshot" onClick="take_snapshot()">
+	</form>
+<script language="JavaScript">
+		Webcam.set({
+			width: 320,
+			height: 240,
+			image_format: 'jpeg',
+			jpeg_quality: 90
+		});
+		Webcam.attach( '#my_camera' );
+	</script>
+  <script language="JavaScript">
+		function take_snapshot() {
+			// take snapshot and get image data
+			Webcam.snap( function(data_uri) {
+				// display results in page
+				document.getElementById('results').innerHTML = 
+					'<h2>Here is your image:</h2>' + 
+					'<img src="'+data_uri+'"/>';
+			} );
+		}
+	</script>
+  
+<script>
+  $('#save_image_locally').click(function(){
+    html2canvas($('#imagesave'), 
+    {
+      onrendered: function (canvas) {  
+       var a = document.createElement('a');
+        // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
+        a.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
+        a.download = 'myfilename.jpg';
+        a.click();  
+   
+      }
+    });
+  });
+</script>
+              
+<!-- insert label storiablue with its own link                  
+
+<a href="storiablueblue" style="font-size: 20px; font-style: italic; color: red;">storiablue</a>
+--> 
+              
+&nbsp;<span class="mcright"><a href="storiablueblue" class="fontkaushan">storiabluee12345</a>
+</span>
+                    
+
+              
+<!-- end inserting label storiablue with its own link  -->
+               
+            </div>
+            
+           
+    <div id="viewer">          
+            
+            
+            <div id="camera-controls">
+             
+            </div>
+
+		  
+		  
+           
+          </div> 
+
+ 
+
+
+
+
+
+	</div>
+
+</div></div>
+  
+
+  <a-scene>
+    <!-- this is the "stage" of your 3D content -->
+
+    <a-entity camera="" position="0 1.6 5"></a-entity> <!-- We move the camera around a bit -->
+    <a-entity light="type:directional;castShadow:true" position="0 10 0"></a-entity> <!-- Have a light shining down on our scene -->
+    <a-entity light="type:ambient; intensity:0.5"></a-entity> <!-- and some ambient lighting -->
+
+    <!-- we define our gltf model -->
+    <a-assets>
+      <a-asset-item id="avocado" src="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/glTF-Embedded/Box.gltf"></a-asset-item>
+    </a-assets>
+
+    <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 1 0"></a-entity>
+
+ 
+    
+    </a-scene>  
+  
+  
+  
+</body></html>
