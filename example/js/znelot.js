@@ -119,6 +119,8 @@ var ContextMenu = function(blueprint3d) {
 
     $("#context-menu-name").text(item.metadata.itemName);
     
+    var nomeItemx3D = ""+item.metadata.itemName+"";
+    
     
    var modelGalleryuri = ""+item.metadata.modelGallery+""; 
    document.getElementById("modelGallerylink").href = modelGalleryuri;
@@ -126,7 +128,9 @@ var ContextMenu = function(blueprint3d) {
    $("#modelPricetot").text(item.metadata.modelPrice); 
       
    var modelAr3Duri = ""+item.metadata.modelUrl+"";
-   document.getElementById("modelAr3Dlink").href = modelAr3Duri; //nel seguito lo chiamo avocado per comodita
+   var modelAr3Duribis = modelAr3Duri.replace("models/js/","");
+   var modelAr3Duriter = modelAr3Duribis.replace(".js",".gltf"); 
+   document.getElementById("modelAr3Dlink").href = "https://storianum.github.io/workshops/example/zzalert3.html?link="+modelAr3Duriter+"&item="+nomeItemx3D+"";
  //   document.getElementById("avocado").href = modelAr3Duri;
     
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
