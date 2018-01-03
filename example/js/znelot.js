@@ -124,9 +124,10 @@ var ContextMenu = function(blueprint3d) {
    document.getElementById("modelGallerylink").href = modelGalleryuri;
     
    $("#modelPricetot").text(item.metadata.modelPrice); 
-   
-   $("#modelAr3d").text(item.metadata.modelUrl);  
-   
+      
+   var modelAr3Duri = ""+item.metadata.modelUrl+"";
+   document.getElementById("modelAr3Dlink").href = modelAr3Duri; //nel seguito lo chiamo avocado per comodita
+ //   document.getElementById("avocado").href = modelAr3Duri;
     
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
   
