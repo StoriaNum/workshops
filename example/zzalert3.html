@@ -11,11 +11,11 @@
 <script>
 function myFunction() {
     var txt;
-    var distance = prompt("Distance meters for object:", "Harry Potter");
-    if (distance == null || distance == "") {
-        txt = "User cancelled the prompt.";
+    var distance = parseInt(prompt("Distance meters for object:", "1"));
+    if (distance == null || distance == "" || distance < 1 || distance > 10 || isNaN(distance) == true) {
+        txt = "User cancelled the prompt."; // invio distanza di 1 m
     } else {
-        txt = "Hello " + distance + "! How are you today?";
+        txt = "Hello " + distance + "! How are you today?"; // invio distanza specificata
     }
     document.getElementById("demo").innerHTML = txt;
 }
