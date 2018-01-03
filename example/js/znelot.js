@@ -131,7 +131,7 @@ var ContextMenu = function(blueprint3d) {
    var modelAr3Duribis = modelAr3Duri.replace("models/js/","");
    var modelAr3Duriter = modelAr3Duribis.replace(".js",".gltf"); 
    document.getElementById("modelAr3Dlink").href = "https://storianum.github.io/workshops/example/zzalert3.html?link="+modelAr3Duriter+"&item="+nomeItemx3D+"";
- //   document.getElementById("avocado").href = modelAr3Duri;
+   document.getElementById("avocado").src = "LINK PER MODELLO GLTF"+modelAr3Duriter+"";
     
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
   
