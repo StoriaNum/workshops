@@ -270,7 +270,7 @@
 		    
   <br><br><br>		    
   <p>
-  <label for="amount">Distance of item:</label>
+  <label for="amount">Distanza a cui porre l&rsquo;arredo:</label>
   <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
   </p>
  
@@ -284,10 +284,10 @@
       max: 10,
       step: 0.2,
       slide: function( event, ui ) {
-        $( "#amount" ).val( "meters " + ui.value );
+        $( "#amount" ).val( "metri " + ui.value );
       }
     });
-    $( "#amount" ).val( "meters " + $( "#slider" ).slider( "value" ) );
+    $( "#amount" ).val( "metri " + $( "#slider" ).slider( "value" ) );
   } );
   </script>
 	
