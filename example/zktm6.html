@@ -269,15 +269,12 @@
 <!-- end inserting label storiablue with its own link  -->
                
             </div>
-            
-           
-    <div id="viewer">          
-            
-	    
-	  
-  <span for="amount">Distance of item:</span>
-	    <span type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;"></span><br>
-
+		
+		
+		<p>
+  <label for="amount">Distance of item:</label>
+  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+		</p>
  
 <div id="slider"></div>
   
@@ -295,14 +292,19 @@
     $( "#amount" ).val( "meters " + $( "#slider" ).slider( "value" ) );
   } );
   </script>
-	    
-	    
+		
+		
+		
+		
             
+           
+    <div id="viewer">          
+            
+  
             <div id="camera-controls">
              
             </div>
 
-		  
 		  
            
           </div> 
