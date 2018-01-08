@@ -269,33 +269,28 @@
 <!-- end inserting label storiablue with its own link  -->
 		    
 		    
+
+<br><br><br>
+<h4>Seleziona la distanza arredo</h4>		    
+<p id="distanzaitemcam"></p>
+<br>
+<select id="ddlViewBy" onchange="changeFunc();">
+  <option value="0">Seleziona</option>
+  <option value="1">test1</option>
+  <option value="2">test2</option>
+  <option value="3">test3</option>
+</select>
 		    
-		    
-		    
-		    
-		    
-		    
+<script>
+function changeFunc() {
+var e = document.getElementById("ddlViewBy");
+var strUser = e.options[e.selectedIndex].text;
 	
-  <label for="amount">Distance of item:</label>
-  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-		
- 
-<div id="slider"></div>
-  
-   <script>
-  $( function() {
-    $( "#slider" ).slider({
-      value:1,
-      min: 1,
-      max: 10,
-      step: 0.2,
-      slide: function( event, ui ) {
-        $( "#amount" ).val( "meters " + ui.value );
-      }
-    });
-    $( "#amount" ).val( "meters " + $( "#slider" ).slider( "value" ) );
-  } );
-  </script> 		    
+	alert(strUser);
+
+//document.getElementById("distanzaitemcam").innerHTML = strUser;
+}
+</script>		    
 		    
 		    
 		    
@@ -303,7 +298,11 @@
 		    
 		    
 		    
-               
+		    
+		    
+		    
+		    
+		    
             </div>
 		
  
