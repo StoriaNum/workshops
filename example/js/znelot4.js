@@ -123,6 +123,11 @@ var ContextMenu = function(blueprint3d) {
 
   function itemSelected(item) {
     selectedItem = item;
+    
+     $('#ddlViewBy option').prop('selected', function() {
+                                      return this.defaultSelected;
+                    });
+    
 
     $("#context-menu-name").text(item.metadata.itemName);
     
