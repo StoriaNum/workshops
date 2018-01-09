@@ -100,6 +100,10 @@ var ContextMenu = function(blueprint3d) {
                                           });
       
       
+      
+                 document.getElementById("nomeitemcam").innerHTML = "Scegli un arredo nella colonna a sinistra!";
+      
+      
     });
 
     three.itemSelectedCallbacks.add(itemSelected);
