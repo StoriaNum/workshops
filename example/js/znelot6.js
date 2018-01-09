@@ -102,6 +102,7 @@ var ContextMenu = function(blueprint3d) {
       
       
                  document.getElementById("nomeitemcam").innerHTML = "Scegli un arredo nella colonna a sinistra!";
+                 document.getElementById("modelAr3Dlink").href = "";
       
       
     });
