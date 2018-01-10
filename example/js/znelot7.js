@@ -104,6 +104,10 @@ var ContextMenu = function(blueprint3d) {
                  document.getElementById("nomeitemcam").innerHTML = "Scegli un arredo nella colonna a sinistra!";
                  document.getElementById("modelAr3Dlink").href = "";
       
+      //////////////
+                 document.getElementById("fullsar1").setAttribute("hidden", true);
+                 document.getElementById("modelAr3Dlink").setAttribute("hidden", true);
+      //////////////
       
     });
 
@@ -133,6 +137,8 @@ var ContextMenu = function(blueprint3d) {
                                       return this.defaultSelected;
                     });
     
+    document.getElementById("fullsar1").removeAttribute("hidden");  /////////////////////////////////////////
+    document.getElementById("modelAr3Dlink").removeAttribute("hidden");  /////////////////////////////////////////
 
     $("#context-menu-name").text(item.metadata.itemName);
     
