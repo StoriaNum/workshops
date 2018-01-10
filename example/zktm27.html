@@ -289,8 +289,20 @@ function changeFunc() {
 var e = document.getElementById("ddlViewBy");
 var strUser = e.options[e.selectedIndex].text;
 	
-	alert(strUser);
+var hreftemp = document.getElementById("modelAr3Dlink").href;
+	
+if (strUser != "Seleziona")  {	
 
+        document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser;
+	
+   } else {
+		
+		
+	document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst=1 m";	
+		
+	}
+
+//	alert(strUser);
 //document.getElementById("distanzaitemcam").innerHTML = strUser;
 }
 </script>		    
