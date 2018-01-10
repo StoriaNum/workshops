@@ -290,10 +290,15 @@ var e = document.getElementById("ddlViewBy");
 var strUser = e.options[e.selectedIndex].text;
 	
 var hreftemp = document.getElementById("modelAr3Dlink").href;
+hreftemp = hreftemp.replace(/(&Dst=1%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=2%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=3%20m)+/g, "");	
+	
 	
 if (strUser != "Seleziona")  {	
 
         document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser;
+	
 	
    } else {
 		
