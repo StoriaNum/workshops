@@ -158,7 +158,7 @@ var ContextMenu = function(blueprint3d) {
    
    document.getElementById("nomeitemcam").innerHTML = "Arredo selezionato: <i><b>"+nomeItemx3D+"</b></i>";
     
-   document.getElementById("fullsar1").innerHTML = "<u>Premere</u> per arredo in realt&agrave; virtuale  ";
+   document.getElementById("fullsar1").innerHTML = "<u>Premere</u> per arredo in realt&agrave; aumentata  ";
     
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
   
