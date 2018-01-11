@@ -12,26 +12,6 @@ $(document).ready(function() {
       "type" : "1"
     },
     
-    {
-      "name" : "Albero di Natale Box",
-      "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
-      "model" : "models/js/Box.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-    
-     {
-      "name" : "Albero di Natale Duck",
-      "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
-      "model" : "models/js/Duck.js",
-      "price" : "x,y &euro;",
-      "buybasket" : "",
-      "gallery" : "#",
-      "type" : "1"
-    },
-    
      {
       "name" : "Scaffalatura 01",
       "image" : "models/thumbnails/hoehe-2000-mm-6-ebenen.jpg",
