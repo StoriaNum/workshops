@@ -149,7 +149,16 @@ var linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models
 	        
     </a-assets>
 	  
-    <script>document.getElementById("avocado").src = linkfin;</script> 		  
+  <!--  <script>document.getElementById("avocado").src = linkfin;</script> 		-->
+	  
+	  <script>
+		  
+		var ele=document.getElementById("avocado");
+		ele.setAttribute('src',linkfin);		  
+		  
+	  </script>
+	  
+	  
 
     <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 0 0"></a-entity>
 
