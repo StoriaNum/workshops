@@ -104,6 +104,11 @@ var ContextMenu = function(blueprint3d) {
                  document.getElementById("nomeitemcam").innerHTML = "Scegli un arredo nella colonna a sinistra!";
                  document.getElementById("modelAr3Dlink").href = "";
       
+      //////////////
+                 document.getElementById("fullsar1").innerHTML = "";
+                 
+                 $("#modelAr3Dlink").hide();
+      //////////////
       
     });
 
@@ -133,6 +138,8 @@ var ContextMenu = function(blueprint3d) {
                                       return this.defaultSelected;
                     });
     
+   
+    $("#modelAr3Dlink").show();  //////////////////////////////////////////////////////////////////////////////////////
 
     $("#context-menu-name").text(item.metadata.itemName);
     
@@ -150,6 +157,8 @@ var ContextMenu = function(blueprint3d) {
    document.getElementById("avocado").src = "LINK PER MODELLO GLTF"+modelAr3Duriter+"";
    
    document.getElementById("nomeitemcam").innerHTML = "Arredo selezionato: <i><b>"+nomeItemx3D+"</b></i>";
+    
+   document.getElementById("fullsar1").innerHTML = "<u>Premere</u> per arredo in realt&agrave; aumentata  ";
     
   var selettoreifprezzo = ""+item.metadata.modelPrice+"";
   
