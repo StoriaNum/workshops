@@ -13,9 +13,9 @@ $(document).ready(function() {
     },
     
     {
-      "name" : "Albero di Natale",
+      "name" : "Albero di Natale Box",
       "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
-      "model" : "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/glTF-Embedded/Box.js",
+      "model" : "models/js/Box.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "#",
@@ -23,9 +23,9 @@ $(document).ready(function() {
     },
     
      {
-      "name" : "Albero di Natale BIS",
+      "name" : "Albero di Natale Duck",
       "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
-      "model" : "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Embedded/Duck.js",
+      "model" : "models/js/Duck.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "#",
