@@ -124,7 +124,12 @@ var link = getParameterByName('link');
 var item = getParameterByName('item');
 var Dst = getParameterByName('Dst');
 alert("le variabili sono: link="+link+" poi item="+item+" poi distanza="+Dst+"");
-document.getElementById("avocado").src = link;
+	
+	
+var linkdir = link.replace(".gltf","");	
+linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/"+linkdir+"/glTF-Embedded/"+link;	
+	
+document.getElementById("avocado").src = linkfin;
 </script>
 	
 	
