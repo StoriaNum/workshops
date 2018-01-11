@@ -107,7 +107,7 @@ var ContextMenu = function(blueprint3d) {
       //////////////
                  document.getElementById("fullsar1").innerHTML = "";
                  
-                 document.getElementById("modelAr3Dlink").setAttribute("hidden", true);
+                 document.getElementById("modelAr3Dlink").style.display="none";
       //////////////
       
     });
