@@ -145,7 +145,7 @@ alert("quello che vedro: "+linkfin);
 
     <!-- we define our gltf model -->
     <a-assets>
-      <a-asset-item id="avocado" src="'+linkfin+'"></a-asset-item>
+	    <a-asset-item id="avocado" src="'<script>linkfin</script>'"></a-asset-item>
     </a-assets>
 
     <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 0 0"></a-entity>
