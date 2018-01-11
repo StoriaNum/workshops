@@ -109,7 +109,26 @@
 
 </div></div>
   
-
+<script>
+//////////   funzione per raccogliere variabili js
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+var link = getParameterByName('link');
+var item = getParameterByName('item');
+var Dst = getParameterByName('Dst');
+alert("le variabili sono: link="+link+" poi item="+item+" poi distanza="+Dst+"");
+</script>
+	
+	
+	
+	
   <a-scene>
     <!-- this is the "stage" of your 3D content -->
 
