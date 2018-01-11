@@ -15,6 +15,16 @@ $(document).ready(function() {
     {
       "name" : "Albero di Natale",
       "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
+      "model" : "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/glTF-Embedded/Box.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery" : "#",
+      "type" : "1"
+    },
+    
+     {
+      "name" : "Albero di Natale BIS",
+      "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
       "model" : "models/js/alberonatale.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
