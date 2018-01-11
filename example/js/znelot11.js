@@ -107,7 +107,7 @@ var ContextMenu = function(blueprint3d) {
       //////////////
                  document.getElementById("fullsar1").innerHTML = "";
                  
-                 document.getElementById("modelAr3Dlink").style.display="none";
+                 $("#modelAr3Dlink").hide();
       //////////////
       
     });
@@ -139,7 +139,7 @@ var ContextMenu = function(blueprint3d) {
                     });
     
    
-    document.getElementById("modelAr3Dlink").removeAttribute("hidden");  /////////////////////////////////////////
+    $("#modelAr3Dlink").show();  //////////////////////////////////////////////////////////////////////////////////////
 
     $("#context-menu-name").text(item.metadata.itemName);
     
