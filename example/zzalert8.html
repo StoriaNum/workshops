@@ -127,7 +127,9 @@ alert("le variabili sono: link="+link+" poi item="+item+" poi distanza="+Dst+"")
 	
 	
 var linkdir = link.replace(".gltf","");	
-linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/"+linkdir+"/glTF-Embedded/"+link;	
+var linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/"+linkdir+"/glTF-Embedded/"+link;	
+	
+alert("quello che vedro: "+linkfin);	
 	
 document.getElementById("avocado").src = linkfin;
 </script>
