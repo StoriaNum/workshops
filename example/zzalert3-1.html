@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+
+
+</head>
+<body>
+
+
+<script>
+//////////   funzione per raccogliere variabili js
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+
+var foo = getParameterByName('link');
+var bar = getParameterByName('item');
+var baz = getParameterByName('Dst');
+
+alert("le variabili sono: link="+link+" poi item="+item+" poi distanza="+Dst+"");
+</script>
+
+
+
+
+ 
+ 
+</body>
+</html>
