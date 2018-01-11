@@ -25,7 +25,7 @@ $(document).ready(function() {
      {
       "name" : "Albero di Natale BIS",
       "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
-      "model" : "models/js/alberonatale.js",
+      "model" : "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Embedded/Duck.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "#",
