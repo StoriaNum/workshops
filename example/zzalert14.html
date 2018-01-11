@@ -145,12 +145,11 @@ var linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models
 
     <!-- we define our gltf model -->
     <a-assets>
-	    <a-asset-item id="avocado" src="<script>document.getElementById("avocado").src = linkfin;</script>"></a-asset-item>
-	    
-   
-	    
-	    
+	    <a-asset-item id="avocado" src=""></a-asset-item>
+	        
     </a-assets>
+	  
+    <script>document.getElementById("avocado").src = linkfin;</script> 		  
 
     <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 0 0"></a-entity>
 
@@ -158,6 +157,5 @@ var linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models
     
     </a-scene>  
   
-<!--   <script>document.getElementById("avocado").src = linkfin;</script>    -->	
   
 </body></html>
