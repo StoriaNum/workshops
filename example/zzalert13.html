@@ -123,13 +123,13 @@ function getParameterByName(name, url) {
 var link = getParameterByName('link');
 var item = getParameterByName('item');
 var Dst = getParameterByName('Dst');
-alert("le variabili sono: link="+link+" poi item="+item+" poi distanza="+Dst+"");
+//alert("le variabili sono: link="+link+" poi item="+item+" poi distanza="+Dst+"");
 	
 	
 var linkdir = link.replace(".gltf","");	
 var linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/"+linkdir+"/glTF-Embedded/"+link;	
 	
-alert("quello che vedro: "+linkfin);	
+//alert("quello che vedro: "+linkfin);	
 	
 </script>
 	
@@ -145,12 +145,9 @@ alert("quello che vedro: "+linkfin);
 
     <!-- we define our gltf model -->
     <a-assets>
-	    <a-asset-item id="avocado" src=""></a-asset-item>
+	    <a-asset-item id="avocado" src="<script>document.getElementById("avocado").src = linkfin;</script>"></a-asset-item>
 	    
-	    
-	    <script>
-	    document.getElementById("avocado").src = linkfin;	
-	    </script>
+   
 	    
 	    
     </a-assets>
@@ -161,6 +158,6 @@ alert("quello che vedro: "+linkfin);
     
     </a-scene>  
   
-	
+<!--   <script>document.getElementById("avocado").src = linkfin;</script>    -->	
   
 </body></html>
