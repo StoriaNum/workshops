@@ -282,8 +282,19 @@
 <select id="ddlViewBy" onchange="changeFunc();">
   <option value="0" selected="selected">Seleziona</option>
   <option value="1">1 m</option>
+  <option value="1">1,5 m</option>
   <option value="2">2 m</option>
+  <option value="2">2,5 m</option>
   <option value="3">3 m</option>
+  <option value="3">3,5 m</option>
+  <option value="3">4 m</option>
+  <option value="3">4,5 m</option>
+  <option value="3">5 m</option>
+  <option value="3">6 m</option>
+  <option value="3">7 m</option>
+  <option value="3">8 m</option>
+  <option value="3">9 m</option>
+  <option value="3">10 m</option>
 </select>
 		    
 <script>
@@ -294,7 +305,18 @@ var strUser = e.options[e.selectedIndex].text;
 var hreftemp = document.getElementById("modelAr3Dlink").href;
 hreftemp = hreftemp.replace(/(&Dst=1%20m)+/g, "");
 hreftemp = hreftemp.replace(/(&Dst=2%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=3%20m)+/g, "");	
+hreftemp = hreftemp.replace(/(&Dst=3%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=4%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=5%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=6%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=7%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=8%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=9%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=10%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=1,5%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=2,5%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=3,5%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 	
 	
 if (strUser != "Seleziona")  {	
@@ -313,23 +335,13 @@ if (strUser != "Seleziona")  {
 //document.getElementById("distanzaitemcam").innerHTML = strUser;
 }
 </script>		    
-		
-    
-    <!--    *****************************     -->
-		    
+				    
 	<br><br><br>	    
 	<h4 style="color:green" id="fullsar1"></h4><br>		    
         <a href="" class="btn btn-default btn-sm" id="modelAr3Dlink" style="display:none;">
         <span class="glyphicon glyphicon-fullscreen" title="Full Screen Realtà Aumentata" id="fullsar2"></span> Realt&agrave; Aumentata       <!-- Nuovo  -->
         </a>	
-		    
-		  <!--    *****************************     -->  
-		    
-		    
-		    
-		    
-		    
-		    
+		    	    
 		    
             </div>
 		
