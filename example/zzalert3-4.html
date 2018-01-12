@@ -52,11 +52,7 @@
 	      <a href="" class="btn btn-default btn-sm" id="buyidlink">
               <span class="glyphicon glyphicon-shopping-cart" title="Compra Ora"></span>       <!-- Buy  -->
               </a>	    
-		
-	    <script>
-	   var elebuy=document.getElementById("buyidlink");
-	   elebuy.setAttribute('href',buy);		  	  
-	  </script>	    
+	    
 		    
             
 <!--
@@ -136,6 +132,8 @@ var buy = getParameterByName('buyurl');
 	
 var linkdir = link.replace(".gltf","");	
 var linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/"+linkdir+"/glTF-Embedded/"+link;	
+
+document.getElementById("buyidlink").href=buy;	
 	
 </script>
 	
