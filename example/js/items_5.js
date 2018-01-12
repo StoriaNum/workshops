@@ -27,7 +27,7 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
       "model" : "models/js/Duck.js",
       "price" : "x,y &euro;",
-      "buybasket" : "",
+      "buybasket" : "http://biblioborbonica.altervista.org/",
       "gallery" : "#",
       "type" : "1"
     },
