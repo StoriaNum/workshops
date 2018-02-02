@@ -9,6 +9,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/bootbox.min.js"></script>
   
   
     <script>
@@ -18,7 +19,10 @@
 }   */
 
 if(window.innerHeight > window.innerWidth){
-    alert("Please use Landscape!");
+             bootbox.alert({
+               message: "Please use Landscape!",
+               size: 'small'
+            });
 }
   
   </script>
