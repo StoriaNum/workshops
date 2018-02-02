@@ -18,13 +18,20 @@
     alert("Please use Landscape!");
 }   */
 
-if(window.innerHeight > window.innerWidth){
-             bootbox.alert({
-               message: "Please use Landscape!",
-               size: 'small'
-            });
-}
+
   
+                 $(document).ready(function(){
+            $('.btn1').on('click', function(){
+    var some_html = '<img class="alert" src="img/pic1.jpg" width="30px" /><br />';
+    some_html += '<h2>You can use custom HTML too!</h2><br />';
+    some_html += '<h4>Just be sure to mind your quote marks</h4>';
+    bootbox.alert(some_html);               
+                    });    
+            }); 
+      
+      
+      
+      
   </script>
   
   
