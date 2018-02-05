@@ -11,6 +11,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
  {
@@ -20,6 +21,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -29,6 +31,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -37,7 +40,8 @@ $(document).ready(function() {
       "model" : "models/js/bliss1.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -46,7 +50,8 @@ $(document).ready(function() {
       "model" : "models/js/bliss2.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },    
         {
@@ -55,7 +60,8 @@ $(document).ready(function() {
       "model" : "models/js/blisswithoutblend.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },  
      {
@@ -64,7 +70,8 @@ $(document).ready(function() {
       "model" : "models/js/c1vitra.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }
     
@@ -77,6 +84,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9",
       "type" : "1"
     }, 
     */
@@ -100,6 +108,8 @@ $(document).ready(function() {
                 item.buybasket +
                 '" model-gallery="' + 
                 item.gallery +
+                '" model-datar="' +
+                item.datar +
                 '"><img src="' +
                 item.image +
                 '" alt="Add Item"> '+
