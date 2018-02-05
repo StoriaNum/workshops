@@ -11,7 +11,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "datar": "D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9",
+      "datar": "Sx=s1&Sy=s2&Sz=s3&Px=p1&Py=p2&D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9",
       "type" : "1"
     },
  {
@@ -84,9 +84,14 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "datar": "D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9",
+      "datar": "Sx=ooo&Sy=ooo&Sz=ooo&Px=ooo&Py=ooo&D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9",
       "type" : "1"
     }, 
+    
+    Sx=ooo&Sy=ooo&Sz=ooo&Px=ooo&Py=ooo&D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9
+    ho le componenti dei due vettori di #avocado gltf file per la prospettiva
+    dove D di sopra mi definisce il Pz nei vari casi definiti da distanza target
+    
     */
   ]
 
