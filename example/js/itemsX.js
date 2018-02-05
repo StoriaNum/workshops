@@ -11,7 +11,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "datar": "#",
+      "datar": "D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9",
       "type" : "1"
     },
  {
