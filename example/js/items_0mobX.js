@@ -14,6 +14,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }, 
     */
@@ -37,6 +38,8 @@ $(document).ready(function() {
                 item.buybasket +
                 '" model-gallery="' + 
                 item.gallery +
+                '" model-datar="' +
+                item.datar +
                 '"><img src="' +
                 item.image +
                 '" alt="Add Item"> '+
