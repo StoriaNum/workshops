@@ -123,6 +123,8 @@ var ContextMenu = function(blueprint3d) {
    var modelGalleryuri = ""+item.metadata.modelGallery+""; 
    document.getElementById("modelGallerylink").href = modelGalleryuri;
     
+   $("#modelDatartot").text(item.metadata.modelDatar);   
+    
    $("#modelPricetot").text(item.metadata.modelPrice); 
    
      
@@ -444,6 +446,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
       var modelPrice = $(this).attr("model-price");
       var modelBuybasket = $(this).attr("model-buybasket");
       var modelGallery = $(this).attr("model-gallery");
+      var modelDatar = $(this).attr("model-datar");
       var metadata = {
         itemName: $(this).attr("model-name"),
         resizable: true,
@@ -451,10 +454,11 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
         modelPrice: modelPrice,
         modelBuybasket: modelBuybasket,
         modelGallery: modelGallery,
+        modelDatar: modelDatar,
         itemType: itemType
       }
 
-      blueprint3d.model.scene.addItem(itemType, modelUrl, modelPrice, modelBuybasket, modelGallery, metadata);
+      blueprint3d.model.scene.addItem(itemType, modelUrl, modelPrice, modelBuybasket, modelGallery, modelDatar, metadata);
       setCurrentState(scope.states.DEFAULT);
     });
   }
