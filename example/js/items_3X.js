@@ -9,7 +9,8 @@ $(document).ready(function() {
       "model" : "models/js/46500BR.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -18,7 +19,8 @@ $(document).ready(function() {
       "model" : "models/js/46_301BR.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
       {
@@ -27,7 +29,8 @@ $(document).ready(function() {
       "model" : "models/js/68_221AM_01.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -36,7 +39,8 @@ $(document).ready(function() {
       "model" : "models/js/68_700AM.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
         {
@@ -45,7 +49,8 @@ $(document).ready(function() {
       "model" : "models/js/04_10_05B.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
             {
@@ -54,7 +59,8 @@ $(document).ready(function() {
       "model" : "models/js/04_10_06B.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -63,7 +69,8 @@ $(document).ready(function() {
       "model" : "models/js/04_512_04A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
             {
@@ -72,7 +79,8 @@ $(document).ready(function() {
       "model" : "models/js/04_512_03A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
                 {
@@ -81,7 +89,8 @@ $(document).ready(function() {
       "model" : "models/js/04_11_05A_01.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
                     {
@@ -90,7 +99,8 @@ $(document).ready(function() {
       "model" : "models/js/02_88_06A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
                         {
@@ -99,7 +109,8 @@ $(document).ready(function() {
       "model" : "models/js/02_85_07A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
                             {
@@ -108,7 +119,8 @@ $(document).ready(function() {
       "model" : "models/js/02_580_04RB.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -117,7 +129,8 @@ $(document).ready(function() {
       "model" : "models/js/04_110B.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
                 {
@@ -126,7 +139,8 @@ $(document).ready(function() {
       "model" : "models/js/04_105K.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -135,7 +149,8 @@ $(document).ready(function() {
       "model" : "models/js/05_10_03B.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -145,6 +160,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "http://mediametalli.altervista.org/sweetmodalalert/gallery/codnum/codnum.html",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -153,7 +169,8 @@ $(document).ready(function() {
       "model" : "models/js/53_450_876thurmetall.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }
       
@@ -165,6 +182,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }, 
     */
@@ -188,10 +206,12 @@ $(document).ready(function() {
                 item.buybasket +
                 '" model-gallery="' + 
                 item.gallery +
+                '" model-datar="' +
+                item.datar +
                 '"><img src="' +
                 item.image +
                 '" alt="Add Item"> '+
-                item.name +  
+                item.name +
                 '<br><i>Prezzo:</i> ' + item.price +
                 '<a class="btn btn-block2 btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> <b>Info</b><i> ' + item.name + '</i></a></a></div>';
     itemsDiv_3.append(html_3);
