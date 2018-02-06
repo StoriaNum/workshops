@@ -10,6 +10,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }, 
 {
@@ -18,7 +19,8 @@ $(document).ready(function() {
       "model" : "models/js/03_15_535_2A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
          {
@@ -27,7 +29,8 @@ $(document).ready(function() {
       "model" : "models/js/03_20_580_20A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
              {
@@ -36,7 +39,8 @@ $(document).ready(function() {
       "model" : "models/js/03_19_26A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -46,6 +50,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery" : "http://mediametalli.altervista.org/sweetmodalalert/gallery/codnum/codnum.html",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -54,7 +59,8 @@ $(document).ready(function() {
       "model" : "models/js/Howe_Tempest_Flip_Cresent_1500x750.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"   
     }
       
@@ -66,6 +72,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }, 
     */
@@ -89,10 +96,12 @@ $(document).ready(function() {
                 item.buybasket +
                 '" model-gallery="' + 
                 item.gallery +
+                '" model-datar="' +
+                item.datar +
                 '"><img src="' +
                 item.image +
                 '" alt="Add Item"> '+
-                item.name +  
+                item.name + 
                 '<br><i>Prezzo:</i> ' + item.price +
                 '<a class="btn btn-block2 btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> <b>Info</b><i> ' + item.name + '</i></a></a></div>';
     itemsDiv_1.append(html_1);
