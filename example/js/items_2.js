@@ -9,7 +9,8 @@ $(document).ready(function() {
       "model" : "models/js/60_104A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }, 
 {
@@ -18,7 +19,8 @@ $(document).ready(function() {
       "model" : "models/js/60_303.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
      {
@@ -27,7 +29,8 @@ $(document).ready(function() {
       "model" : "models/js/60_304A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -36,7 +39,8 @@ $(document).ready(function() {
       "model" : "models/js/60_701A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
         {
@@ -45,7 +49,8 @@ $(document).ready(function() {
       "model" : "models/js/713-2422.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
         {
@@ -54,7 +59,8 @@ $(document).ready(function() {
       "model" : "models/js/780-1311A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
         {
@@ -63,7 +69,8 @@ $(document).ready(function() {
       "model" : "models/js/1000_2321A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
             {
@@ -72,7 +79,8 @@ $(document).ready(function() {
       "model" : "models/js/1000_0222A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -81,7 +89,8 @@ $(document).ready(function() {
       "model" : "models/js/02_118_04.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
       {
@@ -90,7 +99,8 @@ $(document).ready(function() {
       "model" : "models/js/02_95_01-3A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -99,7 +109,8 @@ $(document).ready(function() {
       "model" : "models/js/02_2098_00K.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
         {
@@ -108,7 +119,8 @@ $(document).ready(function() {
       "model" : "models/js/02_140-1RA.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
 {
@@ -117,7 +129,8 @@ $(document).ready(function() {
       "model" : "models/js/04_155_04A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
                         {
@@ -126,7 +139,8 @@ $(document).ready(function() {
       "model" : "models/js/04_155_12A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
  {
@@ -135,7 +149,8 @@ $(document).ready(function() {
       "model" : "models/js/11_502_010lista.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }
      
@@ -147,6 +162,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "url di interesse",
+      "datar": "#",
       "type" : "1"
     }, 
     */
@@ -170,10 +186,12 @@ $(document).ready(function() {
                 item.buybasket +
                 '" model-gallery="' + 
                 item.gallery +
+                '" model-datar="' +
+                item.datar +
                 '"><img src="' +
                 item.image +
                 '" alt="Add Item"> '+
-                item.name +  
+                item.name + 
                 '<br><i>Prezzo:</i> ' + item.price +
                 '<a class="btn btn-block2 btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> <b>Info</b><i> ' + item.name + '</i></a></a></div>';
     itemsDiv_2.append(html_2);
