@@ -362,6 +362,15 @@ hreftemp = hreftemp.replace(/(&Dst=3,5%20m)+/g, "");
 hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 	
 	
+var Sx = this.Sx;
+var Sy = this.Sy;
+var Sz = this.Sz;
+var Px = this.Px;
+var Py = this.Py;
+var D = this.D;
+	
+	
+	
 if (strUser != "Seleziona")  {	
 
         document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser+"&Sx="+Sx+"&Sy="+Sy+"&Sz="+Sz+"&Px="+Px+"&Py="+Py+"&D="+D;
