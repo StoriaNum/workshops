@@ -8,7 +8,8 @@ $(document).ready(function() {
       "model" : "models/js/04_118_600A.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }
 
@@ -21,6 +22,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }, 
     */
@@ -44,13 +46,14 @@ $(document).ready(function() {
                 item.buybasket +
                 '" model-gallery="' + 
                 item.gallery +
+                '" model-datar="' +
+                item.datar +
                 '"><img src="' +
                 item.image +
                 '" alt="Add Item"> '+
-                item.name +  
+                item.name +
                 '<br><i>Prezzo:</i> ' + item.price +
                 '<a class="btn btn-block2 btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> <b>Info</b><i> ' + item.name + '</i></a></a></div>';
     itemsDiv_4.append(html_4);
   }
 });
-
