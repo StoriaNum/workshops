@@ -8,7 +8,8 @@ $(document).ready(function() {
       "model" : "models/js/HZGA27310EX_ZEILE_5_02_002_20.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     
@@ -18,7 +19,8 @@ $(document).ready(function() {
       "model" : "models/js/Box.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     
@@ -28,7 +30,8 @@ $(document).ready(function() {
       "model" : "models/js/Duck.js",
       "price" : "x,y &euro;",
       "buybasket" : "http://biblioborbonica.altervista.org/",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     
@@ -38,7 +41,8 @@ $(document).ready(function() {
       "model" : "models/js/HRG20610DA_07.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
-      "gallery" : "#",
+      "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }
     
@@ -51,6 +55,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }, 
     */
@@ -69,18 +74,19 @@ $(document).ready(function() {
                 '" model-type="' +
                 item.type + 
                 '" model-price="' +
-                item.price +
+                 item.price +
                 '" model-buybasket="' +
                 item.buybasket +
                 '" model-gallery="' + 
                 item.gallery +
+                '" model-datar="' +
+                item.datar +
                 '"><img src="' +
                 item.image +
                 '" alt="Add Item"> '+
-                item.name +  
+                item.name + 
                 '<br><i>Prezzo:</i> ' + item.price +
                 '<a class="btn btn-block2 btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> <b>Info</b><i> ' + item.name + '</i></a></a></div>';
     itemsDiv_5.append(html_5);
   }
 });
-
