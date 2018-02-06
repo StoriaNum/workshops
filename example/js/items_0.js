@@ -9,6 +9,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     }, 
     {
@@ -18,6 +19,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     }, 
     {
@@ -27,6 +29,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     },
     {
@@ -36,6 +39,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     },
     {
@@ -45,6 +49,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     },
     {
@@ -54,6 +59,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     },
     {
@@ -63,6 +69,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     },
     {
@@ -72,6 +79,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     },
     {
@@ -81,6 +89,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     },
     {
@@ -90,6 +99,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     },
     {
@@ -99,6 +109,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "7"
     },
     {
@@ -108,6 +119,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "3"
     },
     {
@@ -117,6 +129,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "3"
     },
     {
@@ -126,6 +139,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "3"
     },
     {
@@ -135,6 +149,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "3"
     },
      {
@@ -144,6 +159,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -153,6 +169,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -162,6 +179,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -171,6 +189,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -180,6 +199,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -189,6 +209,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     /*    {
@@ -198,6 +219,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
        {
@@ -207,6 +229,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },   */
     {
@@ -216,6 +239,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -225,6 +249,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -234,6 +259,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -243,6 +269,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -252,6 +279,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -261,6 +289,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -270,6 +299,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -279,6 +309,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -288,6 +319,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -297,6 +329,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -306,6 +339,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -315,6 +349,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -324,6 +359,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -333,6 +369,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -342,6 +379,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -351,6 +389,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "8"
     },
     {
@@ -360,6 +399,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -369,6 +409,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -378,6 +419,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "2"
     },
     {
@@ -387,6 +429,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -396,6 +439,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -405,6 +449,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -414,6 +459,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     },
     {
@@ -423,6 +469,7 @@ $(document).ready(function() {
       "price" : "NOT-ON-SALE",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }
     
@@ -435,6 +482,7 @@ $(document).ready(function() {
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
+      "datar": "#",
       "type" : "1"
     }, 
     */
@@ -458,10 +506,12 @@ $(document).ready(function() {
                 item.buybasket +
                 '" model-gallery="' + 
                 item.gallery +
+                '" model-datar="' +
+                item.datar +
                 '"><img src="' +
                 item.image +
                 '" alt="Add Item"> '+
-                item.name +  
+                item.name + 
                '<br><i> ' + item.price +    /* per complementi di progettazione che non sono in vendita */
                 '</i></a></div>';
     itemsDiv_0.append(html_0);
