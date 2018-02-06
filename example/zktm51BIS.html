@@ -312,7 +312,7 @@ function getParameterByName(name, url) {
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
+} ////fine della funzione
 	
 var preseqvett = document.getElementById("modelDatartot").innerHTML;;	
 	
@@ -322,9 +322,23 @@ var Sy = getParameterByName('Sy', seqvettori );
 var Sz = getParameterByName('Sz', seqvettori );
 var Px = getParameterByName('Px', seqvettori );
 var Py = getParameterByName('Py', seqvettori );
-alert (Sx); alert (Sy); alert (Sz); alert (Px); alert (Py);
+	
+var D = getParameterByName('D', seqvettori );
+var iD= parseInt(D.substr(0, D.indexOf(':'))); 
+var pos2punti=D.indexOf(":")+1;
+var PzTot = D.substring(pos2punti);
+var elD = 14-iD+1;
+var Pz = PzTot.split('!');
 
-var D = getParameterByName('D', seqvettori );   alert (D);	
+Pz.length=elD;
+for (ii = 1; ii <= Pz.length; ii++) { 
+
+     Pz[ii-1]=parseFloat(Pz[ii-1]);
+     
+}
+	
+
+	
 	
 function changeFunc() {
 var e = document.getElementById("ddlViewBy");
@@ -349,7 +363,7 @@ hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 	
 if (strUser != "Seleziona")  {	
 
-        document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser;
+        document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser+"&Sx="+Sx+"&Sy="+Sy+"&Sz"+Sz+"&Px"+Px+"&Py"+Py+"&D"+D;
 	
 	
    } else {
