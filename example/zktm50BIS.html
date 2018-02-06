@@ -302,6 +302,20 @@
 </select>
 		    
 <script>
+	
+////////// funzione che raccoglie i componenti di #avocado
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+	
+var seqvettori ="?";	
+	
 function changeFunc() {
 var e = document.getElementById("ddlViewBy");
 var strUser = e.options[e.selectedIndex].text;
