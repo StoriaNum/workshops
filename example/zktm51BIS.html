@@ -314,7 +314,7 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 } ////fine della funzione
 	
-var preseqvett = document.getElementById("modelDatartot").innerHTML;;	
+var preseqvett = document.getElementById("modelDatartot").innerHTML;	
 	
 var seqvettori ="?"+ preseqvett;
 var Sx = getParameterByName('Sx', seqvettori );
@@ -363,7 +363,7 @@ hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 	
 if (strUser != "Seleziona")  {	
 
-        document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser+"&Sx="+Sx+"&Sy="+Sy+"&Sz"+Sz+"&Px"+Px+"&Py"+Py+"&D"+D;
+        document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser+"&Sx="+Sx+"&Sy="+Sy+"&Sz="+Sz+"&Px="+Px+"&Py="+Py+"&D="+D;
 	
 	
    } else {
