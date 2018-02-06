@@ -314,7 +314,17 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 	
-var seqvettori ="?";	
+var preseqvett = document.getElementById("modelDatartot").innerHTML;;	
+	
+var seqvettori ="?"+ preseqvett;
+var Sx = getParameterByName('Sx', seqvettori );
+var Sy = getParameterByName('Sy', seqvettori );
+var Sz = getParameterByName('Sz', seqvettori );
+var Px = getParameterByName('Px', seqvettori );
+var Py = getParameterByName('Py', seqvettori );
+alert (Sx); alert (Sy); alert (Sz); alert (Px); alert (Py);
+
+var D = getParameterByName('D', seqvettori );   alert (D);	
 	
 function changeFunc() {
 var e = document.getElementById("ddlViewBy");
