@@ -308,9 +308,14 @@
 		    
 <script>
 	
+		
+function changeFunc() {
+	
+var preseqvett = document.getElementById("modelDatartot").innerHTML;	
+	
 ////////// funzione che raccoglie i componenti di #avocado
 function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
+    if (!url) url = preseqvett;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
         results = regex.exec(url);
@@ -318,9 +323,7 @@ function getParameterByName(name, url) {
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 } ////fine della funzione, nel seguito ricostruzione dei parametri	
-	
-var preseqvett = document.getElementById("modelDatartot").innerHTML;
-	
+		
 var seqvettori ="?"+preseqvett;
 var Sx = getParameterByName('Sx',seqvettori);
 var Sy = getParameterByName('Sy',seqvettori);
@@ -337,10 +340,7 @@ var Pz = PzTot.split('!');
 Pz.length=elD;
 for (ii = 1; ii <= Pz.length; ii++) { 
      Pz[ii-1]=parseFloat(Pz[ii-1]);    
-}	
-		
-		
-function changeFunc() {
+}		
 	
 var e = document.getElementById("ddlViewBy");
 var strUser = e.options[e.selectedIndex].text;
@@ -362,15 +362,6 @@ hreftemp = hreftemp.replace(/(&Dst=3,5%20m)+/g, "");
 hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 	
 	
-var Sx = this.Sx;
-var Sy = this.Sy;
-var Sz = this.Sz;
-var Px = this.Px;
-var Py = this.Py;
-var D = this.D;
-
-	
-	
 if (strUser != "Seleziona")  {	
 
         document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser+"&Sx="+Sx+"&Sy="+Sy+"&Sz="+Sz+"&Px="+Px+"&Py="+Py+"&D="+D;
@@ -388,7 +379,7 @@ if (strUser != "Seleziona")  {
 }
 </script>		    
 	
-	<a href="" id="modelDatartot" style="display:none;">	    
+	<span id="modelDatartot" hidden></span>	    
 	<br>	    
 	<h4 style="color:green" id="fullsar1"></h4>		    
         <a href="" class="btn btn-default btn-sm" id="modelAr3Dlink" style="display:none;">
