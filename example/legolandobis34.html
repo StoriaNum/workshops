@@ -382,9 +382,15 @@ hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 if (strUser != "Seleziona")  {	
 
 	
-	coord = ""; document.getElementById("modelAr3Dlink").href = "";
-  coord = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+this.Pz[8];
-	document.getElementById("modelAr3Dlink").href = coord;
+coord = ""; document.getElementById("modelAr3Dlink").href = "";
+coord = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+this.Pz[8];
+// document.getElementById("modelAr3Dlink").href = coord;
+	
+var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare ripetizioni i.e. Sz
+	
+	if (count > 1) {  alert(count); /* elimina parti identiche della stringa coord   */  }
+		
+	else { document.getElementById("modelAr3Dlink").href = coord; }
 	
    } else {
 		
