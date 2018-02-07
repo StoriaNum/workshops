@@ -288,6 +288,7 @@
 <h4 style="color:green">Inserire la distanza a cui porre l&rsquo;arredo (in metri)</h4>		    
 <p id="distanzaitemcam"></p>
 
+<span id="vettPeS" onclick="functionPeS()">		    
 <select id="ddlViewBy" onchange="changeFunc();">
   <option value="0" selected="selected">Seleziona</option>
   <option value="1">1 m</option>
@@ -305,15 +306,24 @@
   <option value="3">9 m</option>
   <option value="3">10 m</option>
 </select>
+</span>	
 		    
 <script>
 	
+var Sx;
+var Sy;
+var Sz;
+var Px;
+var Py;
+var D;
+	
+function functionPeS {	
 var preseqvett = document.getElementById("modelDatartot").innerHTML;   alert(preseqvett);
 var seqvettori ="https://aaa.aa/aaa.html?"+preseqvett;
 	
 ////////// funzione che raccoglie i componenti di #avocado
 function getParameterByName(name, url) {	
-    if (!url) url = this.seqvettori;
+    if (!url) url = seqvettori;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
         results = regex.exec(url);
@@ -322,13 +332,13 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 } ////fine della funzione, nel seguito ricostruzione dei parametri
 
-var Sx = getParameterByName('Sx',seqvettori);
-var Sy = getParameterByName('Sy',seqvettori);
-var Sz = getParameterByName('Sz',seqvettori);
-var Px = getParameterByName('Px',seqvettori);
-var Py = getParameterByName('Py',seqvettori);
+var Sx = getParameterByName('Sx',seqvettori);  this.Sx = Sx;
+var Sy = getParameterByName('Sy',seqvettori);  this.Sy = Sy;
+var Sz = getParameterByName('Sz',seqvettori);  this.Sz = Sz;
+var Px = getParameterByName('Px',seqvettori);  this.Px = Px;
+var Py = getParameterByName('Py',seqvettori);  this.Py = Py;
 	
-var D = getParameterByName('D',seqvettori);
+var D = getParameterByName('D',seqvettori);    this.D = D;
 var iD= parseInt(D.substr(0, D.indexOf(':'))); 
 var pos2punti=D.indexOf(":")+1;
 var PzTot = D.substring(pos2punti);
@@ -338,8 +348,8 @@ Pz.length=elD;
  for (ii = 1; ii <= Pz.length; ii++) { 
      Pz[ii-1]=parseFloat(Pz[ii-1]);    
 }	
-	
-	
+}	
+
 	
 function changeFunc() {
 
