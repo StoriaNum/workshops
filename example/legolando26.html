@@ -317,27 +317,6 @@ var Px;
 var Py;
 var D;	
 	
-function changeFunc() {
-
-var e = document.getElementById("ddlViewBy");
-var strUser = e.options[e.selectedIndex].text;
-	
-var hreftemp = document.getElementById("modelAr3Dlink").href;
-hreftemp = hreftemp.replace(/(&Dst=1%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=2%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=3%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=4%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=5%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=6%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=7%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=8%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=9%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=10%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=1,5%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=2,5%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=3,5%20m)+/g, "");
-hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
-	
 	///////////////////
 function functionPeS() {	
 var preseqvett = document.getElementById("modelDatartot").innerHTML;
@@ -365,6 +344,29 @@ var Pz = PzTot.split('!');
 this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D;	
 	
 } ////////////	
+	
+function changeFunc() {
+
+var e = document.getElementById("ddlViewBy");
+var strUser = e.options[e.selectedIndex].text;
+	
+var hreftemp = document.getElementById("modelAr3Dlink").href;
+hreftemp = hreftemp.replace(/(&Dst=1%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=2%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=3%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=4%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=5%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=6%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=7%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=8%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=9%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=10%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=1,5%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=2,5%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=3,5%20m)+/g, "");
+hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
+	
+	
 	
 	
 if (strUser != "Seleziona")  {	
