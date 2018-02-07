@@ -315,43 +315,34 @@ var Sy;
 var Sz;
 var Px;
 var Py;
-var D;
-var Pz;	
-/*	
-////////// funzione che raccoglie i componenti di #avocado
-function getParameterByName(name, url) {	
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-} ////fine della funzione, nel seguito ricostruzione dei parametri	
-*/	
+var D;	
+	
 function functionPeS() {	
 var preseqvett = document.getElementById("modelDatartot").innerHTML;
-var seqvettori ="https://aaa.aa/aaa.html?"+preseqvett;
-/*	
-var Sx = getParameterByName('Sx',seqvettori);  this.Sx = Sx;
-var Sy = getParameterByName('Sy',seqvettori);  this.Sy = Sy;
-var Sz = getParameterByName('Sz',seqvettori);  this.Sz = Sz;
-var Px = getParameterByName('Px',seqvettori);  this.Px = Px;
-var Py = getParameterByName('Py',seqvettori);  this.Py = Py;
-	
-var D = getParameterByName('D',seqvettori);    this.D = D;  */
+var seqvettori ="?"+preseqvett;
 
-	
-	
+var totSxyzPxPy = seqvettori.split("&", 5);
+
+var Sx = parseFloat( totSxyzPxPy[0].replace('?Sx=','') ); //parseFloat solo fino a Py
+var Sy = totSxyzPxPy[1].replace('Sy=','');
+var Sz = totSxyzPxPy[2].replace('Sz=','');
+var Px = totSxyzPxPy[3].replace('Px=','');
+var Py = totSxyzPxPy[4].replace('Py=','');
+
+var preD = seqvettori.split("D=", 2);
+var D = preD[1];
+
 var iD= parseInt(D.substr(0, D.indexOf(':'))); 
 var pos2punti=D.indexOf(":")+1;
 var PzTot = D.substring(pos2punti);
 var elD = 14-iD+1;
-var Pz = PzTot.split('!');
-Pz.length=elD;
- for (ii = 1; ii <= Pz.length; ii++) { 
-     Pz[ii-1]=parseFloat(Pz[ii-1]); 	 
-}	
 
+
+var Pz = PzTot.split('!');
+	
+alert(Sx);alert(Py);alert(D);
+	
+this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D;	
 	
 }	
 
