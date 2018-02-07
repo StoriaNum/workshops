@@ -317,21 +317,20 @@ var Px;
 var Py;
 var D;
 	
-function functionPeS {	
-var preseqvett = document.getElementById("modelDatartot").innerHTML;   alert(preseqvett);
-var seqvettori ="https://aaa.aa/aaa.html?"+preseqvett;
-	
 ////////// funzione che raccoglie i componenti di #avocado
 function getParameterByName(name, url) {	
-    if (!url) url = seqvettori;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
         results = regex.exec(url);
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
-} ////fine della funzione, nel seguito ricostruzione dei parametri
-
+} ////fine della funzione, nel seguito ricostruzione dei parametri	
+	
+function functionPeS {	
+var preseqvett = document.getElementById("modelDatartot").innerHTML;   alert(preseqvett);
+var seqvettori ="https://aaa.aa/aaa.html?"+preseqvett;
+	
 var Sx = getParameterByName('Sx',seqvettori);  this.Sx = Sx;
 var Sy = getParameterByName('Sy',seqvettori);  this.Sy = Sy;
 var Sz = getParameterByName('Sz',seqvettori);  this.Sz = Sz;
