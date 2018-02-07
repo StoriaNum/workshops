@@ -346,9 +346,10 @@ var elD = 14-iD+1;
 var Pz = PzTot.split('!');
 Pz.length=elD;
  for (ii = 1; ii <= Pz.length; ii++) { 
-     Pz[ii-1]=parseFloat(Pz[ii-1]); 
-     this.Pz[ii-1]=Pz[ii-1];	 
+     Pz[ii-1]=parseFloat(Pz[ii-1]); 	 
 }	
+
+this.Pz = Pz;	
 }	
 
 	
