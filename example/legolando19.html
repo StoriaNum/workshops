@@ -316,6 +316,7 @@ var Sz;
 var Px;
 var Py;
 var D;
+var Pz;	
 	
 ////////// funzione che raccoglie i componenti di #avocado
 function getParameterByName(name, url) {	
@@ -345,15 +346,14 @@ var elD = 14-iD+1;
 var Pz = PzTot.split('!');
 Pz.length=elD;
  for (ii = 1; ii <= Pz.length; ii++) { 
-     Pz[ii-1]=parseFloat(Pz[ii-1]);    
+     Pz[ii-1]=parseFloat(Pz[ii-1]); 
+     this.Pz[ii-1]=Pz[ii-1];	 
 }	
 }	
 
 	
 function changeFunc() {
-
-alert (this.D); alert(this.Sx); alert(this.Sy); 	
-	
+	alert (Pz[4]);  /////////////////////////////////////////////////////////
 var e = document.getElementById("ddlViewBy");
 var strUser = e.options[e.selectedIndex].text;
 	
@@ -376,7 +376,7 @@ hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 	
 if (strUser != "Seleziona")  {	
 
-        document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+Sy+"&Sz="+Sz+"&Px="+Px+"&Py="+Py+"&D="+D;
+        document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&D="+this.D;
 	
 	
    } else {
