@@ -311,11 +311,12 @@
 		
 function changeFunc() {
 	
-    var preseqvett = document.getElementById("modelDatartot").innerHTML;	
+    var preseqvett = document.getElementById("modelDatartot").innerHTML;
+    var seqvettori ="https://aaa/aaa.html?"+preseqvett;
 		
 ////////// funzione che raccoglie i componenti di #avocado
 function getParameterByName(name, url) {	
-    if (!url) url = this.preseqvett;
+    if (!url) url = this.seqvettori;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
         results = regex.exec(url);
@@ -324,7 +325,7 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 } ////fine della funzione, nel seguito ricostruzione dei parametri	
 		
-var seqvettori ="https://aaa/aaa.html?"+preseqvett;
+
 var Sx = getParameterByName('Sx',seqvettori);
 var Sy = getParameterByName('Sy',seqvettori);
 var Sz = getParameterByName('Sz',seqvettori);
