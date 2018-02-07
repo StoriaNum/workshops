@@ -321,7 +321,7 @@ function functionPeS() {
 var preseqvett = document.getElementById("modelDatartot").innerHTML;
 var seqvettori ="?"+preseqvett;
 
-var totSxyzPxPy = seqvettori.split("&", 5);
+var totSxyzPxPy = seqvettori.split("&amp;", 5);
 
 var Sx = parseFloat( totSxyzPxPy[0].replace('?Sx=','') ); //parseFloat solo fino a Py
 var Sy = totSxyzPxPy[1].replace('Sy=','');
