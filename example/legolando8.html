@@ -323,6 +323,14 @@ function getParameterByName(name, url) {
 } ////fine della funzione, nel seguito ricostruzione dei parametri	
 		
 
+	
+	
+	
+	
+function changeFunc() {
+
+var preseqvett = document.getElementById("modelDatartot").innerHTML;
+var seqvettori ="https://aaa.aa/aaa.html?"+preseqvett;
 var Sx = getParameterByName('Sx',seqvettori);
 var Sy = getParameterByName('Sy',seqvettori);
 var Sz = getParameterByName('Sz',seqvettori);
@@ -338,11 +346,9 @@ var Pz = PzTot.split('!');
 Pz.length=elD;
 for (ii = 1; ii <= Pz.length; ii++) { 
      Pz[ii-1]=parseFloat(Pz[ii-1]);    
-}	
+}
 	
 	
-	
-function changeFunc() {
 				
 var e = document.getElementById("ddlViewBy");
 var strUser = e.options[e.selectedIndex].text;
