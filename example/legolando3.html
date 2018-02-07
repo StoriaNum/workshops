@@ -311,11 +311,11 @@
 		
 function changeFunc() {
 	
-var preseqvett = document.getElementById("modelDatartot").innerHTML;	
-	
+    var preseqvett = document.getElementById("modelDatartot").innerHTML;	
+		
 ////////// funzione che raccoglie i componenti di #avocado
-function getParameterByName(name, url) {
-    if (!url) url = preseqvett;
+function getParameterByName(name, url) {	
+    if (!url) url = this.preseqvett;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
         results = regex.exec(url);
