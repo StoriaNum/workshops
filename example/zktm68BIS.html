@@ -365,8 +365,19 @@ disableOpts();
 function disableOpts() {
 // Get all options within <select id='ddlViewBy'>...</select>
 var op = document.getElementById("ddlViewBy").getElementsByTagName("option");
+	
+/////////////////////////////////////////////////////////////////	
+var preseqvettbis = document.getElementById("modelDatartot").innerHTML;
+var seqvettoribis ="?"+preseqvettbis;
+var preDbis = seqvettoribis.split("D=", 2);
+var Dbis = preDbis[1];
+var iDbis= parseInt(Dbis.substr(0, Dbis.indexOf(':')));	
+	
+	
+///////////////////////////////////////////////////////////////////	
 
-        switch (this.iD) {
+	
+        switch (this.iDbis) {
 
            case 0:
                 for (var ij = 0; ij < op.length; ij++) {
