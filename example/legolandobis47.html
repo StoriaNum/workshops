@@ -390,12 +390,13 @@ var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare
 	if (count > 1) { 
 			/* elimina parti identiche della stringa coord   */  
 	
-			/* var reSz = /&Sz=s3/gi;  */ var reSz = new RegExp("&Sz="+this.Sz, "gi");
-         		var reSx = /&Sx=NaN/gi;
-         		var reSy = /&Sy=s2/gi;
-        		var rePx = /&Px=p1/gi;
-        		var rePy = /&Py=p2/gi;
-			var rePz = /&Pz=-8.9/gi;
+			/*    var reSz = /&Sz=s3/gi;       */ 
+			var reSz = new RegExp("&Sz="+this.Sz, "gi");
+         		var reSx = new RegExp("&Sx="+this.Sx, "gi");
+         		var reSy = new RegExp("&Sy="+this.Sy, "gi");
+        		var rePx = new RegExp("&Px="+this.Px, "gi");
+        		var rePy = new RegExp("&Py="+this.Py, "gi");
+			var rePz = new RegExp("&Pz="+this.Pz, "gi");
 		
 			var noSz = coord.replace(reSz, "");
          		var noSzSx = noSz.replace(reSx, "");
