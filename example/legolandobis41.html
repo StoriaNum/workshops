@@ -316,6 +316,7 @@ var Sz;
 var Px;
 var Py;
 var D;	
+var elD;	
 var Pz;	
 	
 	///////////////////
@@ -348,7 +349,7 @@ for (ii = 1; ii <= Pz.length; ii++) {
      
 }
 	
-this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D; this.Pz=Pz;	
+this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D; this.elD=elD; this.Pz=Pz;	
 	
 } ////////////	
 	
@@ -416,8 +417,8 @@ var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare
 	
    } else {
 		
-		
-	document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst=1 m";	
+	var lastind = (parseInt(this.elD) - 1 );	
+	document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst=1 m"+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+this.Pz[lastind];	
 		
 	}
 
