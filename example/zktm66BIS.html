@@ -288,8 +288,9 @@
 <h4 style="color:green">Inserire la distanza a cui porre l&rsquo;arredo (in metri)</h4>		    
 <p id="distanzaitemcam"></p>
 
-<myelement id="mioelemento" onclick="disableOpts()">		    
-<span id="vettPeS" onclick="functionPeS()">		    
+		    
+<span id="vettPeS" onclick="functionPeS()">
+<myelement id="mioelemento" onclick="disableOpts()">
 <select id="ddlViewBy" onchange="changeFunc();">
   <option value="0" style="font-weight:bold;" selected="selected">Seleziona</option>
   <option value="1" style="font-weight:bold;">1 m</option>
@@ -307,8 +308,9 @@
   <option value="13" style="font-weight:bold;">9 m</option>
   <option value="14" style="font-weight:bold;">10 m</option>
 </select>
+</myelement>
 </span>
-</myelement>	
+	
 		    
 <script>
 	
@@ -323,9 +325,6 @@ var Pz;
 var iD;	
 	
 	
-function disableOpts() {
-// Get all options within <select id='ddlViewBy'>...</select>	
-
 ///////////////////	
 function functionPeS() {	
 var preseqvett = document.getElementById("modelDatartot").innerHTML;
@@ -361,6 +360,8 @@ this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D; this.elD=e
 } ////////////	
 	
 
+function disableOpts() {
+// Get all options within <select id='ddlViewBy'>...</select>
 var op = document.getElementById("ddlViewBy").getElementsByTagName("option");
 
         switch (this.iD) {
@@ -489,7 +490,6 @@ var op = document.getElementById("ddlViewBy").getElementsByTagName("option");
 
 
 }   //// fine funzione disableOpts() ////
-	
 	
 	
 	
