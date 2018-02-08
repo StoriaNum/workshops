@@ -178,7 +178,7 @@
 		    
    
 	    <br /><br /><br />
-	   
+	    <span id="modelDatartot" hidden></span>
    
 <script>
   $( function() {
@@ -288,6 +288,7 @@
 <h4 style="color:green">Inserire la distanza a cui porre l&rsquo;arredo (in metri)</h4>		    
 <p id="distanzaitemcam"></p>
 
+<span id="vettPeS" onclick="functionPeS()">		    
 <select id="ddlViewBy" onchange="changeFunc();">
   <option value="0" selected="selected">Seleziona</option>
   <option value="1">1 m</option>
@@ -305,45 +306,58 @@
   <option value="3">9 m</option>
   <option value="3">10 m</option>
 </select>
+</span>	
 		    
 <script>
 	
-////////// funzione che raccoglie i componenti di #avocado
-function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-} ////fine della funzione, nel seguito ricostruzione dei parametri	
+var Sx;
+var Sy;
+var Sz;
+var Px;
+var Py;
+var D;	
+var elD;	
+var Pz;	
 	
+	///////////////////
+function functionPeS() {	
 var preseqvett = document.getElementById("modelDatartot").innerHTML;
-	
 var seqvettori ="?"+preseqvett;
-var Sx = getParameterByName('Sx',seqvettori);
-var Sy = getParameterByName('Sy',seqvettori);
-var Sz = getParameterByName('Sz',seqvettori);
-var Px = getParameterByName('Px',seqvettori);
-var Py = getParameterByName('Py',seqvettori);
-	
-var D = getParameterByName('D',seqvettori);
+
+var totSxyzPxPy = seqvettori.split("&amp;", 5);
+
+var Sx = parseFloat( totSxyzPxPy[0].replace('?Sx=','') ); //parseFloat solo fino a Py
+var Sy = parseFloat( totSxyzPxPy[1].replace('Sy=','') );
+var Sz = parseFloat( totSxyzPxPy[2].replace('Sz=','') );
+var Px = parseFloat( totSxyzPxPy[3].replace('Px=','') );
+var Py = parseFloat( totSxyzPxPy[4].replace('Py=','') );
+
+var preD = seqvettori.split("D=", 2);
+var D = preD[1];
+
 var iD= parseInt(D.substr(0, D.indexOf(':'))); 
 var pos2punti=D.indexOf(":")+1;
 var PzTot = D.substring(pos2punti);
 var elD = 14-iD+1;
+
+
 var Pz = PzTot.split('!');
 Pz.length=elD;
 for (ii = 1; ii <= Pz.length; ii++) { 
-     Pz[ii-1]=parseFloat(Pz[ii-1]);    
-}	
-		
-		
+
+     Pz[ii-1]=parseFloat(Pz[ii-1]);
+     
+}
+	
+this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D; this.elD=elD; this.Pz=Pz;	
+	
+} ////////////	
+	
 function changeFunc() {
 	
 var e = document.getElementById("ddlViewBy");
 var strUser = e.options[e.selectedIndex].text;
+var coord;
 	
 var hreftemp = document.getElementById("modelAr3Dlink").href;
 hreftemp = hreftemp.replace(/(&Dst=1%20m)+/g, "");
@@ -362,24 +376,47 @@ hreftemp = hreftemp.replace(/(&Dst=3,5%20m)+/g, "");
 hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 	
 	
-var Sx = this.Sx;
-var Sy = this.Sy;
-var Sz = this.Sz;
-var Px = this.Px;
-var Py = this.Py;
-var D = this.D;
-
 	
 	
 if (strUser != "Seleziona")  {	
 
-        document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst="+strUser+"&Sx="+Sx+"&Sy="+Sy+"&Sz="+Sz+"&Px="+Px+"&Py="+Py+"&D="+D;
 	
+coord = ""; document.getElementById("modelAr3Dlink").href = "";
+coord = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+this.Pz[8]+"";
+// document.getElementById("modelAr3Dlink").href = coord;
+	
+var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare ripetizioni i.e. Sz
+	
+	if (count > 1) { 
+			/* elimina parti identiche della stringa coord   */  
+	
+			/*    var reSz = /&Sz=s3/gi;       */ 
+			var reSz = new RegExp("&Sz="+this.Sz, "gi");
+         		var reSx = new RegExp("&Sx="+this.Sx, "gi");
+         		var reSy = new RegExp("&Sy="+this.Sy, "gi");
+        		var rePx = new RegExp("&Px="+this.Px, "gi");
+        		var rePy = new RegExp("&Py="+this.Py, "gi");
+			var rePz = new RegExp("&Pz="+this.Pz, "gi");
+		
+			var noSz = coord.replace(reSz, "");
+         		var noSzSx = noSz.replace(reSx, "");
+         		var noSzSxSy = noSzSx.replace(reSy, "");
+         		var noSzSxSyPx = noSzSxSy.replace(rePx, "");
+         		var noSzSxSyPxPy = noSzSxSyPx.replace(rePy, "");
+			var noSzSxSyPxPyPz = noSzSxSyPxPy.replace(rePz, "");
+			
+			coord="";
+			coord = noSzSxSyPxPy+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+this.Pz[8];
+					
+		       document.getElementById("modelAr3Dlink").href = coord;
+		       }
+		
+	else { document.getElementById("modelAr3Dlink").href = coord; }
 	
    } else {
 		
 		
-	document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst=1 m";	
+	document.getElementById("modelAr3Dlink").href = ""+hreftemp+"&Dst=1 m&Choice=NO%20SELECTION";	
 		
 	}
 
@@ -388,7 +425,7 @@ if (strUser != "Seleziona")  {
 }
 </script>		    
 	
-	<span id="modelDatartot" hidden></span>	    
+		    
 	<br>	    
 	<h4 style="color:green" id="fullsar1"></h4>		    
         <a href="" class="btn btn-default btn-sm" id="modelAr3Dlink" style="display:none;">
