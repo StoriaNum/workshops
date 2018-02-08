@@ -390,7 +390,7 @@ var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare
 	if (count > 1) { 
 			/* elimina parti identiche della stringa coord   */  
 	
-			var reSz = /&Sz=s3/gi;
+			/* var reSz = /&Sz=s3/gi;  */ var reSz = new RegExp("&Sz="+this.Sz, "gi");
          		var reSx = /&Sx=NaN/gi;
          		var reSy = /&Sy=s2/gi;
         		var rePx = /&Px=p1/gi;
@@ -415,7 +415,7 @@ var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare
    } else {
 		
 		
-	document.getElementById("modelAr3Dlink").href = ""+hreftemp+"&Dst=1 m"+"&Choice=NO%20SELECTION";	
+	document.getElementById("modelAr3Dlink").href = ""+hreftemp+"&Dst=1 m&Choice=NO%20SELECTION";	
 		
 	}
 
