@@ -316,6 +316,7 @@ var Sz;
 var Px;
 var Py;
 var D;	
+var elD;	
 var Pz;	
 	
 	///////////////////
@@ -326,10 +327,10 @@ var seqvettori ="?"+preseqvett;
 var totSxyzPxPy = seqvettori.split("&amp;", 5);
 
 var Sx = parseFloat( totSxyzPxPy[0].replace('?Sx=','') ); //parseFloat solo fino a Py
-var Sy = totSxyzPxPy[1].replace('Sy=','');
-var Sz = totSxyzPxPy[2].replace('Sz=','');
-var Px = totSxyzPxPy[3].replace('Px=','');
-var Py = totSxyzPxPy[4].replace('Py=','');
+var Sy = parseFloat( totSxyzPxPy[1].replace('Sy=','') );
+var Sz = parseFloat( totSxyzPxPy[2].replace('Sz=','') );
+var Px = parseFloat( totSxyzPxPy[3].replace('Px=','') );
+var Py = parseFloat( totSxyzPxPy[4].replace('Py=','') );
 
 var preD = seqvettori.split("D=", 2);
 var D = preD[1];
@@ -348,13 +349,11 @@ for (ii = 1; ii <= Pz.length; ii++) {
      
 }
 	
-this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D; this.Pz=Pz;	
+this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D; this.elD=elD; this.Pz=Pz;	
 	
 } ////////////	
 	
 function changeFunc() {
-
-// functionPeS();	
 	
 var e = document.getElementById("ddlViewBy");
 var strUser = e.options[e.selectedIndex].text;
@@ -382,14 +381,42 @@ hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 if (strUser != "Seleziona")  {	
 
 	
-	coord = "";
-        coord = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+this.Pz[8];
-	document.getElementById("modelAr3Dlink").href = coord;
+coord = ""; document.getElementById("modelAr3Dlink").href = "";
+coord = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+this.Pz[8]+"";
+// document.getElementById("modelAr3Dlink").href = coord;
+	
+var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare ripetizioni i.e. Sz
+	
+	if (count > 1) { 
+			/* elimina parti identiche della stringa coord   */  
+	
+			/*    var reSz = /&Sz=s3/gi;       */ 
+			var reSz = new RegExp("&Sz="+this.Sz, "gi");
+         		var reSx = new RegExp("&Sx="+this.Sx, "gi");
+         		var reSy = new RegExp("&Sy="+this.Sy, "gi");
+        		var rePx = new RegExp("&Px="+this.Px, "gi");
+        		var rePy = new RegExp("&Py="+this.Py, "gi");
+			var rePz = new RegExp("&Pz="+this.Pz, "gi");
+		
+			var noSz = coord.replace(reSz, "");
+         		var noSzSx = noSz.replace(reSx, "");
+         		var noSzSxSy = noSzSx.replace(reSy, "");
+         		var noSzSxSyPx = noSzSxSy.replace(rePx, "");
+         		var noSzSxSyPxPy = noSzSxSyPx.replace(rePy, "");
+			var noSzSxSyPxPyPz = noSzSxSyPxPy.replace(rePz, "");
+			
+			coord="";
+			coord = noSzSxSyPxPy+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+this.Pz[8];
+					
+		       document.getElementById("modelAr3Dlink").href = coord;
+		       }
+		
+	else { document.getElementById("modelAr3Dlink").href = coord; }
 	
    } else {
 		
 		
-	document.getElementById("modelAr3Dlink").href = hreftemp+"&Dst=1 m";	
+	document.getElementById("modelAr3Dlink").href = ""+hreftemp+"&Dst=1 m&Choice=NO%20SELECTION";	
 		
 	}
 
