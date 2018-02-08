@@ -388,7 +388,10 @@ coord = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&
 	
 var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare ripetizioni i.e. Sz
 	
-	if (count > 1) {  alert(count); /* elimina parti identiche della stringa coord   */  }
+	if (count > 1) {  alert(count); 
+			/* elimina parti identiche della stringa coord   */ 
+		       document.getElementById("modelAr3Dlink").href = coord;
+		       }
 		
 	else { document.getElementById("modelAr3Dlink").href = coord; }
 	
