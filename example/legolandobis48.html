@@ -327,10 +327,10 @@ var seqvettori ="?"+preseqvett;
 var totSxyzPxPy = seqvettori.split("&amp;", 5);
 
 var Sx = parseFloat( totSxyzPxPy[0].replace('?Sx=','') ); //parseFloat solo fino a Py
-var Sy = totSxyzPxPy[1].replace('Sy=','');
-var Sz = totSxyzPxPy[2].replace('Sz=','');
-var Px = totSxyzPxPy[3].replace('Px=','');
-var Py = totSxyzPxPy[4].replace('Py=','');
+var Sy = parseFloat( totSxyzPxPy[1].replace('Sy=','') );
+var Sz = parseFloat( totSxyzPxPy[2].replace('Sz=','') );
+var Px = parseFloat( totSxyzPxPy[3].replace('Px=','') );
+var Py = parseFloat( totSxyzPxPy[4].replace('Py=','') );
 
 var preD = seqvettori.split("D=", 2);
 var D = preD[1];
