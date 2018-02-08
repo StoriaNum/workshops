@@ -148,7 +148,9 @@ var ContextMenu = function(blueprint3d) {
    var modelGalleryuri = ""+item.metadata.modelGallery+""; 
    document.getElementById("modelGallerylink").href = modelGalleryuri;
     
-    $("#modelDatartot").text(item.metadata.modelDatar); 
+ //   $("#modelDatartot").text(item.metadata.modelDatar); 
+    var valuesmodelDatar = ""+item.metadata.modelDatar+"";
+    document.getElementById("modelDatartot").innerHTML = valuesmodelDatar;
     
    $("#modelPricetot").text(item.metadata.modelPrice); 
     
