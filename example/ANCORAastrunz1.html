@@ -494,21 +494,16 @@ var op = document.getElementById("ddlViewBy").getElementsByTagName("option");
 
 } ////////////	
 	
-	
-	
-function changeFunc() {
-	
 //////////////////////////////////////////
-	
+document.getElementById("ddlViewBy").onchange = function() {	
 var indexforPz = ((parseInt(this.selectedIndex))-(this.iD));
     var tempPz=this.Pz[indexforPz];
     alert(this.Pz[indexforPz]);	
-	
-	
-	
+}
 /////////////////////////////////////////	
 	
-	
+function changeFunc() {
+		
 var e = document.getElementById("ddlViewBy");
 var strUser = e.options[e.selectedIndex].text;
 var coord;
