@@ -341,7 +341,7 @@ var Py = parseFloat( totSxyzPxPy[4].replace('Py=','') );
 var preD = seqvettori.split("D=", 2);
 var D = preD[1];
 
-var iD= parseInt(D.substr(0, D.indexOf(':'))); 
+var iD= parseInt(D.substr(0, D.indexOf(':')));  this.iD=iD;
 var pos2punti=D.indexOf(":")+1;
 var PzTot = D.substring(pos2punti);
 var elD = 14-iD+1;
@@ -355,7 +355,7 @@ for (ii = 1; ii <= Pz.length; ii++) {
      
 }
 	
-this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D; this.elD=elD; this.Pz=Pz;	this.iD=iD;
+this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D; this.elD=elD; this.Pz=Pz;	
 
  disableOpts();	
 	
