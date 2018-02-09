@@ -328,13 +328,6 @@ var optemp = document.getElementById("ddlViewBy").getElementsByTagName("option")
 ///////////////////	
 function functionPeS() {	
 	
-	
-var optemp2 = this.optemp;
-
-for (var iop = 0; iop < optemp2.length; iop++) {
-    optemp2[iop].disabled = false;
-}	
-	
 var preseqvett = document.getElementById("modelDatartot").innerHTML;
 var seqvettori ="?"+preseqvett;
 
@@ -565,8 +558,15 @@ var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare
 		
 	}
 
-//	alert(strUser);
-//document.getElementById("distanzaitemcam").innerHTML = strUser;
+	
+	
+var optemp2 = this.optemp;
+for (var iop = 0; iop < optemp2.length; iop++) {
+                     optemp2[iop].disabled = false;
+                }
+	
+	
+	
 }
 </script>		    
 	
