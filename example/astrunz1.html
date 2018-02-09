@@ -358,14 +358,9 @@ for (ii = 1; ii <= Pz.length; ii++) {
 this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D; this.elD=elD; this.Pz=Pz;	
 
  
-	
+// Get all options within <select id='ddlViewBy'>...</select>	
+var op = document.getElementById("ddlViewBy").getElementsByTagName("option");  alert(op);
 
-
-
-
-// Get all options within <select id='ddlViewBy'>...</select>
-var op = document.getElementById("ddlViewBy").getElementsByTagName("option");
-	
 
         switch (iD) {
 
