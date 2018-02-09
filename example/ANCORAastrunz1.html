@@ -495,15 +495,25 @@ var op = document.getElementById("ddlViewBy").getElementsByTagName("option");
 } ////////////	
 	
 //////////////////////////////////////////
+	/*
 document.getElementById("ddlViewBy").onchange = function() {	
-var indexforPz = ((parseInt(this.selectedIndex))-(this.iD));
-    var tempPz=this.Pz[indexforPz];
-    alert(this.Pz[indexforPz]);	
-}
+var indexforPz = ((parseInt(this.selectedIndex))-(iD));
+    var tempPz=Pz[indexforPz];
+    alert(Pz[indexforPz]);	
+}  */
 /////////////////////////////////////////	
 	
 function changeFunc() {
-		
+
+//////////////////////////////////////////
+	
+var indexforPz = ((parseInt(this.selectedIndex))-(iD));
+    var tempPz=Pz[indexforPz];
+    alert(Pz[indexforPz]);	
+
+/////////////////////////////////////////	
+	
+	
 var e = document.getElementById("ddlViewBy");
 var strUser = e.options[e.selectedIndex].text;
 var coord;
