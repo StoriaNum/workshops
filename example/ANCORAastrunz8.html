@@ -513,7 +513,7 @@ var coord;
 var sctdInd = e.selectedIndex;	
 var indexforPz = parseInt(sctdInd) - iD;
 var tempPz=Pz[indexforPz];
-alert(Pz[indexforPz]);	
+//alert(Pz[indexforPz]);	
 /////////////////////////////////////////////////////////////////////////////////////
 	
 	
@@ -540,7 +540,7 @@ if (strUser != "Seleziona")  {
 
 	
 coord = ""; document.getElementById("modelAr3Dlink").href = "";
-coord = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+this.Pz[8]+"";
+coord = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+Pz[indexforPz]+"";
 // document.getElementById("modelAr3Dlink").href = coord;
 	
 var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare ripetizioni i.e. Sz
@@ -554,7 +554,7 @@ var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare
          		var reSy = new RegExp("&Sy="+this.Sy, "gi");
         		var rePx = new RegExp("&Px="+this.Px, "gi");
         		var rePy = new RegExp("&Py="+this.Py, "gi");
-			var rePz = new RegExp("&Pz="+this.Pz, "gi");
+			var rePz = new RegExp("&Pz="+Pz[indexforPz], "gi");
 		
 			var noSz = coord.replace(reSz, "");
          		var noSzSx = noSz.replace(reSx, "");
@@ -564,7 +564,7 @@ var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare
 			var noSzSxSyPxPyPz = noSzSxSyPxPy.replace(rePz, "");
 			
 			coord="";
-			coord = noSzSxSyPxPy+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+this.Pz[8];
+			coord = noSzSxSyPxPy+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+Pz[indexforPz];
 					
 		       document.getElementById("modelAr3Dlink").href = coord;
 		       }
