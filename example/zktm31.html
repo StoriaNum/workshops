@@ -288,25 +288,29 @@
 <h4 style="color:green">Inserire la distanza a cui porre l&rsquo;arredo (in metri)</h4>		    
 <p id="distanzaitemcam"></p>
 
-<span id="vettPeS" onclick="functionPeS()">		    
+		    
+<span id="vettPeS" onclick="functionPeS()">
+<myelement id="mioelemento"> <!-- <myelement id="mioelemento" onclick="disableOpts()"> -->
 <select id="ddlViewBy" onchange="changeFunc();">
-  <option value="0" selected="selected">Seleziona</option>
-  <option value="1">1 m</option>
-  <option value="1">1,5 m</option>
-  <option value="2">2 m</option>
-  <option value="2">2,5 m</option>
-  <option value="3">3 m</option>
-  <option value="3">3,5 m</option>
-  <option value="3">4 m</option>
-  <option value="3">4,5 m</option>
-  <option value="3">5 m</option>
-  <option value="3">6 m</option>
-  <option value="3">7 m</option>
-  <option value="3">8 m</option>
-  <option value="3">9 m</option>
-  <option value="3">10 m</option>
+  <option value="0" style="font-weight:bold;" selected="selected">Seleziona</option>
+  <option value="1" style="font-weight:bold;">1 m</option>
+  <option value="2" style="font-weight:bold;">1,5 m</option>
+  <option value="3" style="font-weight:bold;">2 m</option>
+  <option value="4" style="font-weight:bold;">2,5 m</option>
+  <option value="5" style="font-weight:bold;">3 m</option>
+  <option value="6" style="font-weight:bold;">3,5 m</option>
+  <option value="7" style="font-weight:bold;">4 m</option>
+  <option value="8" style="font-weight:bold;">4,5 m</option>
+  <option value="9" style="font-weight:bold;">5 m</option>
+  <option value="10" style="font-weight:bold;">6 m</option>
+  <option value="11" style="font-weight:bold;">7 m</option>
+  <option value="12" style="font-weight:bold;">8 m</option>
+  <option value="13" style="font-weight:bold;">9 m</option>
+  <option value="14" style="font-weight:bold;">10 m</option>
 </select>
-</span>	
+</myelement>
+</span>
+	
 		    
 <script>
 	
@@ -318,8 +322,10 @@ var Py;
 var D;	
 var elD;	
 var Pz;	
+var iD;	
 	
-	///////////////////
+	
+///////////////////	
 function functionPeS() {	
 var preseqvett = document.getElementById("modelDatartot").innerHTML;
 var seqvettori ="?"+preseqvett;
@@ -335,7 +341,7 @@ var Py = parseFloat( totSxyzPxPy[4].replace('Py=','') );
 var preD = seqvettori.split("D=", 2);
 var D = preD[1];
 
-var iD= parseInt(D.substr(0, D.indexOf(':'))); 
+var iD= parseInt(D.substr(0, D.indexOf(':')));  this.iD=iD;
 var pos2punti=D.indexOf(":")+1;
 var PzTot = D.substring(pos2punti);
 var elD = 14-iD+1;
@@ -350,8 +356,144 @@ for (ii = 1; ii <= Pz.length; ii++) {
 }
 	
 this.Sx=Sx; this.Sy=Sy; this.Sz=Sz; this.Px=Px; this.Py=Py; this.D=D; this.elD=elD; this.Pz=Pz;	
+
+ disableOpts(iD);	
 	
 } ////////////	
+
+
+function disableOpts(IDD) {
+// Get all options within <select id='ddlViewBy'>...</select>
+var op = document.getElementById("ddlViewBy").getElementsByTagName("option");
+	
+var iDD = IDD;
+        switch (iDD) {
+
+           case 0:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") )
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;
+           case 1:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") )
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;         
+           case 2:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") )
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;         
+           case 3:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;                
+           case 4:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;        
+           case 5:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3") || (op[ij].value == "4"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;        
+           case 6:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3") || (op[ij].value == "4") || (op[ij].value == "5"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;        
+           case 7:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3") || (op[ij].value == "4") || (op[ij].value == "5") || (op[ij].value == "6"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;        
+           case 8:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3") || (op[ij].value == "4") || (op[ij].value == "5") || (op[ij].value == "6") || (op[ij].value == "7"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break; 
+           case 9:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3") || (op[ij].value == "4") || (op[ij].value == "5") || (op[ij].value == "6") || (op[ij].value == "7") || (op[ij].value == "8"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;
+           case 10:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3") || (op[ij].value == "4") || (op[ij].value == "5") || (op[ij].value == "6") || (op[ij].value == "7") || (op[ij].value == "8") || (op[ij].value == "9"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;
+           case 11:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3") || (op[ij].value == "4") || (op[ij].value == "5") || (op[ij].value == "6") || (op[ij].value == "7") || (op[ij].value == "8") || (op[ij].value == "9") || (op[ij].value == "10"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;
+           case 12:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3") || (op[ij].value == "4") || (op[ij].value == "5") || (op[ij].value == "6") || (op[ij].value == "7") || (op[ij].value == "8") || (op[ij].value == "9") || (op[ij].value == "10") || (op[ij].value == "11"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;
+           case 13:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3") || (op[ij].value == "4") || (op[ij].value == "5") || (op[ij].value == "6") || (op[ij].value == "7") || (op[ij].value == "8") || (op[ij].value == "9") || (op[ij].value == "10") || (op[ij].value == "11") || (op[ij].value == "12"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+        		break;
+           case 14:
+                for (var ij = 0; ij < op.length; ij++) {
+  				// comparison for value
+ 				( (op[ij].value == "0") || (op[ij].value == "1") || (op[ij].value == "2") || (op[ij].value == "3") || (op[ij].value == "4") || (op[ij].value == "5") || (op[ij].value == "6") || (op[ij].value == "7") || (op[ij].value == "8") || (op[ij].value == "9") || (op[ij].value == "10") || (op[ij].value == "11") || (op[ij].value == "12") || (op[ij].value == "13"))
+  			    ? op[ij].disabled = true
+  			    : op[ij].disabled = false; 
+				}
+                
+		} ///// fine switch ////
+
+}   //// fine funzione disableOpts() ////
+	
+	
 	
 function changeFunc() {
 	
