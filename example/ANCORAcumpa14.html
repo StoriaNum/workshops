@@ -163,6 +163,9 @@ var linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models
 
 document.getElementById("buyidlink").href=buy;	
 	
+var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
+var positionarray = ""+Px+" "+Py+" "+Pz+"";
+	
 </script>
 	
 	
@@ -185,9 +188,18 @@ document.getElementById("buyidlink").href=buy;
 	   ele.setAttribute('src',linkfin);		  	  
 	  </script>
 
-    <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 0 0"></a-entity>
+ <!-- <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 0 0"></a-entity> -->
 
- 
+ <a-entity gltf-model="#avocado" id="defavocado" look-controls="reverseMouseDrag:true" scale="" position="0 0 0"></a-entity>
+	  
+<script>
+// var scalearray =""+Sx+" "+Sy+" "+Sz+"";  
+var totvalues= document.getElementById("defavocado");
+totvalues.setAttribute("scale",scalearray);  
+// var positionarray = ""+Px+" "+Py+" "+Pz+"";
+totvalues.setAttribute("position",positionarray);	  
+</script>	  
+	  
     
     </a-scene>  
   
