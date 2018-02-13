@@ -118,7 +118,8 @@
 </div></div>
   
 <script>   
-//////////   funzione per raccogliere variabili js
+//////////   funzione per raccogliere variabili js    
+	/*
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
@@ -138,13 +139,36 @@ var Sy = getParameterByName('Sy');
 var Sz = getParameterByName('Sz');
 var Px = getParameterByName('Px');
 var Py = getParameterByName('Py');    
+	*/
 	
+/////////////////////
 
+var urlp = window.location.href;
+let searchParams = new URLSearchParams(urlp.search);
+
+var link = searchParams.get('link');
+var item = searchParams.get('item');
+var Dst = searchParams.get('Dst');
+var buy = searchParams.get('buyurl'); 
+var Sx = searchParams.get('Sx');   
+var Sy = searchParams.get('Sy');
+var Sz = searchParams.get('Sz');
+var Px = searchParams.get('Px');
+var Py = searchParams.get('Py'); 
 	
+	
+var quasiPz = urlp.split("&Py=").pop();
+var Pz = quasiPz.split("&Pz=").pop()	
+	
+	
+	
+/////////////////
+
+/*	
 var urlperPz = 	window.location.href;
 var quasiPz = urlperPz.split("&Py=").pop();
-var Pz = quasiPz.split("&Pz=").pop();    
-/*	
+var Pz = quasiPz.split("&Pz=").pop();   */
+	
 alert(link);
 alert(item);
 alert(Dst); 
@@ -154,9 +178,9 @@ alert(Sy);
 alert(Sz);
 alert(Px);
 alert(Py); 
-//alert(Pz); */
+alert(Pz); 
 	
-alert(link+" "+item+" "+Dst+" "+buyurl+" "+Sx+" "+Sy+" "+Sz+" "+Px+" "+Py+" "+Pz);
+
 	
 var linkdir = link.replace(".gltf","");	
 var linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/"+linkdir+"/glTF-Embedded/"+link;	
