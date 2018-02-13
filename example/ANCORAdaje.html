@@ -29,6 +29,26 @@
 <!-- include a polyfill for chrome android 
 <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>  -->
 <script src="https://cdn.rawgit.com/StoriaNum/webrtc/gh-pages/ultimoadapter.js"></script>
+	  
+	  
+   <!--   ///////////////////////////////////////////////////////////////////////////////////////      -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrapbootbox.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrapbootbox.min.js"></script>
+    <script src="js/bootbox.min.js"></script>
+    <script>
+      $(window).load(function() {
+       			if(window.innerHeight > window.innerWidth){         
+						var some_html = '<center><img class="alert" src="orientdevice.png" width="70%" height="70%" /></center>';
+    					some_html += '<center>Poni il dispositivo in modalit&agrave; <u><b>LANDSCAPE</b></u></center>';
+    					some_html += '<center>per elaborare la giusta prospettiva!</center>';
+                        some_html += '<center>Poi clicca <u><b>OK</b></u>.</center>';
+   					    bootbox.alert(some_html);               
+     			}
+                });
+    </script>	  
+  <!--    ////////////////////////////////////////////////////////////////////////////////////////     -->	
+	  
        
   </head>
 
