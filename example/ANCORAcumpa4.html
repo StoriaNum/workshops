@@ -125,8 +125,8 @@ function getParameterByName(name, url) {
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
         results = regex.exec(url);
     if (!results) return null;
-    if (!results[8]) return '';
-    return decodeURIComponent(results[8].replace(/\+/g, " "));
+    if (!results[29]) return '';
+    return decodeURIComponent(results[29].replace(/\+/g, " "));
 }
 	
 var link = getParameterByName('link');
