@@ -8,9 +8,9 @@ $(document).ready(function() {
       "image" : "models/thumbnails/thumbnails_tiefe60104.jpg",
       "model" : "models/js/prova1x2x1m.js",
       "price" : "x,y &euro;",
-      "buybasket" : "",
+      "buybasket" : "http://www.academia.edu/",
       "gallery": "#",
-      "datar": "D=11:0!-1!-1.6!-2.5",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-0.5&Py=0&D=11:0!-1!-1.6!-2.5",
       "type" : "1"
     }, 
   {
