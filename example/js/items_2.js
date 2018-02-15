@@ -2,7 +2,17 @@
 
 $(document).ready(function() {
   var items_2 = [
-   
+  
+     {
+      "name" : "Mobiletto 0",
+      "image" : "models/thumbnails/thumbnails_tiefe60104.jpg",
+      "model" : "models/js/60_104A.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"
+    }, 
   {
       "name" : "Mobiletto ",
       "image" : "models/thumbnails/thumbnails_tiefe60104.jpg",
