@@ -144,23 +144,15 @@ var Py = getParameterByName('Py');
 var urlperPz = 	window.location.href;
 var quasiPz = urlperPz.split("&Py=").pop();
 var Pz = quasiPz.split("&Pz=").pop();   
-	
-alert(link);
-alert(item);
-alert(Dst); 
-alert(buy);
-alert(Sx); 
-alert(Sy);
-alert(Sz);
-alert(Px);
-alert(Py); 
-alert(Pz); 
-	
 
 	
 var linkdir = link.replace(".gltf","");	
 var linkfin = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/"+linkdir+"/glTF-Embedded/"+link;	
 
+alert(linkdir);
+alert(link);
+alert(linkfin);
+	
 document.getElementById("buyidlink").href=buy;	
 	
 var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
