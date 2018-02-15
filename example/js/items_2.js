@@ -6,11 +6,11 @@ $(document).ready(function() {
      {
       "name" : "Mobiletto 0",
       "image" : "models/thumbnails/thumbnails_tiefe60104.jpg",
-      "model" : "models/js/60_104A.js",
+      "model" : "models/js/prova1x2x1m.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "datar": "#",
+      "datar": "D=11:0!-1!-1.6!-2.5",
       "type" : "1"
     }, 
   {
