@@ -160,7 +160,7 @@ var ContextMenu = function(blueprint3d) {
    var modelAr3Duri = ""+item.metadata.modelUrl+"";
    var modelAr3Duribis = modelAr3Duri.replace("models/js/","");
    var modelAr3Duriter = modelAr3Duribis.replace(".js",".gltf"); 
-   document.getElementById("modelAr3Dlink").href = "https://raw.githubusercontent.com/StoriaNum/workshops/gh-pages/example/mobileitO.html?link="+modelAr3Duriter+"&item="+nomeItemx3D+"&buyurl="+modelBuybasketuri+"&Dst=1%20m";
+   document.getElementById("modelAr3Dlink").href = "https://storianum.github.io/workshops/example/mobileitO.html?link="+modelAr3Duriter+"&item="+nomeItemx3D+"&buyurl="+modelBuybasketuri+"&Dst=1%20m";
    // document.getElementById("avocado").src = "LINK PER MODELLO GLTF"+modelAr3Duriter+"";
    
    document.getElementById("nomeitemcam").innerHTML = "Arredo selezionato: <i><b>"+nomeItemx3D+"</b></i>";
