@@ -68,7 +68,7 @@ $.sweetModal({
 	
 	
 	
-	<div style='position: fixed; width:100%; top: 0px; z-index: 1;'>
+<!--	<div style='position: fixed; width:100%; top: 0px; z-index: 1;'>   -->
 
 
         <!-- Right Column -->
@@ -167,7 +167,7 @@ $.sweetModal({
 
 	</div>
 
-</div></div>
+</div>  <!--  </div>   -->
   
 <script>   
 //////////   funzione per raccogliere variabili js    
@@ -216,8 +216,7 @@ var positionarray = ""+Px+" "+Py+" "+Pz+"";
 
     <!-- this is the "stage" of your 3D content -->
 
- <!--   <a-entity camera="" position="0 1.6 5"></a-entity>  -->   <!-- We move the camera around a bit -->
-	      <a-entity camera="" position="0 2.5 5"></a-entity>
+    <a-entity camera="" position="0 1.6 5"></a-entity>    <!-- We move the camera around a bit -->
     <a-entity light="type:directional;castShadow:true" position="0 10 0"></a-entity> <!-- Have a light shining down on our scene -->
     <a-entity light="type:ambient; intensity:0.5"></a-entity> <!-- and some ambient lighting -->
 
