@@ -24,7 +24,7 @@
 <script src="https://cdn.rawgit.com/StoriaNum/workshops/gh-pages/example/js/jquery/1.12.1/jquery-ui.js"></script>
 <script src="js/html2canvas.js"></script>
 
-<script src="https://cdn.rawgit.com/StoriaNum/aframe/master/dist/aframe-v0.7.1gioversionTENT2.js"></script>
+<script src="https://cdn.rawgit.com/StoriaNum/aframe/master/dist/aframe-v0.7.1gioversion.min.js"></script>
 <script src="https://cdn.rawgit.com/StoriaNum/AR.js/master/aframe/build/aframe-ar-gioversion4.js"></script>
 <!-- include a polyfill for chrome android 
 <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>  -->
@@ -34,6 +34,14 @@
 <link href="css/jquery.sweet-modal.min.css" rel="stylesheet">
 <script src="js/jquery.sweet-modal6.js"></script>
 <!--  fine scripts per sweetmodal pop up -->
+	  
+<style>
+a-scene {
+  height: auto;
+  width: auto;
+}
+</style>
+	  
   
   </head>
 
@@ -212,7 +220,7 @@ var positionarray = ""+Px+" "+Py+" "+Pz+"";
 	
 	
 	
-  <a-scene vr-mode-ui="enabled: false" arjs="debugUIEnabled: false;">   
+  <a-scene embedded vr-mode-ui="enabled: false" arjs="debugUIEnabled: false;">   
 
     <!-- this is the "stage" of your 3D content -->
 
