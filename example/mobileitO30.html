@@ -36,7 +36,7 @@
 <!--  fine scripts per sweetmodal pop up -->
 	  
 <style>
-a-scene {
+#myEmbeddedScene {
   height: auto;
   width: auto;
 }
@@ -219,7 +219,7 @@ var positionarray = ""+Px+" "+Py+" "+Pz+"";
 	
 	
 	
-	
+  <div id="myEmbeddedScene">	
   <a-scene embedded vr-mode-ui="enabled: false" arjs="debugUIEnabled: false;">   
 
     <!-- this is the "stage" of your 3D content -->
@@ -251,7 +251,8 @@ totvalues.setAttribute("position",positionarray);
 </script>	  
 	  
     
-    </a-scene>  
+    </a-scene> 
+    </div>
   
   
 </body></html>
