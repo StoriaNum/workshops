@@ -70,7 +70,7 @@ $.sweetModal({
 	
 	
 	
-	<div style='position: fixed; width:100%; top: 0px; z-index: -1;'>  
+	<div style='position: fixed; width:100%; top: 0px; z-index: 1;'>  
 
 
         <!-- Right Column -->
@@ -164,9 +164,17 @@ var positionarray = ""+Px+" "+Py+" "+Pz+"";
 	
 </script>
 	
-	
 
-  <a-scene vr-mode-ui="enabled: false">   
+  <style>
+  #myEmbeddedScene {
+	  
+    width: 100vh;
+    height: 100vh;	  
+	  
+    }
+  </style>
+  <div id="myEmbeddedScene">
+  <a-scene embedded vr-mode-ui="enabled: false">   
 
     <!-- this is the "stage" of your 3D content -->
 
@@ -198,7 +206,7 @@ totvalues.setAttribute("position",positionarray);
 	  
     
     </a-scene> 
-
+	</div>
 
   
 </body></html>
