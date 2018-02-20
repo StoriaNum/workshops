@@ -93,7 +93,7 @@ $.sweetModal({
 		    
 	      <a href="#" class="btn btn-default btn-sm" id="info-sign">		 Infos   -->
 <!--	      <span class="glyphicon glyphicon-info-sign"></span>
-	      </a>            -->
+	      </a>            
 	      <script>
 	      $( "#info-sign" ).click(function() {
  	     
@@ -111,7 +111,7 @@ $.sweetModal({
 	      });
 	     </script>    
 		    
-		    
+-->		    
 		    
  <!--
 		    
@@ -167,17 +167,8 @@ var positionarray = ""+Px+" "+Py+" "+Pz+"";
 </script>
 	
 
-  <style>
-  #myEmbeddedScene {
-	  
-    width: 100vw;
-    height: 100vh;
-    position: fixed;  
-	  
-    }
-  </style>
-  <div id="myEmbeddedScene">
-  <a-scene embedded vr-mode-ui="enabled: false">   
+
+  <a-scene vr-mode-ui="enabled: false">   
 
     <!-- this is the "stage" of your 3D content -->
 
@@ -209,7 +200,7 @@ totvalues.setAttribute("position",positionarray);
 	  
     
     </a-scene> 
-	</div>
+	
 
   
 </body></html>
