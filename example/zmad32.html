@@ -70,11 +70,7 @@ document.getElementById("buyidlink").href=buy;
 var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
 var positionarray = ""+Px+" "+Py+" "+Pz+"";
 	
-$(function(){
-      $('#Scaleval').val(scalearray);
-      $('#Posval').val(positionarray);	
-});
-	
+
 
 </script>
 	
@@ -83,8 +79,7 @@ $(function(){
   </head>
 	
 <body>
-<input id="Scaleval" type="textbox" value="" hidden />	
-<input id="Posval" type="textbox" value="" hidden />
+
 	
 <!--  sweetmodal pop up rotazione schermo device-->	
 <script>
@@ -162,10 +157,7 @@ totvalues.setAttribute("position",positionarray);
 */
 /////////////////  
 	 
-var scalearray = document.getElementById("Scaleval").value;
-var positionarray = document.getElementById("Posval").value;
-	 
-	 alert(scalearray);
+
 
 var box = document.createElement('a-asset-item');
 $('a-assets').append(box);
@@ -177,9 +169,9 @@ entgltf.setAttribute('gltf-model','#avocado');
 entgltf.setAttribute('id','defavocado');
 entgltf.setAttribute('look-controls','reverseMouseDrag:true');
 
-entgltf.setAttribute('scale',scalearray);
+entgltf.setAttribute('scale', this.scalearray);
 	 
-entgltf.setAttribute("position",positionarray);	 
+entgltf.setAttribute("position", this.positionarray);	 
 	 
 document.querySelector('a-scene').appendChild(entgltf);	 
 	 
