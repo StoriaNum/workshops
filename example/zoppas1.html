@@ -53,7 +53,7 @@ var positionarray = ""+Px+" "+Py+" "+Pz+"";
 </script>
 
 
-  <a-scene embedded arjs='sourceType: webcam;'>
+  <a-scene vr-mode-ui="enabled: false" arjs='sourceType: webcam;'>
  
     <a-entity camera="" position="0 1.6 5"></a-entity>    <!-- We move the camera around a bit -->
     <a-entity light="type:directional;castShadow:true" position="0 5 0"></a-entity> <!-- Have a light shining down on our scene -->
