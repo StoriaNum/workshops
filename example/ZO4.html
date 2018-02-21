@@ -114,9 +114,13 @@ var positionarray = ""+Px+" "+Py+" "+Pz+"";
 	
 </script>
 	
-
-
-  <a-scene embedded vr-mode-ui="enabled: false" artoolkit='sourceType: webcam;' antialias="true" outline>   
+a-scene {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+<div id="myEmbeddedScene">
+  <a-scene embedded vr-mode-ui="enabled: false" antialias="true">   
 
     <!-- this is the "stage" of your 3D content -->
 
@@ -148,7 +152,7 @@ totvalues.setAttribute("position",positionarray);
 	  
     
     </a-scene> 
-	
+</div>	
 
   
 </body></html>
