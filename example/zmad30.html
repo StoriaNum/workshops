@@ -70,14 +70,21 @@ document.getElementById("buyidlink").href=buy;
 var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
 var positionarray = ""+Px+" "+Py+" "+Pz+"";
 	
+$(function(){
+      $('#Scaleval').val(scalearray);
+      $('#Posval').val(positionarray);	
+});
+	
 
 </script>
 	
 	
   
   </head>
-<body>
 	
+<body>
+<input id="Scaleval" type="textbox" value="" hidden />	
+<input id="Posval" type="textbox" value="" hidden />
 	
 <!--  sweetmodal pop up rotazione schermo device-->	
 <script>
@@ -155,7 +162,8 @@ totvalues.setAttribute("position",positionarray);
 */
 /////////////////  
 	 
-	
+var scalearray = document.getElementById("Scaleval").value;
+var positionarray = document.getElementById("Posval").value;
 
 var box = document.createElement('a-asset-item');
 $('a-assets').append(box);
