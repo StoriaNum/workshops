@@ -63,6 +63,48 @@ $.sweetModal({
 	
 	
 	
+
+	
+	
+	
+  
+  <a-scene style='position: fixed; width:100%; top: 0px; z-index: 1;' vr-mode-ui="enabled: false"> 
+    <!-- this is the "stage" of your 3D content -->
+	  
+	  
+
+    <a-entity camera="" position="0 1.6 5"></a-entity> <!-- We move the camera around a bit -->
+    <a-entity light="type:directional;castShadow:true" position="0 10 0"></a-entity> <!-- Have a light shining down on our scene -->
+    <a-entity light="type:ambient; intensity:0.5"></a-entity> <!-- and some ambient lighting -->
+
+    <!-- we define our gltf model -->
+    <a-assets>
+	    <a-asset-item id="avocado" src=""></a-asset-item>
+    </a-assets>
+	  
+	<!--  <script>
+	   var ele=document.getElementById("avocado");
+	   ele.setAttribute('src',linkfin);		  	  
+	  </script>   -->
+
+ <!-- <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 0 0"></a-entity> -->
+
+ <a-entity gltf-model="#avocado" id="defavocado" look-controls="reverseMouseDrag:true" scale="" position="0 0 0"></a-entity>
+	  
+<!--  <script>
+// var scalearray =""+Sx+" "+Sy+" "+Sz+"";  
+var totvalues= document.getElementById("defavocado");
+totvalues.setAttribute("scale",scalearray);  
+// var positionarray = ""+Px+" "+Py+" "+Pz+"";
+totvalues.setAttribute("position",positionarray);	  
+</script>	-->
+	  
+	  
+	  
+	  
+  </a-scene>
+	
+	
 <script>   
 //////////   funzione per raccogliere variabili js    
 	
@@ -118,45 +160,6 @@ totvalues.setAttribute("position",positionarray);
 	alert(linkfin);
 	
 </script>
-	
-	
-	
-  
-  <a-scene style='position: fixed; width:100%; top: 0px; z-index: 1;' vr-mode-ui="enabled: false"> 
-    <!-- this is the "stage" of your 3D content -->
-	  
-	  
-
-    <a-entity camera="" position="0 1.6 5"></a-entity> <!-- We move the camera around a bit -->
-    <a-entity light="type:directional;castShadow:true" position="0 10 0"></a-entity> <!-- Have a light shining down on our scene -->
-    <a-entity light="type:ambient; intensity:0.5"></a-entity> <!-- and some ambient lighting -->
-
-    <!-- we define our gltf model -->
-    <a-assets>
-	    <a-asset-item id="avocado" src=""></a-asset-item>
-    </a-assets>
-	  
-	<!--  <script>
-	   var ele=document.getElementById("avocado");
-	   ele.setAttribute('src',linkfin);		  	  
-	  </script>   -->
-
- <!-- <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 0 0"></a-entity> -->
-
- <a-entity gltf-model="#avocado" id="defavocado" look-controls="reverseMouseDrag:true" scale="" position="0 0 0"></a-entity>
-	  
-<!--  <script>
-// var scalearray =""+Sx+" "+Sy+" "+Sz+"";  
-var totvalues= document.getElementById("defavocado");
-totvalues.setAttribute("scale",scalearray);  
-// var positionarray = ""+Px+" "+Py+" "+Pz+"";
-totvalues.setAttribute("position",positionarray);	  
-</script>	-->
-	  
-	  
-	  
-	  
-  </a-scene>
     
   
   
