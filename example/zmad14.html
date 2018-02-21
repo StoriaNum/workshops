@@ -105,6 +105,8 @@ var positionarray = ""+Px+" "+Py+" "+Pz+"";
   
   <a-scene style='position: fixed; width:100%; top: 0px; z-index: 1;' vr-mode-ui="enabled: false"> 
     <!-- this is the "stage" of your 3D content -->
+	  
+	  
 
     <a-entity camera="" position="0 1.6 5"></a-entity> <!-- We move the camera around a bit -->
     <a-entity light="type:directional;castShadow:true" position="0 10 0"></a-entity> <!-- Have a light shining down on our scene -->
@@ -112,12 +114,29 @@ var positionarray = ""+Px+" "+Py+" "+Pz+"";
 
     <!-- we define our gltf model -->
     <a-assets>
-      <a-asset-item id="avocado" src="https://cdn.rawgit.com/StoriaNum/mobrea/gh-pages/prova1x2x1m/prova1x2x1m.gltf"></a-asset-item>
+	    <a-asset-item id="avocado" src=""></a-asset-item>
     </a-assets>
+	  
+	  <script>
+	   var ele=document.getElementById("avocado");
+	   ele.setAttribute('src',linkfin);		  	  
+	  </script>
 
-    <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.006 0.009 0.008" position="-0.5 0 -1.6"></a-entity>
+ <!-- <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 0 0"></a-entity> -->
 
- 
+ <a-entity gltf-model="#avocado" id="defavocado" look-controls="reverseMouseDrag:true" scale="" position="0 0 0"></a-entity>
+	  
+<script>
+// var scalearray =""+Sx+" "+Sy+" "+Sz+"";  
+var totvalues= document.getElementById("defavocado");
+totvalues.setAttribute("scale",scalearray);  
+// var positionarray = ""+Px+" "+Py+" "+Pz+"";
+totvalues.setAttribute("position",positionarray);	  
+</script>	
+	  
+	  
+	  
+	  
   </a-scene>
     
   
