@@ -35,6 +35,36 @@
   
   </head>
 <body>
+	
+	
+<!--  sweetmodal pop up rotazione schermo device-->	
+<script>
+$(window).load(function() {
+       	if(window.innerHeight > window.innerWidth){ 
+		
+$.sweetModal({
+	title: 'RUOTA IL DISPOSITIVO',
+    content: '<center><img src="orientationdevice.png"><br>Poni il dispositivo in modalit&agrave; <u><b>LANDSCAPE</b></u><br>per elaborare la giusta prospettiva!<br>Poi clicca <u><b>OK</b></u> !</center>',
+	
+	
+	buttons: [
+		{
+			label: 'OK',
+			classes: 'redB'
+		}
+	]
+});
+	
+		
+  }
+});				
+</script>
+<!--  fine sweetmodal pop up rotazione schermo device-->	
+	
+	
+	
+	
+	
   
   <a-scene style='position: fixed; width:100%; top: 0px; z-index: 1;' vr-mode-ui="enabled: false"> 
     <!-- this is the "stage" of your 3D content -->
