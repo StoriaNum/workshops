@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cube</title>
+	<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+
+</head>
+	
+	
+<body style="background-color: #000;">
+	
+
+<script>   
+//////////   funzione per raccogliere variabili js    
+	
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+	
+var link = getParameterByName('link');
+var item = getParameterByName('item');
+var Dst = getParameterByName('Dst');
+var buy = getParameterByName('buyurl'); 
+var Sx = getParameterByName('Sx');   
+var Sy = getParameterByName('Sy');
+var Sz = getParameterByName('Sz');
+var Px = getParameterByName('Px');
+var Py = getParameterByName('Py');    
+	
+var urlperPz = 	window.location.href;
+var quasiPz = urlperPz.split("&Py=").pop();
+var Pz = quasiPz.split("&Pz=").pop();   
+	
+var linkdir = link.replace(".gltf","");	
+	
+var linkfin = "https://cdn.rawgit.com/StoriaNum/mobrea/gh-pages/"+linkdir+"/"+link;
+document.getElementById("buyidlink").href=buy;	
+	
+var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
+var positionarray = ""+Px+" "+Py+" "+Pz+"";
+	
+</script>	
+	
+	
+<a-scene>
+  <a-entity camera="" position="0 1.6 5"></a-entity> <!-- We move the camera around a bit -->
+    <a-entity light="type:directional;castShadow:true" position="0 10 0"></a-entity> <!-- Have a light shining down on our scene -->
+    <a-entity light="type:ambient; intensity:0.5"></a-entity> <!-- and some ambient lighting -->
+
+    <!-- we define our gltf model -->
+    <a-assets>
+	    <a-asset-item id="avocado" src=""></a-asset-item>
+    </a-assets>
+	  
+	  <script>
+	   var ele=document.getElementById("avocado");
+	   ele.setAttribute('src',linkfin);		  	  
+	  </script>
+
+ <!-- <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 0 0"></a-entity> -->
+
+ <a-entity gltf-model="#avocado" id="defavocado" look-controls="reverseMouseDrag:true" scale="" position="0 0 0"></a-entity>
+	  
+<script>
+// var scalearray =""+Sx+" "+Sy+" "+Sz+"";  
+var totvalues= document.getElementById("defavocado");
+totvalues.setAttribute("scale",scalearray);  
+// var positionarray = ""+Px+" "+Py+" "+Pz+"";
+totvalues.setAttribute("position",positionarray);	  
+</script>
+</a-scene>
+	
+	
+	
+</body>
+</html>
