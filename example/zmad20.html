@@ -70,21 +70,6 @@ document.getElementById("buyidlink").href=buy;
 var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
 var positionarray = ""+Px+" "+Py+" "+Pz+"";
 
- ////////////////
-
-var ele=document.getElementById("avocado");
-ele.setAttribute('src',linkfin);
-	
-//////////
-	
-////////////
-	
-var totvalues= document.getElementById("defavocado");
-totvalues.setAttribute("scale",scalearray);  
-// var positionarray = ""+Px+" "+Py+" "+Pz+"";
-totvalues.setAttribute("position",positionarray);
-	
-/////////////////
 
 </script>
 	
@@ -148,21 +133,28 @@ $.sweetModal({
 
  <a-entity gltf-model="#avocado" id="defavocado" look-controls="reverseMouseDrag:true" scale="" position="0 0 0"></a-entity>
 	  
-<!--  <script>
-// var scalearray =""+Sx+" "+Sy+" "+Sz+"";  
-var totvalues= document.getElementById("defavocado");
-totvalues.setAttribute("scale",scalearray);  
-// var positionarray = ""+Px+" "+Py+" "+Pz+"";
-totvalues.setAttribute("position",positionarray);	  
-</script>	-->
-	  
-	  
-	  
+
 	  
   </a-scene>
 	
   
-  
+ <script>
+ ////////////////
+(function () {
+var ele=document.getElementById("avocado");
+ele.setAttribute('src',linkfin);
+	
+//////////
+	
+////////////
+	
+var totvalues= document.getElementById("defavocado");
+totvalues.setAttribute("scale",scalearray);  
+// var positionarray = ""+Px+" "+Py+" "+Pz+"";
+totvalues.setAttribute("position",positionarray);
+})();	
+/////////////////
+</script>
     
     
 </body>
