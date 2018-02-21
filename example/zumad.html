@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+	  
+    <meta name="viewport" content="width=device-width">
+	  
+    <title>Blueprint Esempio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/examplemb.css" rel="stylesheet">
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+	
+
+ <!-- include a polyfill for chrome android -->
+<script src="https://cdn.rawgit.com/StoriaNum/webrtc/gh-pages/ultimoadapter.js"></script>
+	
+
+<script src="https://cdn.rawgit.com/StoriaNum/workshops/gh-pages/example/js/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/StoriaNum/workshops/gh-pages/example/js/jquery/1.12.4/jquery-1.12.4.js"></script>
+<script src="https://cdn.rawgit.com/StoriaNum/workshops/gh-pages/example/js/jquery/1.12.1/jquery-ui.js"></script>
+
+
+<script src="https://cdn.rawgit.com/StoriaNum/aframe/master/dist/aframe-v0.7.1gioversion.min.js"></script>
+<script src="https://cdn.rawgit.com/StoriaNum/AR.js/master/aframe/build/aframe-ar-gioversion.js"></script>
+
+	  
+<!--  inserimento scripts per sweetmodal pop up --> 
+<link href="css/jquery.sweet-modal.min.css" rel="stylesheet">
+<script src="js/jquery.sweet-modal6.js"></script>
+<!--  fine scripts per sweetmodal pop up -->
+  
+  </head>
+<body>
+	
+	
+<!--  sweetmodal pop up rotazione schermo device-->	
+<script>
+$(window).load(function() {
+       	if(window.innerHeight > window.innerWidth){ 
+		
+$.sweetModal({
+	title: 'RUOTA IL DISPOSITIVO',
+    content: '<center><img src="orientationdevice.png"><br>Poni il dispositivo in modalit&agrave; <u><b>LANDSCAPE</b></u><br>per elaborare la giusta prospettiva!<br>Poi clicca <u><b>OK</b></u> !</center>',
+	
+	
+	buttons: [
+		{
+			label: 'OK',
+			classes: 'redB'
+		}
+	]
+});
+	
+		
+  }
+});				
+</script>
+<!--  fine sweetmodal pop up rotazione schermo device-->	
+	
+	
+	
+<script>   
+//////////   funzione per raccogliere variabili js    
+	
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+	
+var link = getParameterByName('link');
+var item = getParameterByName('item');
+var Dst = getParameterByName('Dst');
+var buy = getParameterByName('buyurl'); 
+var Sx = getParameterByName('Sx');   
+var Sy = getParameterByName('Sy');
+var Sz = getParameterByName('Sz');
+var Px = getParameterByName('Px');
+var Py = getParameterByName('Py');    
+	
+var urlperPz = 	window.location.href;
+var quasiPz = urlperPz.split("&Py=").pop();
+var Pz = quasiPz.split("&Pz=").pop();   
+	
+var linkdir = link.replace(".gltf","");	
+	
+var linkfin = "https://cdn.rawgit.com/StoriaNum/mobrea/gh-pages/"+linkdir+"/"+link;
+document.getElementById("buyidlink").href=buy;	
+	
+var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
+var positionarray = ""+Px+" "+Py+" "+Pz+"";
+	
+</script>
+	
+	
+	
+  
+  <a-scene style='position: fixed; width:100%; top: 0px; z-index: 1;' vr-mode-ui="enabled: false"> 
+    <!-- this is the "stage" of your 3D content -->
+
+    <a-entity camera="" position="0 1.6 5"></a-entity> <!-- We move the camera around a bit -->
+    <a-entity light="type:directional;castShadow:true" position="0 10 0"></a-entity> <!-- Have a light shining down on our scene -->
+    <a-entity light="type:ambient; intensity:0.5"></a-entity> <!-- and some ambient lighting -->
+
+    <!-- we define our gltf model -->
+    <a-assets>
+      <a-asset-item id="avocado" src="https://cdn.rawgit.com/StoriaNum/mobrea/gh-pages/prova1x2x1m/prova1x2x1m.gltf"></a-asset-item>
+    </a-assets>
+
+    <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.006 0.009 0.008" position="-0.5 0 -1.6"></a-entity>
+
+ 
+  </a-scene>
+    
+  
+  
+    
+    
+</body>
+</html>
