@@ -160,22 +160,16 @@ $('a-assets').append(box);
 box.setAttribute('id', 'avocado');
 box.setAttribute('src', linkfin);
 var entgltf = document.createElement('a-entity');
-document.querySelector('a-scene').appendChild(entgltf);
+//document.querySelector('a-scene').appendChild(entgltf);
 entgltf.setAttribute('gltf-model','#avocado');
 entgltf.setAttribute('id','defavocado');
 entgltf.setAttribute('look-controls','reverseMouseDrag:true');
+
 entgltf.setAttribute('scale',scalearray);
-	 
-entgltf.addEventListener('loaded', function() {
-  console.log(entgltf.getAttribute('scale'));
-});	 
 	 
 entgltf.setAttribute("position",positionarray);	 
 	 
-entgltf.addEventListener('loaded', function() {
-  console.log(entgltf.getAttribute('position'));
-});	 
-	 
+document.querySelector('a-scene').appendChild(entgltf);	 
 	 
 </script>
     
