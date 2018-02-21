@@ -158,7 +158,6 @@ totvalues.setAttribute("position",positionarray);
 /////////////////  
 	 
 
-
 var box = document.createElement('a-asset-item');
 $('a-assets').append(box);
 box.setAttribute('id', 'avocado');
@@ -174,6 +173,8 @@ entgltf.setAttribute('scale', this.scalearray);
 entgltf.setAttribute("position", this.positionarray);	 
 	 
 document.querySelector('a-scene').appendChild(entgltf);	 
+	 
+	 alert(this.scalearray);
 	 
 </script> 
     
