@@ -121,7 +121,7 @@ $.sweetModal({
 
     <!-- we define our gltf model -->
     <a-assets>
-	    <a-asset-item id="avocado" src=""></a-asset-item>
+	<!--    <a-asset-item id="avocado" src=""></a-asset-item>   -->
     </a-assets>
 	  
 	<!--  <script>
@@ -129,9 +129,9 @@ $.sweetModal({
 	   ele.setAttribute('src',linkfin);		  	  
 	  </script>   -->
 
- <!-- <a-entity gltf-model="#avocado" look-controls="reverseMouseDrag:true" scale="0.1 0.1 0.1" position="0 0 0"></a-entity> -->
 
- <a-entity gltf-model="#avocado" id="defavocado" look-controls="reverseMouseDrag:true" scale="" position="0 0 0"></a-entity>
+
+ <!-- <a-entity gltf-model="#avocado" id="defavocado" look-controls="reverseMouseDrag:true" scale="" position="0 0 0"></a-entity>  -->
 	  
 
 	  
@@ -139,8 +139,8 @@ $.sweetModal({
 	
   
  <script>
- ////////////////
-(function () {
+ //////////////// 
+/*
 var ele=document.getElementById("avocado");
 ele.setAttribute('src',linkfin);
 	
@@ -152,8 +152,24 @@ var totvalues= document.getElementById("defavocado");
 totvalues.setAttribute("scale",scalearray);  
 // var positionarray = ""+Px+" "+Py+" "+Pz+"";
 totvalues.setAttribute("position",positionarray);
-})();	
-/////////////////
+*/
+/////////////////  
+
+var box = document.createElement('a-asset-item');
+$('a-assets').append(box);
+box.setAttribute('id', 'avocado');
+box.setAttribute('src', linkfin);
+var entgltf = document.createElement('a-entity');
+document.querySelector('a-scene').appendChild(entgltf);
+entgltf.setAttribute('gltf-model','#avocado');
+entgltf.setAttribute('id','defavocado');
+entgltf.setAttribute('look-controls','reverseMouseDrag:true');
+entgltf.setAttribute('scale',scalearray);	 
+entgltf.setAttribute("position",positionarray);	 
+	 
+	 
+	 
+	 
 </script>
     
     
