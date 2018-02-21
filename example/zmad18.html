@@ -32,6 +32,48 @@
 <link href="css/jquery.sweet-modal.min.css" rel="stylesheet">
 <script src="js/jquery.sweet-modal6.js"></script>
 <!--  fine scripts per sweetmodal pop up -->
+	
+	
+	
+<script>   
+//////////   funzione per raccogliere variabili js    
+	
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+	
+var link = getParameterByName('link');
+var item = getParameterByName('item');
+var Dst = getParameterByName('Dst');
+var buy = getParameterByName('buyurl'); 
+var Sx = getParameterByName('Sx');   
+var Sy = getParameterByName('Sy');
+var Sz = getParameterByName('Sz');
+var Px = getParameterByName('Px');
+var Py = getParameterByName('Py');    
+	
+var urlperPz = 	window.location.href;
+var quasiPz = urlperPz.split("&Py=").pop();
+var Pz = quasiPz.split("&Pz=").pop();   
+	
+var linkdir = link.replace(".gltf","");	
+	
+var linkfin = "https://cdn.rawgit.com/StoriaNum/mobrea/gh-pages/"+linkdir+"/"+link;
+document.getElementById("buyidlink").href=buy;	
+	
+var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
+var positionarray = ""+Px+" "+Py+" "+Pz+"";
+	
+
+</script>
+	
+	
   
   </head>
 <body>
@@ -104,44 +146,8 @@ totvalues.setAttribute("position",positionarray);
 	  
   </a-scene>
 	
-	
-<script>   
-//////////   funzione per raccogliere variabili js    
-	
-function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-	
-var link = getParameterByName('link');
-var item = getParameterByName('item');
-var Dst = getParameterByName('Dst');
-var buy = getParameterByName('buyurl'); 
-var Sx = getParameterByName('Sx');   
-var Sy = getParameterByName('Sy');
-var Sz = getParameterByName('Sz');
-var Px = getParameterByName('Px');
-var Py = getParameterByName('Py');    
-	
-var urlperPz = 	window.location.href;
-var quasiPz = urlperPz.split("&Py=").pop();
-var Pz = quasiPz.split("&Pz=").pop();   
-	
-var linkdir = link.replace(".gltf","");	
-	
-var linkfin = "https://cdn.rawgit.com/StoriaNum/mobrea/gh-pages/"+linkdir+"/"+link;
-document.getElementById("buyidlink").href=buy;	
-	
-var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
-var positionarray = ""+Px+" "+Py+" "+Pz+"";
-	
-	
-////////////////
+<script>	
+ ////////////////
 
 var ele=document.getElementById("avocado");
 ele.setAttribute('src',linkfin);
@@ -155,13 +161,8 @@ totvalues.setAttribute("scale",scalearray);
 // var positionarray = ""+Px+" "+Py+" "+Pz+"";
 totvalues.setAttribute("position",positionarray);
 	
-/////////////////
-	
-	alert(linkfin);
-	
-</script>
-    
-  
+///////////////// 
+</script>  
   
     
     
