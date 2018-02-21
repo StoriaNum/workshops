@@ -172,7 +172,9 @@ entgltf.addEventListener('loaded', function() {
 	 
 entgltf.setAttribute("position",positionarray);	 
 	 
-	 
+entgltf.addEventListener('loaded', function() {
+  console.log(entgltf.getAttribute('position'));
+});	 
 	 
 	 
 </script>
