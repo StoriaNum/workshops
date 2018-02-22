@@ -71,7 +71,7 @@ var linkdir = link.replace(".gltf","");
 var linkfin = "https://cdn.rawgit.com/StoriaNum/mobrea/gh-pages/"+linkdir+"/"+link;
 document.getElementById("buyidlink").href=buy;	
 	
-var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
+// var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
 var positionarray = ""+Px+" "+Py+" "+Pz+"";
 	
 
@@ -155,7 +155,7 @@ totvalues.setAttribute("position",positionarray);
 */
 /////////////////  
 	 
-alert(linkfin); alert(Sx); alert(scalearray);
+var scalearray = Sx+" "+Sy+" "+Sz;
 
 
 var box = document.createElement('a-asset-item');
@@ -168,7 +168,7 @@ entgltf.setAttribute('gltf-model','#avocado');
 entgltf.setAttribute('id','defavocado');
 entgltf.setAttribute('look-controls','reverseMouseDrag:true');
 
-entgltf.setAttribute('scale', this.scalearray);
+entgltf.setAttribute('scale', scalearray);
 	 
 entgltf.setAttribute("position", this.positionarray);	 
 	 
