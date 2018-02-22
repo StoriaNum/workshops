@@ -71,10 +71,6 @@ var linkdir = link.replace(".gltf","");
 var linkfin = "https://cdn.rawgit.com/StoriaNum/mobrea/gh-pages/"+linkdir+"/"+link;
 document.getElementById("buyidlink").href=buy;	
 	
-// var scalearray =""+Sx+" "+Sy+" "+Sz+""; 
-var positionarray = ""+Px+" "+Py+" "+Pz+"";
-	
-
 
 </script>
 
@@ -156,7 +152,7 @@ totvalues.setAttribute("position",positionarray);
 /////////////////  
 	 
 var scalearray = Sx+" "+Sy+" "+Sz;
-
+var positionarray = Px+" "+Py+" "+Pz;
 
 var box = document.createElement('a-asset-item');
 $('a-assets').append(box);
@@ -170,7 +166,7 @@ entgltf.setAttribute('look-controls','reverseMouseDrag:true');
 
 entgltf.setAttribute('scale', scalearray);
 	 
-entgltf.setAttribute("position", this.positionarray);	 
+entgltf.setAttribute("position", positionarray);	 
 	 
 document.querySelector('a-scene').appendChild(entgltf);	 
 	 
