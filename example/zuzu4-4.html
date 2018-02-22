@@ -69,7 +69,7 @@ var Pz = quasiPz.split("&Pz=").pop();
 var linkdir = link.replace(".gltf","");	
 	
 var linkfin = "https://cdn.rawgit.com/StoriaNum/mobrea/gh-pages/"+linkdir+"/"+link;
-document.getElementById("buyidlink").href=buy;	
+// document.getElementById("buyidlink").href=buy;	
 	
 
 </script>
@@ -120,7 +120,11 @@ $.sweetModal({
               <span class="glyphicon glyphicon-shopping-cart" title="Compra Ora"></span>   <!--     Buy  -->
                </a>	    
 	 
-		    
+	      <script>
+	      document.getElementById("buyidlink").href=buy;	
+              </script>
+		   
+		   
 	      <a href="#" class="btn btn-default btn-sm" id="info-sign">		<!-- Infos   -->
 	      <span class="glyphicon glyphicon-info-sign"></span>
 	      </a>            
@@ -152,7 +156,7 @@ $.sweetModal({
 		</div></div>	
 	
 	
-<!-- --------------------------------------------------------  -->
+
 	
 	
 	
