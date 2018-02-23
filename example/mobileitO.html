@@ -69,7 +69,7 @@ var Pz = quasiPz.split("&Pz=").pop();
 var linkdir = link.replace(".gltf","");	
 	
 var linkfin = "https://cdn.rawgit.com/StoriaNum/mobrea/gh-pages/"+linkdir+"/"+link;
-// document.getElementById("buyidlink").href=buy;	
+	
 	
 
 </script>
@@ -100,16 +100,9 @@ $.sweetModal({
 <!--  fine sweetmodal pop up rotazione schermo device-->	
 	
 	
-<!--                	-->
-
 <div style='position: fixed; width:100%; top: 0px; z-index: 2;'>    
 
-
-        <!-- Right Column -->
-        <!-- <div class="col-xs-9 main">  -->  <!--  <div id="imagesave"> -->
-
-        <!-- 3D Viewer prima era qui-->
-           
+ 
 
            <div id="main-controls">
               <a href="mobileitI.html" class="btn btn-default btn-sm" id="new">
@@ -173,13 +166,6 @@ $.sweetModal({
     <a-assets>
 	<!--    <a-asset-item id="avocado" src=""></a-asset-item>   -->
     </a-assets>
-	  
-	<!--  <script>
-	   var ele=document.getElementById("avocado");
-	   ele.setAttribute('src',linkfin);		  	  
-	  </script>   -->
-
-
 
  <!-- <a-entity gltf-model="#avocado" id="defavocado" look-controls="reverseMouseDrag:true" scale="" position="0 0 0"></a-entity>  -->
 	  
@@ -189,21 +175,6 @@ $.sweetModal({
 	
 
  <script>
- //////////////// 
-/*
-var ele=document.getElementById("avocado");
-ele.setAttribute('src',linkfin);
-	
-//////////
-	
-////////////
-	
-var totvalues= document.getElementById("defavocado");
-totvalues.setAttribute("scale",scalearray);  
-// var positionarray = ""+Px+" "+Py+" "+Pz+"";
-totvalues.setAttribute("position",positionarray);
-*/
-/////////////////  
 	 
 var scalearray = Sx+" "+Sy+" "+Sz;
 var positionarray = Px+" "+Py+" "+Pz;
@@ -220,7 +191,9 @@ entgltf.setAttribute('look-controls','reverseMouseDrag:true');
 
 entgltf.setAttribute('scale', scalearray);
 	 
-entgltf.setAttribute("position", positionarray);	 
+entgltf.setAttribute("position", positionarray);
+	 
+entgltf.setAttribute("rotation", "0 0 0");
 	 
 document.querySelector('a-scene').appendChild(entgltf);	 
 	 
