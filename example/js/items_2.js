@@ -13,7 +13,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-0.5&Py=0&D=11:0!-1!-1.6!-2.5",
       "type" : "1"
     }, 
-    {
+ /*   {
       "name" : "Mobile Round Table Example",
       "image" : "https://storianum.github.io/repoworkshops/example/models/thumbnails/thumbnail_roundtable120x120x150cm.jpg",
       "model" : "https://storianum.github.io/repoworkshops/example/models/js/provaroundtable120x120x150cm.js",
@@ -22,7 +22,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-0.5&Py=0&D=11:0!-1!-1.6!-2.5",
       "type" : "1"
-    },
+    },   */
   {
       "name" : "Mobiletto ",
       "image" : "models/thumbnails/thumbnails_tiefe60104.jpg",
