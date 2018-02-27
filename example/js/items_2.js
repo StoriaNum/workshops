@@ -14,9 +14,9 @@ $(document).ready(function() {
       "type" : "1"
     }, 
     {
-      "name" : "Mobiletto Round table ex",
-      "image" : "https://storianum.github.io/repoworkshops/example/models/thumbnails/thumbnail_scale7.jpg",
-      "model" : "https://storianum.github.io/repoworkshops/example/models/js/scale7.js",
+      "name" : "Mobile Round Table Example",
+      "image" : "https://storianum.github.io/repoworkshops/example/models/thumbnails/thumbnail_roundtable120x120x150cm.jpg",
+      "model" : "https://storianum.github.io/repoworkshops/example/models/js/provaroundtable120x120x150cm.js",
       "price" : "x,y &euro;",
       "buybasket" : "http://www.academia.edu/",
       "gallery": "#",
