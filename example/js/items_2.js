@@ -13,6 +13,16 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-0.5&Py=0&D=11:0!-1!-1.6!-2.5",
       "type" : "1"
     }, 
+    {
+      "name" : "Mobiletto Round table ex",
+      "image" : "https://storianum.github.io/repoworkshops/example/models/thumbnails/thumbnail_scale7.jpg",
+      "model" : "https://storianum.github.io/repoworkshops/example/models/js/scale7.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "http://www.academia.edu/",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-0.5&Py=0&D=11:0!-1!-1.6!-2.5",
+      "type" : "1"
+    },
   {
       "name" : "Mobiletto ",
       "image" : "models/thumbnails/thumbnails_tiefe60104.jpg",
