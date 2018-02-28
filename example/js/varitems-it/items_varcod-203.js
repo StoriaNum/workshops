@@ -1,48 +1,48 @@
 // add items to the "Add Items" tab
 
 $(document).ready(function() {
-  var items_5 = [
+  var items_var = [
     {
-      "name" : "Scaffalatura 00",
-      "image" : "models/thumbnails/hoehe-2700-mm-8-ebenen.jpg",
-      "model" : "models/js/HZGA27310EX_ZEILE_5_02_002_20.js",
+      "name" : "Sedia 01",
+      "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
+      "model" : "models/js/gus-churchchair-whiteoak.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "datar": "#",
+      "datar": "Sx=s1&Sy=s2&Sz=s3&Px=p1&Py=p2&D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9",
       "type" : "1"
     },
     
         {
-      "name" : "Albero di Natale Box",
-      "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
+      "name" : "Sedia 02",
+      "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
       "model" : "models/js/Box.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "datar": "#",
+      "datar": "Sx=s1&Sy=s2&Sz=s3&Px=p1&Py=p2&D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9",
       "type" : "1"
     },
     
      {
-      "name" : "Albero di Natale Duck",
-      "image" : "models/thumbnails/thumbnail_alberonatale.jpg",
+      "name" : "Sedia 03",
+      "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
       "model" : "models/js/Duck.js",
       "price" : "x,y &euro;",
       "buybasket" : "http://biblioborbonica.altervista.org/",
       "gallery": "#",
-      "datar": "#",
+      "datar": "Sx=s1&Sy=s2&Sz=s3&Px=p1&Py=p2&D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9",
       "type" : "1"
     },
     
      {
-      "name" : "Scaffalatura 01",
-      "image" : "models/thumbnails/hoehe-2000-mm-6-ebenen.jpg",
+      "name" : "Sedia 04",
+      "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
       "model" : "models/js/HRG20610DA_07.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
-      "datar": "#",
+      "datar": "Sx=s1&Sy=s2&Sz=s3&Px=p1&Py=p2&D=6:0!-1.6!-2!-2.6!-3.7!-5.3!-6.3!-7.8!-8.9",
       "type" : "1"
     }
     
@@ -63,10 +63,10 @@ $(document).ready(function() {
 
 
 
-  var itemsDiv_5 = $("#items-wrapper_5")
-  for (var i = 0; i < items_5.length; i++) {
-    var item = items_5[i];
-    var html_5 = '<div class="col-sm-4">' +
+  var itemsDiv_var = $("#items-wrapper_var")
+  for (var i = 0; i < items_var.length; i++) {
+    var item = items_var[i];
+    var html_var = '<div class="col-sm-4">' +
                 '<a class="thumbnail add-item_5" model-name="' + 
                 item.name + 
                 '" model-url="' +
@@ -87,6 +87,6 @@ $(document).ready(function() {
                 item.name + 
                 '<br><i>Prezzo:</i> ' + item.price +
                 '<a class="btn btn-block2 btn-info" href=" '+ item.gallery +' " target="_blank"><span class="glyphicon glyphicon-align-center"></span> <b>Info</b><i> ' + item.name + '</i></a></a></div>';
-    itemsDiv_5.append(html_5);
+    itemsDiv_var.append(html_var);
   }
 });
