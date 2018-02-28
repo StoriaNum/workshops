@@ -97,13 +97,13 @@ var ContextMenu = function(blueprint3d) {
     
     $("#context-menu-variants").click(function(event) {
         selectedItem.remove();
-        document.getElementById("context-menu-variants").style.display="none";
-        document.getElementById("items_tab").style.display="none";
-        document.getElementById("items_tab_1").style.display="none";
-        document.getElementById("items_tab_2").style.display="none";
-        document.getElementById("items_tab_3").style.display="none";
-        document.getElementById("items_tab_4").style.display="none";
-        document.getElementById("items_tab_5").style.display="none";
+       
+        document.getElementById("items_tab").setAttribute("hidden", true);
+        document.getElementById("items_tab_1").setAttribute("hidden", true);
+        document.getElementById("items_tab_2").setAttribute("hidden", true);
+        document.getElementById("items_tab_3").setAttribute("hidden", true);
+        document.getElementById("items_tab_4").setAttribute("hidden", true);
+        document.getElementById("items_tab_5").setAttribute("hidden", true);
     });
 
     three.itemSelectedCallbacks.add(itemSelected);
