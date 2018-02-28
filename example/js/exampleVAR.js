@@ -94,6 +94,17 @@ var ContextMenu = function(blueprint3d) {
     $("#context-menu-delete").click(function(event) {
         selectedItem.remove();
     });
+    
+    $("#context-menu-variants").click(function(event) {
+        selectedItem.remove();
+        document.getElementById("context-menu-variants").style.display="none";
+        document.getElementById("items_tab").style.display="none";
+        document.getElementById("items_tab_1").style.display="none";
+        document.getElementById("items_tab_2").style.display="none";
+        document.getElementById("items_tab_3").style.display="none";
+        document.getElementById("items_tab_4").style.display="none";
+        document.getElementById("items_tab_5").style.display="none";
+    });
 
     three.itemSelectedCallbacks.add(itemSelected);
     three.itemUnselectedCallbacks.add(itemUnselected);
@@ -150,6 +161,7 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("contentdimens").innerHTML = "Varia Dimensione";
             document.getElementById("namecodeitem").style.display="none";
             document.getElementById('panelcustomitem').className = 'panel panel-default';
+            document.getElementById("context-menu-variants").style.display="none";
   
   }
 
@@ -169,6 +181,7 @@ var ContextMenu = function(blueprint3d) {
                    document.getElementById("item-height").removeAttribute("readonly");
                    document.getElementById("contentdimens").innerHTML = "<b>Inserisci le tue misure personalizzate</b>";
                    document.getElementById('panelcustomitem').className = 'panel panel-danger';
+                   document.getElementById("context-menu-variants").style.display="none";
 
           }      else  {
                                         
@@ -185,6 +198,7 @@ var ContextMenu = function(blueprint3d) {
             document.getElementById("contentdimens").innerHTML = "Dimensione Oggetto";            
             document.getElementById("namecodeitem").style.display="none";
             document.getElementById('panelcustomitem').className = 'panel panel-default';
+            $("#context-menu-variants").show();
   
   }       
    
