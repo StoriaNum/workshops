@@ -112,6 +112,8 @@ var ContextMenu = function(blueprint3d) {
         
         $("#items_tab_var").show();
       
+        $("#axtab_var").show();
+      
     });
 
     three.itemSelectedCallbacks.add(itemSelected);
