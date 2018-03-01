@@ -110,7 +110,7 @@ var ContextMenu = function(blueprint3d) {
         
         document.getElementById("items_tab_5").style.display="none";
         
-      
+        $("#items_tab_var").show();
       
     });
 
