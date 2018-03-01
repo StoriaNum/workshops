@@ -100,6 +100,8 @@ var ContextMenu = function(blueprint3d) {
        
         document.getElementById("items_tab").style.color = "grey";
         document.getElementById("axtab").removeAttribute("href");
+        document.getElementById("items_tab_1").style.display="none";
+        document.getElementById("axtab_1").removeAttribute("href");
       
       
     });
