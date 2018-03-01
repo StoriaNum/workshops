@@ -102,6 +102,14 @@ var ContextMenu = function(blueprint3d) {
         document.getElementById("axtab").removeAttribute("href");
         document.getElementById("items_tab_1").style.display="none";
         document.getElementById("axtab_1").removeAttribute("href");
+        document.getElementById("items_tab_2").style.display="none";
+        document.getElementById("axtab_2").removeAttribute("href");
+        document.getElementById("items_tab_3").style.display="none";
+        document.getElementById("axtab_3").removeAttribute("href");
+        document.getElementById("items_tab_4").style.display="none";
+        document.getElementById("axtab_4").removeAttribute("href");
+        document.getElementById("items_tab_5").style.display="none";
+        document.getElementById("axtab_5").removeAttribute("href");
       
       
     });
