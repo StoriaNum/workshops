@@ -98,8 +98,8 @@ var ContextMenu = function(blueprint3d) {
     $("#context-menu-variants").click(function(event) {
         selectedItem.remove();
        
-        document.getElementById("items_tab").style.color = "grey";
-        document.getElementById("axtab").removeAttribute("href");
+        document.getElementById("items_tab").style.display="none";
+        //document.getElementById("axtab").removeAttribute("href");
         document.getElementById("items_tab_1").style.display="none";
         document.getElementById("axtab_1").removeAttribute("href");
         document.getElementById("items_tab_2").style.display="none";
