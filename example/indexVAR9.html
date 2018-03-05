@@ -171,8 +171,23 @@
 		    
 	      <br /><br />
 	      <span id="modelDatartot" hidden></span>
-	      
-	      <script src="js/varitems-it/" type="text/javascript"></script>	    
+		    
+		    
+<!--        ppp   -->		    
+	      <script>
+	      function loadjsvar (varfilename, filetype){
+	      // NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
+
+	        filename = "js/varitems-it/items_varcod-"+varfilename+".js";
+		var fileref=document.createElement('script');
+		fileref.setAttribute("type","text/javascript");
+		fileref.setAttribute("src", filename);
+		alert(filename);
+		}
+		loadjsvar("203", "js");
+		</script>	    
+
+	    <!--  <script src="js/varitems-it/" type="text/javascript"></script>   -->	    
 		    
    
    
