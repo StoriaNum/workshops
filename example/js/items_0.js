@@ -10,6 +10,7 @@ $(document).ready(function() {
       "buybasket" : "",
       "gallery": "#",
       "datar": "#",
+      "VarCod": "N*",
       "type" : "7"
     }, 
     {
