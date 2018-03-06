@@ -139,6 +139,12 @@ div {
   overflow-y: auto; 
 }
 
+#add-items_var {
+  display: none;
+  padding: 20px;
+  overflow-y: auto; 
+}
+
 #main-controls {
   position: absolute;
   top: 20px;
