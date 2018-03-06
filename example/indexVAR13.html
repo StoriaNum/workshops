@@ -175,7 +175,7 @@
 		    
 <!--        ppp   -->		    
 	      <script>
-		      
+	/*	      
 	      function loadjsvar (varfilename){
 	      // NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
 
@@ -186,7 +186,25 @@
       
 		alert(filename);
 		}
-		loadjsvar("203");  
+		loadjsvar("203");  */
+		      
+		      
+		function loadjsvar (varfilename){
+
+
+// NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
+
+var filename = "js/varitems-it/items_varcod-"+varfilename+".js";
+var myScript = document.createElement('script');
+myScript.setAttribute('src', filename);
+document.head.appendChild(myScript);
+
+
+alert(filename);
+
+}
+
+loadjsvar("203");      
    
 		</script>	    
 
