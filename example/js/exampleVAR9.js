@@ -307,6 +307,7 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     "SHOP_3" : $("#items_tab_3"),
     "SHOP_4" : $("#items_tab_4"),
     "SHOP_5" : $("#items_tab_5"),
+    "SHOP_VAR" : $("#items_tab_var"),
     "DESIGN" : $("#design_tab")
   }
 
@@ -352,6 +353,11 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     "SHOP_5" : {
       "div" : $("#add-items_5"),
       "tab" : tabs.SHOP_5
+    },
+    
+    "SHOP_VAR" : {
+      "div" : $("#add-items_var"),
+      "tab" : tabs.SHOP_VAR
     },
     
     "SHOP" : {
@@ -459,12 +465,13 @@ var SideMenu = function(blueprint3d, floorplanControls, modalEffects) {
     $("#add-items_3").height(window.innerHeight);
     $("#add-items_4").height(window.innerHeight);
     $("#add-items_5").height(window.innerHeight);
+    $("#add-items_var").height(window.innerHeight);
    
   };
 
   // TODO: this doesn't really belong here
   function initItems() {
-    $("#add-items,#add-items_0,#add-items_1,#add-items_2,#add-items_3,#add-items_4,#add-items_5").find(".add-item, .add-item_0, .add-item_1, .add-item_2, .add-item_3, .add-item_4, .add-item_5").mousedown(function(e) {
+    $("#add-items,#add-items_0,#add-items_1,#add-items_2,#add-items_3,#add-items_4,#add-items_5,#add-items_var").find(".add-item, .add-item_0, .add-item_1, .add-item_2, .add-item_3, .add-item_4, .add-item_5, .add-item_var").mousedown(function(e) {
       var modelUrl = $(this).attr("model-url");
       var itemType = parseInt($(this).attr("model-type"));
       var modelPrice = $(this).attr("model-price");
