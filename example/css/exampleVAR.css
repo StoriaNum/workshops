@@ -219,6 +219,10 @@ div {
   cursor: pointer;
 }
 
+.add-item_var {
+  cursor: pointer;
+}
+
 .btn-file {
   display: inline-block;
   cursor: pointer;
