@@ -24,7 +24,7 @@
     <script src="js/items_4.js"></script>
     <script src="js/items_5.js"></script>
     
-    <script src="js/exampleVAR10.js"></script>
+    <script src="js/exampleVAR11.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -194,15 +194,11 @@
 		script.type = 'text/javascript'; 
 		script.onload = function() {
 			
-			 loadjsvar("203");
-			
-   			 function loadjsvar (varfilename){
-	      // NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
-			  filename = "js/varitems-it/items_varcod-"+varfilename+".js";
+			 var codevar= "203";
+			 filename = "js/varitems-it/items_varcod-"+codevar+".js";
 			  scriptfilename = filename;
 			  alert(filename);
 			  
-				 }
 		}
 		script.src = scriptfilename;
 		head.appendChild(script);      
