@@ -24,7 +24,7 @@
     <script src="js/items_4.js"></script>
     <script src="js/items_5.js"></script>
     
-    <script src="js/exampleVAR12.js"></script>
+    <script src="js/exampleVAR13.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -180,11 +180,10 @@
 	      // NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
 
 	        filename = "js/varitems-it/items_varcod-"+varfilename+".js";
-		//var fileref=document.createElement('script');
-		//fileref.setAttribute("type","text/javascript");
-		//fileref.setAttribute("src", filename);
-		      
-document.head.appendChild(document.createElement('script').setAttribute('src',filename));		      
+		var fileref=document.createElement('script');
+		fileref.setAttribute("type","text/javascript");
+		fileref.setAttribute("src", filename);
+      
 		alert(filename);
 		}
 		loadjsvar("203");  
