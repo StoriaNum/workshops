@@ -26,7 +26,7 @@
 	  
 	<!--   <script src="js/varitems-it/items_varcod-203.js" id="oveu"></script> -->
 
-    <script src="js/exampleVAR26.js"></script>
+    <script src="js/exampleVAR27.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -188,9 +188,40 @@
 var myScript = document.createElement('script');
 myScript.setAttribute('src', filename);
 document.head.appendChild(myScript);                        
+//alert(filename);    
 
+///////////////////////////////////////////////////////////////////////
+var myScripta = document.createElement('script');
+myScripta.setAttribute('src', 'js/blueprint3d.js');
+document.head.appendChild(myScripta); 
+			
+var myScriptb = document.createElement('script');
+myScriptb.setAttribute('src', 'js/jquery.js');
+document.head.appendChild(myScriptb); 			
+			
+var myScriptc = document.createElement('script');
+myScriptc.setAttribute('src', 'js/bootstrap.js');
+document.head.appendChild(myScriptc); 			
 
-alert(filename);    
+var myScriptd = document.createElement('script');
+myScriptd.setAttribute('src', 'js/exampleVAR27.js');
+document.head.appendChild(myScriptd); 			
+			
+var myScripte = document.createElement('script');
+myScripte.setAttribute('src', 'js/html2canvas.js');
+document.head.appendChild(myScripte);
+			
+			
+			
+///////////////////////////////////////////////////////////////////////////////////////			
+			
+script.onload = function(){
+    alert("Script is ready!");
+};			
+			
+			
+			
+			
 			
 			
 //document.getElementById("oveu").setAttribute('src', filename);			
