@@ -180,6 +180,15 @@
 		      
 		function loadjsvar (varfilename){
 
+////////			
+var myScripta = document.createElement('script');
+myScripta.setAttribute('src', 'js/blueprint3d.js');
+document.body.appendChild(myScripta);
+			
+////////////			
+			
+			
+			
 
 // NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
 
@@ -191,16 +200,6 @@ myScript.setAttribute('src', filename);
 //alert(filename);    
 
 document.body.appendChild(myScript); 			
-			
-			
-////////			
-var myScripta = document.createElement('script');
-myScripta.setAttribute('src', 'js/blueprint3d.js');
-document.body.appendChild(myScripta);
-			
-////////////
-			
-			
 			
 script.onload = function(){
     alert("Script is ready!");
