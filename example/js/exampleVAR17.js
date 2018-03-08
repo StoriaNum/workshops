@@ -99,16 +99,22 @@ var ContextMenu = function(blueprint3d) {
         selectedItem.remove();
        
         document.getElementById("items_tab").style.display="none";
+        document.getElementsByTagName("a")[3].removeAttribute("href");
         
         document.getElementById("items_tab_1").style.display="none";
+        document.getElementsByTagName("a")[4].removeAttribute("href");
         
         document.getElementById("items_tab_2").style.display="none";
+        document.getElementsByTagName("a")[5].removeAttribute("href");
         
         document.getElementById("items_tab_3").style.display="none";
+        document.getElementsByTagName("a")[6].removeAttribute("href");
         
         document.getElementById("items_tab_4").style.display="none";
+        document.getElementsByTagName("a")[7].removeAttribute("href");
         
         document.getElementById("items_tab_5").style.display="none";
+        document.getElementsByTagName("a")[8].removeAttribute("href");
         
         $("#items_tab_var").show();
       
