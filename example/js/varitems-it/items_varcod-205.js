@@ -1,5 +1,18 @@
 // add items to the "Add Items" tab
 
+var myScript0 = document.createElement('script');
+myScript0.setAttribute('src', 'https://raw.githubusercontent.com/StoriaNum/workshops/gh-pages/example/js/blueprint3d.js');
+document.head.appendChild(myScript0);
+
+var myScript1 = document.createElement('script');
+myScript1.setAttribute('src', 'https://raw.githubusercontent.com/StoriaNum/workshops/gh-pages/example/js/bootstrap.js');
+document.head.appendChild(myScript1);
+
+var myScript2 = document.createElement('script');
+myScript2.setAttribute('src', 'https://raw.githubusercontent.com/StoriaNum/workshops/gh-pages/example/js/html2canvas.js');
+document.head.appendChild(myScript2);
+
+
 $(document).ready(function() {
   var items_var = [
     {
