@@ -179,21 +179,7 @@
       
 		function loadjsvar (varfilename){
 	
-var myScript0 = document.createElement('script');
-myScript0.setAttribute('src', 'js/blueprint3d.js');	
-document.body.appendChild(myScript0); 
-			
-myScript0.onload = function(){
-    alert("Script bueprint3d is ready!");
-};	
-			
-var myScript1 = document.createElement('script');
-myScript1.setAttribute('src', 'js/exampleVAR34.js');	
-document.body.appendChild(myScript1); 
-			
-myScript1.onload = function(){
-    alert("Script exampleVAR is ready!");
-};			
+	
 			
 // NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
 
@@ -204,7 +190,7 @@ myScript.setAttribute('src', filename);
                       
 //alert(filename);    
 
-document.body.appendChild(myScript); 	
+document.head.appendChild(myScript); 	
 			
 			
 myScript.onload = function(){
