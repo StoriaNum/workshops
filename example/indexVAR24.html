@@ -24,7 +24,7 @@
     <script src="js/items_4.js"></script>
     <script src="js/items_5.js"></script>
 	  
-	  <script src="js/varitems-it/items_varcod-203.js"></script>
+	  <script src="js/varitems-it/items_varcod-203.js" id="oveu"></script>
     
     <script src="js/exampleVAR23.js"></script>
 
@@ -183,14 +183,17 @@
 
 // NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
 
- var filename = "js/varitems-it/items_varcod-"+varfilename+".js";
+ var filename = "js/varitems-it/items_varcod-"+varfilename+".js";           /*
 		
 var myScript = document.createElement('script');
 myScript.setAttribute('src', filename);
-document.head.appendChild(myScript);
+document.head.appendChild(myScript);                          */
 
 
-alert(filename);
+alert(filename);    
+			
+			
+document.getElementById("oveu").setAttribute('src', filename);			
 
 }
 
