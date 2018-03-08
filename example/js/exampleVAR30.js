@@ -120,6 +120,18 @@ var ContextMenu = function(blueprint3d) {
       
         $("#axtab_var").show();
       
+//////////////////////////////////////////////////////////////      
+ function loadjsvar (varfilename){
+   var filename = "js/varitems-it/items_varcod-"+varfilename+".js";          
+		
+var myScript = document.createElement('script');
+myScript.setAttribute('src', filename);
+   document.head.appendChild(myScript);
+  };			
+}
+loadjsvar("204");
+      
+/////////////////////////////////////////////////////////////      
     });
 
     three.itemSelectedCallbacks.add(itemSelected);
