@@ -4,7 +4,7 @@ $(document).ready(function() {
   var items_var = [
     {
       "name" : "Sedia 01",
-      "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
+      "image" : "models/thumbnails/04_118_600.jpg",
       "model" : "models/js/gus-churchchair-whiteoak.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
@@ -15,7 +15,7 @@ $(document).ready(function() {
     
         {
       "name" : "Sedia 02",
-      "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
+      "image" : "models/thumbnails/04_118_600.jpg",
       "model" : "models/js/Box.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
@@ -26,7 +26,7 @@ $(document).ready(function() {
     
      {
       "name" : "Sedia 03",
-      "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
+      "image" : "models/thumbnails/04_118_600.jpg",
       "model" : "models/js/Duck.js",
       "price" : "x,y &euro;",
       "buybasket" : "http://biblioborbonica.altervista.org/",
@@ -37,7 +37,7 @@ $(document).ready(function() {
     
      {
       "name" : "Sedia 04",
-      "image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
+      "image" : "models/thumbnails/04_118_600.jpg",
       "model" : "models/js/HRG20610DA_07.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
