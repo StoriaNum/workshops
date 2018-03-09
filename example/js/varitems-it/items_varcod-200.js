@@ -1,7 +1,7 @@
 // add items to the "Add Items" tab
 
 $(document).ready(function() {
-  var items_var = [
+  var items_var = [  /*
     {
       "name" : "Sedia 01",
       "image" : "models/thumbnails/04_118_600.jpg",
@@ -58,7 +58,8 @@ $(document).ready(function() {
       "datar": "#",
       "type" : "1"
     }, 
-    */
+    */  
+ 
   ]
 
 
