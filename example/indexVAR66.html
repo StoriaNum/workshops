@@ -54,8 +54,13 @@ var filename = "js/varitems-it/items_varcod-"+varfilename+".js";
 		
 var myScript = document.createElement('script');
 myScript.setAttribute('src', filename);
-
-document.head.appendChild(myScript); 	
+			
+			
+var list = document.getElementsByTagName("body"); // aggiunta bottom di body
+list.insertBefore(myScript, list.childNodes[0]);  //ancora aggiunta bottom di body			
+			
+			
+// document.head.appendChild(myScript); 	
 			
 			
 myScript.onload = function(){
