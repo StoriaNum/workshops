@@ -38,79 +38,6 @@
 
   <body>
 	  
-	  <script>
-	
-      
-		function loadjsvar (varfilename){
-	
-	
-			
-// NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
-
-
-// var filename = "js/varitems-it/items_varcod-"+varfilename+".js";   
-			
-var filename = "js/varitems-it/items_varcod-"+varfilename+".js";			
-/*		
-var myScript = document.createElement('script');
-myScript.setAttribute('src', filename);
-			
-		
-document.head.appendChild(myScript); 	
-			
-			
-myScript.onload = function(){
-    alert(filename);
-};			
-	*/
-	/*
-// Use any event to append the code
-$(document).ready(function() 
-{
-    var myScript = document.createElement('script');
-    myScript.type = "text/javascript";
-    myScript.src = filename;
-    // Use any selector
-
-    $("head").append(myScript);
-});
-	
-	*/
-			
-$.when(
-    $.getScript( filename ),
-    $.Deferred(function( deferred ){
-        $( deferred.resolve );
-    })
-).done(function(){
-    
-    //place your code here, the scripts are all loaded
-    //You'll get an error in the console since the script files does'nt exists, but that shows that the browser tried loading them
-    alert('OK!');
-});			
-	
-////////////	
-/*					
-jQuery(document).ready(function(){
-
-$.getScript('js/blueprint3d.js');
-  $.getScript('js/bootstrap.js');
-	$.getScript(filename);
- $.getScript('js/exampleVAR58.js');    
- $.getScript('js/html2canvas.js');	
-	
-	
-
-   
-});		*/	
-////////   
-			
-}
-
-loadjsvar("210");         
-   
-		</script>
-
     <div class="container-fluid">
       <div class="row main-row">
         <!-- Left Column -->
@@ -249,7 +176,65 @@ loadjsvar("210");
 		    
 		    
 	      
-		    
+		<script>
+	
+      
+		function loadjsvar (varfilename){
+	
+	
+			
+// NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
+
+
+// var filename = "js/varitems-it/items_varcod-"+varfilename+".js";   
+			
+var filename = "js/varitems-it/items_varcod-"+varfilename+".js";			
+/*		
+var myScript = document.createElement('script');
+myScript.setAttribute('src', filename);
+			
+		
+document.head.appendChild(myScript); 	
+			
+			
+myScript.onload = function(){
+    alert(filename);
+};			
+	*/
+	
+// Use any event to append the code
+$(document).ready(function() 
+{
+    var myScript = document.createElement('script');
+    myScript.type = "text/javascript";
+    myScript.src = filename;
+    // Use any selector
+
+    $("head").append(myScript);
+});
+	
+	
+
+/*					
+jQuery(document).ready(function(){
+
+$.getScript('js/blueprint3d.js');
+  $.getScript('js/bootstrap.js');
+	$.getScript(filename);
+ $.getScript('js/exampleVAR58.js');    
+ $.getScript('js/html2canvas.js');	
+	
+	
+
+   
+});		*/	
+////////   
+			
+}
+
+loadjsvar("210");         
+   
+		</script>    
 		    
 		    
 		    
