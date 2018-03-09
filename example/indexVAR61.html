@@ -185,7 +185,9 @@
 // NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
 
 
- var filename = "js/varitems-it/items_varcod-"+varfilename+".js";    
+// var filename = "js/varitems-it/items_varcod-"+varfilename+".js";   
+			
+var filename = "js/items_varcod-"+varfilename+".js";			
 			
 /*		
 var myScript = document.createElement('script');
@@ -203,10 +205,10 @@ myScript.onload = function(){
 jQuery(document).ready(function(){
 
 $.getScript('js/blueprint3d.js');
- //  $.getScript('js/bootstrap.js');
+  $.getScript('js/bootstrap.js');
 	$.getScript(filename);
  $.getScript('js/exampleVAR58.js');    
-// $.getScript('js/html2canvas.js');	
+ $.getScript('js/html2canvas.js');	
 	
 	
 
@@ -216,7 +218,7 @@ $.getScript('js/blueprint3d.js');
 			
 }
 
-loadjsvar("210");         
+loadjsvar("211");         
    
 		</script>	    
 
