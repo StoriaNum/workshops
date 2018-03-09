@@ -63,7 +63,7 @@ myScript.onload = function(){
     alert(filename);
 };			
 	*/
-	
+	/*
 // Use any event to append the code
 $(document).ready(function() 
 {
@@ -75,7 +75,19 @@ $(document).ready(function()
     $("head").append(myScript);
 });
 	
-	
+	*/
+			
+$.when(
+    $.getScript( filename ),
+    $.Deferred(function( deferred ){
+        $( deferred.resolve );
+    })
+).done(function(){
+    
+    //place your code here, the scripts are all loaded
+    //You'll get an error in the console since the script files does'nt exists, but that shows that the browser tried loading them
+    alert('OK!');
+});			
 	
 ////////////	
 /*					
