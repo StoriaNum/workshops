@@ -5,7 +5,7 @@ $(document).ready(function() {
     {
       "name" : "Sedia 01",
       "image" : "models/thumbnails/04_118_600.jpg",
-      "model" : "models/js/gus-churchchair-whiteoak.js",
+      "model" : "https://raw.githubusercontent.com/StoriaNum/workshops/gh-pages/example/models/js/gus-churchchair-whiteoak.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
@@ -16,7 +16,7 @@ $(document).ready(function() {
         {
       "name" : "Sedia 02",
       "image" : "models/thumbnails/04_118_600.jpg",
-      "model" : "models/js/Box.js",
+      "model" : "https://raw.githubusercontent.com/StoriaNum/workshops/gh-pages/example/models/js/Box.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
@@ -27,7 +27,7 @@ $(document).ready(function() {
      {
       "name" : "Sedia 03",
       "image" : "models/thumbnails/04_118_600.jpg",
-      "model" : "models/js/Duck.js",
+      "model" : "https://raw.githubusercontent.com/StoriaNum/workshops/gh-pages/example/models/js/Duck.js",
       "price" : "x,y &euro;",
       "buybasket" : "http://biblioborbonica.altervista.org/",
       "gallery": "#",
@@ -38,7 +38,7 @@ $(document).ready(function() {
      {
       "name" : "Sedia 04",
       "image" : "models/thumbnails/04_118_600.jpg",
-      "model" : "models/js/HRG20610DA_07.js",
+      "model" : "https://raw.githubusercontent.com/StoriaNum/workshops/gh-pages/example/models/js/HRG20610DA_07.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
