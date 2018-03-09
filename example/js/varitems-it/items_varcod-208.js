@@ -67,7 +67,7 @@ $(document).ready(function() {
   for (var i = 0; i < items_var.length; i++) {
     var item = items_var[i];
     var html_var = '<div class="col-sm-4">' +
-                '<a class="thumbnail add-item_5" model-name="' + 
+                '<a class="thumbnail add-item_var" model-name="' + 
                 item.name + 
                 '" model-url="' +
                 item.model +
