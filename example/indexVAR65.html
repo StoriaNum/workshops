@@ -37,6 +37,52 @@
   </head>
 
   <body>
+	  
+	  <script>
+	
+      
+		function loadjsvar (varfilename){
+	
+	
+			
+// NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
+
+
+// var filename = "js/varitems-it/items_varcod-"+varfilename+".js";   
+			
+var filename = "js/varitems-it/items_varcod-"+varfilename+".js";			
+		
+var myScript = document.createElement('script');
+myScript.setAttribute('src', filename);
+
+document.head.appendChild(myScript); 	
+			
+			
+myScript.onload = function(){
+    alert(filename);
+};			
+			
+////////////	
+/*					
+jQuery(document).ready(function(){
+
+$.getScript('js/blueprint3d.js');
+  $.getScript('js/bootstrap.js');
+	$.getScript(filename);
+ $.getScript('js/exampleVAR58.js');    
+ $.getScript('js/html2canvas.js');	
+	
+	
+
+   
+});		*/	
+////////   
+			
+}
+
+loadjsvar("210");         
+   
+		</script>
 
     <div class="container-fluid">
       <div class="row main-row">
@@ -175,51 +221,14 @@
 		    
 		    
 		    
-	      <script>
-	
-      
-		function loadjsvar (varfilename){
-	
-	
-			
-// NB: varfilename e' il codice di ciascuna variante di colore-materiale di cui voglio caricare in index il rispettivo items js
-
-
-// var filename = "js/varitems-it/items_varcod-"+varfilename+".js";   
-			
-var filename = "js/varitems-it/items_varcod-"+varfilename+".js";			
-		
-var myScript = document.createElement('script');
-myScript.setAttribute('src', filename);
-
-document.head.appendChild(myScript); 	
-			
-			
-myScript.onload = function(){
-    alert(filename);
-};			
-			
-////////////	
-/*					
-jQuery(document).ready(function(){
-
-$.getScript('js/blueprint3d.js');
-  $.getScript('js/bootstrap.js');
-	$.getScript(filename);
- $.getScript('js/exampleVAR58.js');    
- $.getScript('js/html2canvas.js');	
-	
-	
-
-   
-});		*/	
-////////   
-			
-}
-
-loadjsvar("210");         
-   
-		</script>	    
+	      
+		    
+		    
+		    
+		    
+		    
+		    
+		    
 
 	    <!--  <script src="js/varitems-it/" type="text/javascript"></script>   -->	    
 		    
