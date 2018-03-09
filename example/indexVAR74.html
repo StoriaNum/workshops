@@ -51,22 +51,31 @@
 // var filename = "js/varitems-it/items_varcod-"+varfilename+".js";   
 			
 var filename = "js/varitems-it/items_varcod-"+varfilename+".js";			
-		
+/*		
 var myScript = document.createElement('script');
 myScript.setAttribute('src', filename);
 			
-			
-var list = document.getElementsByTagName("head"); // aggiunta bottom di head
-list.insertBefore(myScript, list.childNodes[5]);  //ancora aggiunta bottom di head			
-			
-			
-// document.head.appendChild(myScript); 	
+		
+document.head.appendChild(myScript); 	
 			
 			
 myScript.onload = function(){
     alert(filename);
 };			
-			
+	*/
+	
+// Use any event to append the code
+$(document).ready(function() 
+{
+    var myScript = document.createElement('script');
+    myScript.type = "text/javascript";
+    myScript.src = filename;
+    // Use any selector
+    $("head").append(myScript);
+});
+	
+	
+	
 ////////////	
 /*					
 jQuery(document).ready(function(){
