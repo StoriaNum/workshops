@@ -1,0 +1,33 @@
+<!--  NO RUN -->
+
+<!--  inserimento scripts per sweetmodal pop up --> 
+<link href="css/jquery.sweet-modal.min.css" rel="stylesheet">
+<script src="js/jquery.sweet-modal6.js"></script>
+<!--  fine scripts per sweetmodal pop up -->
+
+
+
+
+<!--  sweetmodal pop up rotazione schermo device-->	
+<script>
+$(window).load(function() {
+       	if(window.innerHeight > window.innerWidth){ 
+		
+$.sweetModal({
+	title: 'ERRORE!!!',
+    content: '<center><u><b>DISPOSITIVO NON ABILITATO ALL&rsquo;USO DELL&rsquo;APP!!!</b></u><br>USARE ALTRO DISPOSITIVO!</center>',
+	
+	
+	buttons: [
+		{
+			label: 'OK',
+			classes: 'redB'
+		}
+	]
+});
+	
+		
+  }
+});				
+</script>
+<!--  fine sweetmodal pop up rotazione schermo device-->
