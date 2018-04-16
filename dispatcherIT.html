@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  
+  <script>
+  
+var h= window.screen.availHeight;
+var w= window.screen.availWidth;
+  
+  
+    
+  var deviceDetector = (function ()
+{
+	var ua = navigator.userAgent.toLowerCase();
+	var detect = (function(s)
+	{
+		if(s===undefined)s=ua;
+		else ua = s.toLowerCase();
+		if(/(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/.test(ua))
+            		return 'tablet';
+        	else
+			if(/(mobi|ipod|phone|blackberry|opera mini|fennec|minimo|symbian|psp|nintendo ds|archos|skyfire|puffin|blazer|bolt|gobrowser|iris|maemo|semc|teashark|uzard|windows phone|lumia|android|webos|iphone|huawei|samsungbrowser|webos)/.test(ua))            
+                		return 'phone';
+            		else return 'desktop';
+    });
+    return{
+        device:detect(),
+        detect:detect,
+        isMobile:((detect()!='desktop')?true:false),
+        userAgent:ua
+    };
+}());
+  
+document.addEventListener("DOMContentLoaded", function(event) {
+  if(deviceDetector.device == 'desktop') {
+    // You're on a desktop.
+   // alert('DESKTOP!!!'); 
+   // document.getElementById("demo").innerHTML = "DESKTOP!";
+
+            if ( h < 1300 && w > 1160 ) {
+            window.location.replace("https://storianum.github.io/workshops/example/index.html");
+             }
+            else if (w < 1160) {
+            window.location.replace("https://storianum.github.io/workshops/example/indexpc.html");
+             }  
+            else {
+            window.location.replace("https://storianum.github.io/workshops/example/index.html");
+             } 
+            
+            
+            
+   
+ }   
+  else {
+    if(deviceDetector.device == 'tablet')  {
+      // You're on a tablet.
+     // alert('TABLET!!!!');
+      
+            if ( h >= 960 && w >= 600 ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIT1.html");
+             }
+            else if ( (737<=h && h<=959) && (0<w && w<=599) ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIT0.html");
+             } 
+            else if ( (640<=h && h<=736) && (360<=w && w<=414) ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIS3.html");
+             }
+            else if ( (533<=h && h<=639) && (319<=w && w<=359) ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIS2.html");
+             }
+            else if ( (480<=h && h<=532) && (319<=w && w<=359) ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIS1.html");
+             }
+            else if ( (0<=h && h<=479) && (0<=w && w<=318) ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIS0.html");
+             }
+            else {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitI.html");
+             } 
+            
+      
+     } 
+    else  {
+      // You're on a phone.
+      // alert ('MOBILE!!!!');
+      
+      
+      if ( h >= 960 && w >= 600 ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIT1.html");
+             }
+            else if ( (737<=h && h<=959) && (0<w && w<=599) ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIT0.html");
+             } 
+            else if ( (640<=h && h<=736) && (360<=w && w<=414) ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIS3.html");
+             }
+            else if ( (533<=h && h<=639) && (319<=w && w<=359) ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIS2.html");
+             }
+            else if ( (480<=h && h<=532) && (319<=w && w<=359) ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIS1.html");
+             }
+            else if ( (0<=h && h<=479) && (0<=w && w<=318) ) {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitIS0.html");
+             }
+            else {
+            window.location.replace("https://storianum.github.io/workshops/example/mobileitI.html");
+             } 
+      
+      
+      
+      
+      
+      }
+      
+  
+      
+      
+  }
+});
+  
+  
+  
+  </script>
+  
+
+</body>
+</html>
+
