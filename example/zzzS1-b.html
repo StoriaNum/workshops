@@ -594,7 +594,7 @@ var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare
 			var noSzSxSyPxPyPz = noSzSxSyPxPy.replace(rePz, "");
 			
 			coord="";
-			coord = noSzSxSyPxPy+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+Pz[indexforPz];
+			coord = noSzSxSyPxPy+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+Pz[indexforPz]+"&IN=S1";
 					
 		       document.getElementById("modelAr3Dlink").href = coord;
 		       }
