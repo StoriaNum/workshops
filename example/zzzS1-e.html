@@ -563,7 +563,7 @@ hreftemp = hreftemp.replace(/(&Dst=2,5%20m)+/g, "");
 hreftemp = hreftemp.replace(/(&Dst=3,5%20m)+/g, "");
 hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 	
-hreftemp = hreftemp+"&IN=S1";	
+// hreftemp = hreftemp+"&IN=S1";	
 	
 	
 if (strUser != "Seleziona")  {	
@@ -596,10 +596,10 @@ var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare
 			coord="";
 			coord = noSzSxSyPxPy+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+Pz[indexforPz]+"&IN=S1";
 					
-		       document.getElementById("modelAr3Dlink").href = coord;
+		       document.getElementById("modelAr3Dlink").href = coord+"&IN=S1";
 		       }
 		
-	else { document.getElementById("modelAr3Dlink").href = coord; }
+	else { document.getElementById("modelAr3Dlink").href = coord+"&IN=S1"; }
 	
    } else {
 		
