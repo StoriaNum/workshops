@@ -563,14 +563,14 @@ hreftemp = hreftemp.replace(/(&Dst=2,5%20m)+/g, "");
 hreftemp = hreftemp.replace(/(&Dst=3,5%20m)+/g, "");
 hreftemp = hreftemp.replace(/(&Dst=4,5%20m)+/g, "");
 	
-	
+hreftemp = hreftemp+"&IN=S1";	
 	
 	
 if (strUser != "Seleziona")  {	
 
 	
 coord = ""; document.getElementById("modelAr3Dlink").href = "";
-coord = hreftemp+"&IN=S1"+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+Pz[indexforPz]+"";
+coord = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+Pz[indexforPz]+"";
 // document.getElementById("modelAr3Dlink").href = coord;
 	
 var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare ripetizioni i.e. Sz
