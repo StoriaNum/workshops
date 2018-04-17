@@ -570,7 +570,7 @@ if (strUser != "Seleziona")  {
 
 	
 coord = ""; document.getElementById("modelAr3Dlink").href = "";
-coord = hreftemp+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+Pz[indexforPz]+"&IN=S1"+"";
+coord = hreftemp+"&IN=S1"+"&Dst="+strUser+"&Sx="+this.Sx+"&Sy="+this.Sy+"&Sz="+this.Sz+"&Px="+this.Px+"&Py="+this.Py+"&Pz="+Pz[indexforPz]+"";
 // document.getElementById("modelAr3Dlink").href = coord;
 	
 var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare ripetizioni i.e. Sz
@@ -604,7 +604,7 @@ var count = (coord.match(/Sz/g) || []).length; // conta un parametro per evitare
    } else {
 		
 		
-	document.getElementById("modelAr3Dlink").href = ""+hreftemp+"&Dst=1%20m&Choice=NO%20SELECTION"+"&IN=S1";	
+	document.getElementById("modelAr3Dlink").href = ""+hreftemp+"&Dst=1%20m&Choice=NO%20SELECTION";	
 		
 	}
 
