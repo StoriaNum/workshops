@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  
+<script>
+//select language
+
+  
+  window.onload = function() {
+  
+  var l_lang;
+  if (navigator.userLanguage)  { // Explorer   
+    l_lang = navigator.userLanguage;
+    window.location.href = 'http://www.aviometal.com/' + l_lang + '.html';   }
+  else if (navigator.language)  { // FF
+    l_lang = navigator.language;
+    window.location.href = 'http://www.aviometal.com/' + l_lang + '.html';  }
+  else  {
+    l_lang = "en";
+  window.location.href = 'http://www.aviometal.com/' + l_lang + '.html';   }
+  
+  }
+  
+</script>
+  
+  
+</head>
+
+</html>
