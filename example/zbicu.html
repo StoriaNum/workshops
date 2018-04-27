@@ -278,25 +278,32 @@ $.sweetModal({
               </a>          -->
               
             
-<!--
-<a href="#" class="btn btn-default btn-sm" id="save_image_locally">
-<span class="glyphicon glyphicon-screenshot" title="Salva immagine del progetto"></span>                    ImgJpg 
+
+<a href="#" class="btn btn-default btn-sm" id="change_lang">
+<span class="glyphicon glyphicon-screenshot" title="Cambia Lingua"></span>                 <!--  Change_lang -->
 </a>  
 <script>
-  $('#save_image_locally').click(function(){
-    html2canvas($('#imagesave'), 
-    {
-      onrendered: function (canvas) {  
-       var a = document.createElement('a');
-        // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
-        a.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
-        a.download = 'myfilename.jpg';
-        a.click();  
-   
-      }
-    });
+  $('#change_lang').click(function(){
+	  
+	  
+	  
+  ///////
+	  
+	  
+$.sweetModal({
+	title: 'CHANGE LANGUAGE',
+	content: 'You can place <b>anything</b> <i>you</i> want in here.'
+});	  
+	  
+	  
+	  
+	  
+	  
+	  
+///////////	  
+	  
   });
-</script>   -->
+</script>   
               
 <!-- insert label storiablue with its own link                  
 
