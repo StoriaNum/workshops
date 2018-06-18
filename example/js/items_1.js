@@ -54,7 +54,7 @@ $(document).ready(function() {
       "type" : "1"
     },
                  {
-      "name" : "Tavolo Burcardo",
+      "name" : "Tavolo Cerere",
       "image" : "models/thumbnails/thumbnail_zantoprova.jpg",
       "model" : "models/js/burcardo.js",
       "price" : "2900,00 &euro;",
