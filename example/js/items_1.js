@@ -43,6 +43,16 @@ $(document).ready(function() {
       "datar": "#",
       "type" : "1"
     },
+                 {
+      "name" : "Tavolo Johannes",
+      "image" : "models/thumbnails/thumbnail_zantoprova.jpg",
+      "model" : "models/js/zantoprova.js",
+      "price" : "275,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"
+    },
 {
       "name" : "Tavolo a crescente 00",
       "image" : "models/thumbnails/51204940.jpg",
