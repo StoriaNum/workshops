@@ -45,7 +45,7 @@
 		"colorSpecular" : [1.0, 1.0, 1.0],
 		"depthTest" : true,
 		"depthWrite" : true,
-		"mapDiffuse" : "../textures/OT58.png",
+		"mapDiffuse" : "../textures/ottone58.png",
 		"mapDiffuseWrap" : ["repeat", "repeat"],
 		"shading" : "Lambert",
 		"specularCoef" : 33,
