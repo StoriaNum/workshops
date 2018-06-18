@@ -53,6 +53,16 @@ $(document).ready(function() {
       "datar": "#",
       "type" : "1"
     },
+                 {
+      "name" : "Tavolo Burcardo",
+      "image" : "models/thumbnails/thumbnail_zantoprova.jpg",
+      "model" : "models/js/burcardo.js",
+      "price" : "2900,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"
+    },   
 {
       "name" : "Tavolo a crescente 00",
       "image" : "models/thumbnails/51204940.jpg",
