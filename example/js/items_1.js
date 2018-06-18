@@ -56,7 +56,7 @@ $(document).ready(function() {
                  {
       "name" : "Tavolo Cerere",
       "image" : "models/thumbnails/thumbnail_zantoprova.jpg",
-      "model" : "models/js/burcardo.js",
+      "model" : "models/js/cerere.js",
       "price" : "2900,00 &euro;",
       "buybasket" : "",
       "gallery": "#",
