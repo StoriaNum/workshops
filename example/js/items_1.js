@@ -46,8 +46,8 @@ $(document).ready(function() {
                  {
       "name" : "Tavolo Johannes",
       "image" : "models/thumbnails/thumbnail_zantoprova.jpg",
-      "model" : "models/js/zantoprova.js",
-      "price" : "275,00 &euro;",
+      "model" : "models/js/johannes1.js",
+      "price" : "2750,00 &euro;",
       "buybasket" : "",
       "gallery": "#",
       "datar": "#",
