@@ -53,18 +53,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-                 {
-      "name" : "Tavolo Cerere",
-      "image" : "models/thumbnails/thumbnail_zantoprova.jpg",
-      "model" : "models/js/cerere.js",
-      "price" : "2900,00 &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
-      "type" : "1"
-    }, 
-    
-                     {
+    {
       "name" : "Tavolo Tellus",
       "image" : "models/thumbnails/thumbnail_zantoprova.jpg",
       "model" : "models/js/tellus.js",
@@ -74,16 +63,6 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     }, 
-                     {
-      "name" : "Tavolo Vesta",
-      "image" : "models/thumbnails/thumbnail_zantoprova.jpg",
-      "model" : "models/js/vesta.js",
-      "price" : "2900,00 &euro;",
-      "buybasket" : "",
-      "gallery": "#",
-      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
-      "type" : "1"
-    },
 {
       "name" : "Tavolo a crescente 00",
       "image" : "models/thumbnails/51204940.jpg",
