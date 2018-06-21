@@ -65,7 +65,7 @@ $(document).ready(function() {
     }, 
       {
       "name" : "Tavolo Asteria",
-      "image" : "models/thumbnails/thumbnail_-asteria-temp",
+      "image" : "models/thumbnails/thumbnail_-asteria-temp.jpg",
       "model" : "models/js/asteria.js",
       "price" : "2750,00 &euro;",
       "buybasket" : "",
