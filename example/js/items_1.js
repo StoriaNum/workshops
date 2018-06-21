@@ -45,7 +45,7 @@ $(document).ready(function() {
     },
                  {
       "name" : "Tavolo Johannes",
-      "image" : "models/thumbnails/thumbnail_zantoprova.jpg",
+      "image" : "models/thumbnails/thumbnail_johannes.jpg",
       "model" : "models/js/johannes_1.js",
       "price" : "2750,00 &euro;",
       "buybasket" : "",
@@ -55,7 +55,7 @@ $(document).ready(function() {
     },
     {
       "name" : "Tavolo Tellus",
-      "image" : "models/thumbnails/thumbnail_zantoprova.jpg",
+      "image" : "models/thumbnails/thumbnail_-tellus.jpg",
       "model" : "models/js/tellus.js",
       "price" : "2900,00 &euro;",
       "buybasket" : "",
