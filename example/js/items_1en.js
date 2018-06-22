@@ -63,6 +63,26 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
+       {
+      "name" : "Table Asteria",
+      "image" : "models/thumbnails/thumbnail_-asteria-temp.jpg",
+      "model" : "models/js/asteria.js",
+      "price" : "2750,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+    {
+      "name" : "Table Dione",
+      "image" : "models/thumbnails/thumbnail_-dione-temp.jpg",
+      "model" : "models/js/dione.js",
+      "price" : "2900,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
     
 {
       "name" : "Tavolo a crescente 00",
