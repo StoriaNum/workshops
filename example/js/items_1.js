@@ -76,7 +76,7 @@ $(document).ready(function() {
     {
       "name" : "Tavolo Dione",
       "image" : "models/thumbnails/thumbnail_-dione-temp.jpg",
-      "model" : "models/js/dione.js",
+      "model" : "models/js/dione2.js",
       "price" : "2900,00 &euro;",
       "buybasket" : "",
       "gallery": "#",
