@@ -66,7 +66,7 @@ $(document).ready(function() {
        {
       "name" : "Table Asteria",
       "image" : "models/thumbnails/thumbnail_-asteria-temp.jpg",
-      "model" : "models/js/asteria.js",
+      "model" : "models/js/asteria2.js",
       "price" : "2750,00 &euro;",
       "buybasket" : "",
       "gallery": "#",
@@ -76,7 +76,7 @@ $(document).ready(function() {
     {
       "name" : "Table Dione",
       "image" : "models/thumbnails/thumbnail_-dione-temp.jpg",
-      "model" : "models/js/dione.js",
+      "model" : "models/js/dione2.js",
       "price" : "2900,00 &euro;",
       "buybasket" : "",
       "gallery": "#",
