@@ -84,7 +84,7 @@ $(document).ready(function() {
       "type" : "1"
     },
    {
-      "name" : "Tavolino da Caff&egrave; Avrevs Doricvs",
+      "name" : "Tavolino da Caff&egrave; Dorico",
       "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
       "model" : "models/js/avrevsdoricvs.js",
       "price" : "x,y &euro;",
@@ -94,7 +94,17 @@ $(document).ready(function() {
       "type" : "1"
     },
    {
-      "name" : "Tavolino da Caff&egrave; Argentevs Doricvs",
+      "name" : "Tavolino da Caff&egrave; Argedorico",
+      "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
+      "model" : "models/js/argentevsdoricvs.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+   {
+      "name" : "Tavolino da Caff&egrave; Cuprodorico",
       "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
       "model" : "models/js/argentevsdoricvs.js",
       "price" : "x,y &euro;",
