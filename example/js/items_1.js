@@ -55,7 +55,7 @@ $(document).ready(function() {
     },
     {
       "name" : "Tavolo Johannes SU MISURA",
-      "image" : "models/thumbnails/thumbnail_johannes.jpg",
+      "image" : "models/thumbnails/thumbnail_johannes-mis.jpg",
       "model" : "models/js/johannes_1.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
@@ -75,7 +75,7 @@ $(document).ready(function() {
     }, 
     {
       "name" : "Tavolo Tellus SU MISURA",
-      "image" : "models/thumbnails/thumbnail_-tellus.jpg",
+      "image" : "models/thumbnails/thumbnail_-tellus-mis.jpg",
       "model" : "models/js/tellus.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
@@ -95,7 +95,7 @@ $(document).ready(function() {
     },
     {
       "name" : "Tavolo Asteria SU MISURA",
-      "image" : "models/thumbnails/thumbnail_-asteria-temp.jpg",
+      "image" : "models/thumbnails/thumbnail_-asteria-mis.jpg",
       "model" : "models/js/asteria2.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
@@ -115,7 +115,7 @@ $(document).ready(function() {
     },
     {
       "name" : "Tavolo Dione SU MISURA",
-      "image" : "models/thumbnails/thumbnail_-dione-temp.jpg",
+      "image" : "models/thumbnails/thumbnail_-dione-mis.jpg",
       "model" : "models/js/dione2.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
@@ -135,7 +135,7 @@ $(document).ready(function() {
     },
     {
       "name" : "Tavolino Dorico SU MISURA",
-      "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
+      "image" : "models/thumbnails/thumbnail_avrevsdoricvs-mis.jpg",
       "model" : "models/js/avrevsdoricvs.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
