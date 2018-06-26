@@ -106,7 +106,7 @@ $(document).ready(function() {
    {
       "name" : "Tavolino da Caff&egrave; Cuprodorico",
       "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
-      "model" : "models/js/argentevsdoricvs.js",
+      "model" : "models/js/cuprodorico.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
       "gallery": "#",
