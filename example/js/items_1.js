@@ -145,7 +145,7 @@ $(document).ready(function() {
     },
    {
       "name" : "Tavolino da Caff&egrave; Argedorico",
-      "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
+      "image" : "models/thumbnails/thumbnail_argedoricvs.jpg",
       "model" : "models/js/argentevsdoricvs.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
@@ -155,7 +155,7 @@ $(document).ready(function() {
     },
     {
       "name" : "Tavolino Argedorico SU MISURA",
-      "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
+      "image" : "models/thumbnails/thumbnail_argedoricvs.jpg",
       "model" : "models/js/argentevsdoricvs.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
@@ -165,7 +165,7 @@ $(document).ready(function() {
     },
    {
       "name" : "Tavolino da Caff&egrave; Cuprodorico",
-      "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
+      "image" : "models/thumbnails/thumbnail_cvprodoricvs.jpg",
       "model" : "models/js/cuprodorico.js",
       "price" : "x,y &euro;",
       "buybasket" : "",
@@ -175,7 +175,7 @@ $(document).ready(function() {
     },
     {
       "name" : "Tavolino Cuprodorico SU MISURA",
-      "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
+      "image" : "models/thumbnails/thumbnail_cvprodoricvs.jpg",
       "model" : "models/js/cuprodorico.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
