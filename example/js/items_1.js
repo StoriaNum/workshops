@@ -155,7 +155,7 @@ $(document).ready(function() {
     },
     {
       "name" : "Tavolino Argedorico SU MISURA",
-      "image" : "models/thumbnails/thumbnail_argedoricvs.jpg",
+      "image" : "models/thumbnails/thumbnail_argedoricvs-mis.jpg",
       "model" : "models/js/argentevsdoricvs.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
@@ -175,7 +175,7 @@ $(document).ready(function() {
     },
     {
       "name" : "Tavolino Cuprodorico SU MISURA",
-      "image" : "models/thumbnails/thumbnail_cvprodoricvs.jpg",
+      "image" : "models/thumbnails/thumbnail_cvprodoricvs-mis.jpg",
       "model" : "models/js/cuprodorico.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
