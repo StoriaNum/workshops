@@ -243,6 +243,26 @@ $(document).ready(function() {
       "datar": "#",
       "type" : "1"  
     },
+       {
+      "name" : "Tavolo Centaurus",
+      "image" : "models/thumbnails/thumbnail_centaurus.jpg",
+      "model" : "models/js/centaurus.js",
+      "price" : "0,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+        {
+      "name" : "Tavolo Centaurus SU MISURA",
+      "image" : "models/thumbnails/thumbnail_centaurus.jpg",
+      "model" : "models/js/centaurus.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"  
+    },
 {
       "name" : "Tavolo a crescente 00",
       "image" : "models/thumbnails/51204940.jpg",
