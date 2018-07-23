@@ -83,7 +83,7 @@ $(document).ready(function() {
       "datar": "#",
       "type" : "1"   
     },
-      {
+ /*     {
       "name" : "Tavolo Asteria",
       "image" : "models/thumbnails/thumbnail_-asteria-temp.jpg",
       "model" : "models/js/asteria2.js",
@@ -122,7 +122,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"   
-    },
+    },  */
    {
       "name" : "Tavolino da Caff&egrave; Dorico",
       "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
