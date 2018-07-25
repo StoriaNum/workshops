@@ -53,6 +53,16 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
+       {
+      "name" : "Table Johannes TAILORED",
+      "image" : "models/thumbnails/thumbnail_johannes-mis.jpg",
+      "model" : "models/js/johannes_1.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"   
+    },
     {
       "name" : "Table Tellus",
       "image" : "models/thumbnails/thumbnail_-tellus.jpg",
@@ -63,7 +73,17 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-       {
+    {
+      "name" : "Table Tellus TAILORED",
+      "image" : "models/thumbnails/thumbnail_-tellus-mis.jpg",
+      "model" : "models/js/tellus.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"   
+    },
+/*       {
       "name" : "Table Asteria",
       "image" : "models/thumbnails/thumbnail_-asteria-temp.jpg",
       "model" : "models/js/asteria2.js",
@@ -82,8 +102,247 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
+    }, */
+{
+      "name" : "Coffee table Dorico",
+      "image" : "models/thumbnails/thumbnail_avrevsdoricvs.jpg",
+      "model" : "models/js/avrevsdoricvs.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
     },
-    
+    {
+      "name" : "Coffee table TAILORED",
+      "image" : "models/thumbnails/thumbnail_avrevsdoricvs-mis.jpg",
+      "model" : "models/js/avrevsdoricvs.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"   
+    },
+   {
+      "name" : "Coffee table Argedorico",
+      "image" : "models/thumbnails/thumbnail_argedoricvs.jpg",
+      "model" : "models/js/argentevsdoricvs.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+    {
+      "name" : "Coffee table TAILORED",
+      "image" : "models/thumbnails/thumbnail_argedoricvs-mis.jpg",
+      "model" : "models/js/argentevsdoricvs.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"   
+    },
+   {
+      "name" : "Coffee table Cuprodorico",
+      "image" : "models/thumbnails/thumbnail_cvprodoricvs.jpg",
+      "model" : "models/js/cuprodorico.js",
+      "price" : "x,y &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+    {
+      "name" : "Coffee table TAILORED",
+      "image" : "models/thumbnails/thumbnail_cvprodoricvs-mis.jpg",
+      "model" : "models/js/cuprodorico.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"   
+    },
+      {
+      "name" : "Table Levana",
+      "image" : "models/thumbnails/thumbnail_levana.jpg",
+      "model" : "models/js/levana.js",
+      "price" : "0,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+        {
+      "name" : "Table Levana TAILORED",
+      "image" : "models/thumbnails/thumbnail_levana.jpg",
+      "model" : "models/js/levana.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"  
+    },
+       {
+      "name" : "Table Vessinna",
+      "image" : "models/thumbnails/thumbnail_vessinna.jpg",
+      "model" : "models/js/vessinna.js",
+      "price" : "0,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+        {
+      "name" : "Table Vessinna TAILORED",
+      "image" : "models/thumbnails/thumbnail_vessinna.jpg",
+      "model" : "models/js/vessinna.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"  
+    },
+       {
+      "name" : "Table Epona",
+      "image" : "models/thumbnails/thumbnail_epona.jpg",
+      "model" : "models/js/epona.js",
+      "price" : "0,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+        {
+      "name" : "Table Epona TAILORED",
+      "image" : "models/thumbnails/thumbnail_epona.jpg",
+      "model" : "models/js/epona.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"  
+    },
+       {
+      "name" : "Table Centaurus",
+      "image" : "models/thumbnails/thumbnail_centaurus.jpg",
+      "model" : "models/js/centaurus.js",
+      "price" : "0,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+        {
+      "name" : "Table Centaurus TAILORED",
+      "image" : "models/thumbnails/thumbnail_centaurus.jpg",
+      "model" : "models/js/centaurus.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"  
+    },
+       {
+      "name" : "Table Taurus",
+      "image" : "models/thumbnails/thumbnail_taurus.jpg",
+      "model" : "models/js/taurus.js",
+      "price" : "0,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+        {
+      "name" : "Table Taurus TAILORED",
+      "image" : "models/thumbnails/thumbnail_taurus.jpg",
+      "model" : "models/js/taurus.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"  
+    },
+       {
+      "name" : "Table Bovem",
+      "image" : "models/thumbnails/thumbnail_bovem.jpg",
+      "model" : "models/js/bovem.js",
+      "price" : "0,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+        {
+      "name" : "Table Bovem TAILORED",
+      "image" : "models/thumbnails/thumbnail_bovem.jpg",
+      "model" : "models/js/bovem.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"  
+    },
+       {
+      "name" : "Table Achelous",
+      "image" : "models/thumbnails/thumbnail_achelous.jpg",
+      "model" : "models/js/achelous.js",
+      "price" : "0,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+        {
+      "name" : "Table Achelous TAILORED",
+      "image" : "models/thumbnails/thumbnail_achelous.jpg",
+      "model" : "models/js/achelous.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"  
+    },
+       {
+      "name" : "Table Vellus",
+      "image" : "models/thumbnails/thumbnail_vellus.jpg",
+      "model" : "models/js/vellus.js",
+      "price" : "0,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+        {
+      "name" : "Table Vellus TAILORED",
+      "image" : "models/thumbnails/thumbnail_vellus.jpg",
+      "model" : "models/js/vellus.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"  
+    },
+       {
+      "name" : "Table Apis",
+      "image" : "models/thumbnails/thumbnail_apis.jpg",
+      "model" : "models/js/apis.js",
+      "price" : "0,00 &euro;",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
+      "type" : "1"
+    },
+        {
+      "name" : "Table Apis TAILORED",
+      "image" : "models/thumbnails/thumbnail_apis.jpg",
+      "model" : "models/js/apis.js",
+      "price" : "CUSTOM:A-RICHIESTA",
+      "buybasket" : "",
+      "gallery": "#",
+      "datar": "#",
+      "type" : "1"  
+    },
 {
       "name" : "Tavolo a crescente 00",
       "image" : "models/thumbnails/51204940.jpg",
