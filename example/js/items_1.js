@@ -305,7 +305,7 @@ $(document).ready(function() {
     },
        {
       "name" : "Tavolo Achelous",
-      "image" : "models/thumbnails/thumbnail_.jpg",
+      "image" : "models/thumbnails/thumbnail_achelous.jpg",
       "model" : "models/js/achelous.js",
       "price" : "0,00 &euro;",
       "buybasket" : "",
@@ -315,7 +315,7 @@ $(document).ready(function() {
     },
         {
       "name" : "Tavolo Achelous SU MISURA",
-      "image" : "models/thumbnails/thumbnail_.jpg",
+      "image" : "models/thumbnails/thumbnail_achelous.jpg",
       "model" : "models/js/achelous.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
@@ -325,7 +325,7 @@ $(document).ready(function() {
     },
        {
       "name" : "Tavolo Vellus",
-      "image" : "models/thumbnails/thumbnail_.jpg",
+      "image" : "models/thumbnails/thumbnail_vellus.jpg",
       "model" : "models/js/vellus.js",
       "price" : "0,00 &euro;",
       "buybasket" : "",
@@ -335,7 +335,7 @@ $(document).ready(function() {
     },
         {
       "name" : "Tavolo Vellus SU MISURA",
-      "image" : "models/thumbnails/thumbnail_.jpg",
+      "image" : "models/thumbnails/thumbnail_vellus.jpg",
       "model" : "models/js/vellus.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
@@ -345,7 +345,7 @@ $(document).ready(function() {
     },
        {
       "name" : "Tavolo Apis",
-      "image" : "models/thumbnails/thumbnail_.jpg",
+      "image" : "models/thumbnails/thumbnail_apis.jpg",
       "model" : "models/js/apis.js",
       "price" : "0,00 &euro;",
       "buybasket" : "",
@@ -355,7 +355,7 @@ $(document).ready(function() {
     },
         {
       "name" : "Tavolo Apis SU MISURA",
-      "image" : "models/thumbnails/thumbnail_.jpg",
+      "image" : "models/thumbnails/thumbnail_apis.jpg",
       "model" : "models/js/apis.js",
       "price" : "CUSTOM:A-RICHIESTA",
       "buybasket" : "",
