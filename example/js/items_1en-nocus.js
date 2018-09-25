@@ -53,7 +53,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-       {
+   /*    {
       "name" : "Table Johannes TAILORED",
       "image" : "models/thumbnails/thumbnail_johannes-mis.jpg",
       "model" : "models/js/johannes_1.js",
@@ -62,7 +62,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"   
-    },
+    },  */
     {
       "name" : "Table Tellus",
       "image" : "models/thumbnails/thumbnail_-tellus.jpg",
@@ -73,7 +73,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-    {
+  /*  {
       "name" : "Table Tellus TAILORED",
       "image" : "models/thumbnails/thumbnail_-tellus-mis.jpg",
       "model" : "models/js/tellus.js",
@@ -82,7 +82,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"   
-    },
+    }, */
 /*       {
       "name" : "Table Asteria",
       "image" : "models/thumbnails/thumbnail_-asteria-temp.jpg",
@@ -113,7 +113,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-    {
+ /*   {
       "name" : "Coffee table TAILORED",
       "image" : "models/thumbnails/thumbnail_avrevsdoricvs-mis.jpg",
       "model" : "models/js/avrevsdoricvs.js",
@@ -122,7 +122,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"   
-    },
+    },  */
    {
       "name" : "Coffee table Argedorico",
       "image" : "models/thumbnails/thumbnail_argedoricvs.jpg",
@@ -133,7 +133,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-    {
+  /*  {
       "name" : "Coffee table TAILORED",
       "image" : "models/thumbnails/thumbnail_argedoricvs-mis.jpg",
       "model" : "models/js/argentevsdoricvs.js",
@@ -142,7 +142,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"   
-    },
+    },  */
    {
       "name" : "Coffee table Cuprodorico",
       "image" : "models/thumbnails/thumbnail_cvprodoricvs.jpg",
@@ -153,7 +153,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-    {
+  /*  {
       "name" : "Coffee table TAILORED",
       "image" : "models/thumbnails/thumbnail_cvprodoricvs-mis.jpg",
       "model" : "models/js/cuprodorico.js",
@@ -162,7 +162,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"   
-    },
+    },  */
       {
       "name" : "Table Levana",
       "image" : "models/thumbnails/thumbnail_levana.jpg",
@@ -173,7 +173,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-        {
+    /*    {
       "name" : "Table Levana TAILORED",
       "image" : "models/thumbnails/thumbnail_levana.jpg",
       "model" : "models/js/levana.js",
@@ -182,7 +182,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"  
-    },
+    },  */
        {
       "name" : "Table Vessinna",
       "image" : "models/thumbnails/thumbnail_vessinna.jpg",
@@ -193,7 +193,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-        {
+     /*   {
       "name" : "Table Vessinna TAILORED",
       "image" : "models/thumbnails/thumbnail_vessinna.jpg",
       "model" : "models/js/vessinna.js",
@@ -202,7 +202,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"  
-    },
+    },  */
        {
       "name" : "Table Epona",
       "image" : "models/thumbnails/thumbnail_epona.jpg",
@@ -213,7 +213,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-        {
+   /*     {
       "name" : "Table Epona TAILORED",
       "image" : "models/thumbnails/thumbnail_epona.jpg",
       "model" : "models/js/epona.js",
@@ -222,7 +222,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"  
-    },
+    },  */
        {
       "name" : "Table Centaurus",
       "image" : "models/thumbnails/thumbnail_centaurus.jpg",
@@ -233,7 +233,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-        {
+   /*     {
       "name" : "Table Centaurus TAILORED",
       "image" : "models/thumbnails/thumbnail_centaurus.jpg",
       "model" : "models/js/centaurus.js",
@@ -242,7 +242,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"  
-    },
+    },    */
        {
       "name" : "Table Taurus",
       "image" : "models/thumbnails/thumbnail_taurus.jpg",
@@ -253,7 +253,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-        {
+    /*    {
       "name" : "Table Taurus TAILORED",
       "image" : "models/thumbnails/thumbnail_taurus.jpg",
       "model" : "models/js/taurus.js",
@@ -262,7 +262,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"  
-    },
+    },  */
        {
       "name" : "Table Bovem",
       "image" : "models/thumbnails/thumbnail_bovem.jpg",
@@ -273,7 +273,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-        {
+     /*   {
       "name" : "Table Bovem TAILORED",
       "image" : "models/thumbnails/thumbnail_bovem.jpg",
       "model" : "models/js/bovem.js",
@@ -282,7 +282,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"  
-    },
+    },   */
        {
       "name" : "Table Achelous",
       "image" : "models/thumbnails/thumbnail_achelous.jpg",
@@ -293,7 +293,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-        {
+     /*   {
       "name" : "Table Achelous TAILORED",
       "image" : "models/thumbnails/thumbnail_achelous.jpg",
       "model" : "models/js/achelous.js",
@@ -302,7 +302,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"  
-    },
+    },  */
        {
       "name" : "Table Vellus",
       "image" : "models/thumbnails/thumbnail_vellus.jpg",
@@ -313,7 +313,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-        {
+  /*      {
       "name" : "Table Vellus TAILORED",
       "image" : "models/thumbnails/thumbnail_vellus.jpg",
       "model" : "models/js/vellus.js",
@@ -322,7 +322,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"  
-    },
+    },    */
        {
       "name" : "Table Apis",
       "image" : "models/thumbnails/thumbnail_apis.jpg",
@@ -333,7 +333,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-        {
+     /*   {
       "name" : "Table Apis TAILORED",
       "image" : "models/thumbnails/thumbnail_apis.jpg",
       "model" : "models/js/apis.js",
@@ -342,7 +342,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"  
-    },
+    },  */
       {
       "name" : "Conference table Imperium",
       "image" : "models/thumbnails/thumbnail_imperium.jpg",
@@ -353,7 +353,7 @@ $(document).ready(function() {
       "datar": "Sx=0.006&Sy=0.009&Sz=0.008&Px=-1&Py=0&D=10:-0.2!-0!0.2!0.5!0.75",
       "type" : "1"
     },
-        {
+  /*      {
       "name" : "Table Imperium TAILORED",
       "image" : "models/thumbnails/thumbnail_imperium.jpg",
       "model" : "models/js/imperium.js",
@@ -362,7 +362,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"  
-    },
+    },   */
 {
       "name" : "Tavolo a crescente 00",
       "image" : "models/thumbnails/51204940.jpg",
@@ -372,8 +372,8 @@ $(document).ready(function() {
       "gallery" : "http://mediametalli.altervista.org/sweetmodalalert/gallery/codnum/codnum.html",
       "datar": "#",
       "type" : "1"
-    },
-{
+    }
+/*   {
       "name" : "Tavolo a crescente TAILORED",
       "image" : "models/thumbnails/5120494.jpg",
       "model" : "models/js/Howe_Tempest_Flip_Cresent_1500x750.js",
@@ -382,7 +382,7 @@ $(document).ready(function() {
       "gallery": "#",
       "datar": "#",
       "type" : "1"   
-    }
+    }  */
       
    /*     
    {
